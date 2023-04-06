@@ -1,0 +1,69 @@
+OVERVIEW of scripts:
+
+The first three steps need to be ran in order if you intend to recreate the whole analysis.
+Alternatively, inside each notebook you will find calls to 'pickle.load'. These will allow you to skip the time-consuming sampling steps and directly load the samples from the manuscript.
+
+Fig2-S1.ipynb
+	requires "GEM-iPfu/manuscript/data/validation_data2.csv"
+	creates "GEM-iPfu/manuscript/figures/Fig2.tiff"
+	creates "GEM-iPfu/manuscript/figures/FigS1.tiff"
+
+calibrate_OE-AdhF.ipynb
+	requires "GEM-iPfu/sbmls/b971180d_YM_closed.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_open.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_CODH_closed.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_CODH_open.sbml"
+	creates "GEM-iPfu/manuscript/pickles/s1.pkl.xz"
+	creates "GEM-iPfu/sbmls/b971180d_YM_open_OEadhf.sbml"
+	creates "GEM-iPfu/sbmls/b971180d_YM_GAPN_open_OEadhf.sbml"
+	creates "GEM-iPfu/sbmls/b971180d_YM_GAPN_CODH_open_OEadhf.sbml"
+	creates "GEM-iPfu/sbmls/b971180d_YM_closed_OEadhf.sbml"
+	creates "GEM-iPfu/sbmls/b971180d_YM_GAPN_closed_OEadhf.sbml"
+	creates "GEM-iPfu/sbmls/b971180d_YM_GAPN_CODH_closed_OEadhf.sbml"
+
+sample_knockouts.sh (which runs sampling.py)
+notes: Designed to be run on slurm, and requires csvtk (https://github.com/shenwei356/csvtk) to combine the many csv files into a single file, though this step should be moderately easy to replace
+	requires "GEM-iPfu/sbmls/b971180d_YM_open_OEadhf.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_GAPN_open_OEadhf.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_GAPN_CODH_open_OEadhf.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_closed_OEadhf.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_GAPN_closed_OEadhf.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_GAPN_CODH_closed_OEadhf.sbml"
+	creates "GEM-iPfu/b971180d/[strain_name].csv **(70 files)**
+	creates "GEM-iPfu/b971180d/combined.csv"
+
+FigS2.ipynb
+	requires "GEM-iPfu/sbmls/b971180d_Adams_Malt-S0.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_Adams_Pep-S0.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_Adams_MaltPep-S0.sbml"
+	creates "GEM-iPfu/figures/FigS2.tiff"
+	
+Fig3-4-S2.ipynb
+	requires "GEM-iPfu/sbmls/b971180d_YM_closed.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_open.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_CODH_closed.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_CODH_open.sbml"
+	requires "GEM-iPfu/manuscript/b971180d/combined.tsv"
+	creates "GEM-iPfu/manuscript/pickles/s2.pkl.xz"
+	creates "GEM-iPfu/manuscript/figures/Fig3.tiff"
+	creates "GEM-iPfu/manuscript/figures/Fig4.tiff"
+
+Fig5.ipynb
+	requires "GEM-iPfu/sbmls/b971180d_YM_closed.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_open.sbml"
+	creates "GEM-iPfu/figures/Fig5.tiff"
+	creates "GEM-iPfu/figures/TableS3.csv"
+	creates "GEM-iPfu/pickles/s3.pkl.xz"
+	
+Fig6-S3.ipynb
+	requires "GEM-iPfu/manuscript/b971180d/combined.csv"
+	creates "GEM-iPfu/manuscript/figures/Fig6.tiff"
+	creates "GEM-iPfu/manuscript/figures/Fig6.tiff"
+
+Fig7-S4.ipynb
+	requires "GEM-iPfu/sbmls/b971180d_YM_closed.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_open.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_CODH_closed.sbml"
+	requires "GEM-iPfu/sbmls/b971180d_YM_CODH_open.sbml"
+	creates "GEM-iPfu/manuscript/figures/Fig7.tiff"
+	creates "GEM-iPfu/manuscript/figures/FigS3.tiff"
