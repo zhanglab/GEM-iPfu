@@ -1,0 +1,16 @@
+- id: vitamins
+  name: Vitamin solution
+  formula: R
+  charge: 0
+- id: trace_minerals
+  name: Trace minerals solution
+  formula: R
+  charge: 0
+- id: salt
+  name: Salt solution
+  formula: R
+  charge: 0
+- id: yeast_extract
+  name: Yeast extract
+  formula: R
+  charge: 0

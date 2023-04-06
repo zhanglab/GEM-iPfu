@@ -1,0 +1,170 @@
+- id: hco3
+  name: none-enzymatic reaction of CO2 to HCO3-
+  equation: C00011[c] + C00001[c] <=> C00288[c] + C00080[c]
+  source: A501_spontaneous//manual
+- id: ros
+  name: none-enzymatic reactive oxygen species generation
+  equation: C00007[c] => C00704[c]
+  subsystem: Antioxidation
+  source: A501_spontaneous//Literature
+  pmid: 15547260
+- id: CysDmso
+  name:  Abiotic processes involved in DMSO reduction
+  equation: (2) C00097[c] + C11143[c] <=> C00580[c] + C00491[c] + C00001[c]
+  subsystem: DMSO reduction
+  source: A501_spontaneous//Literature
+  pmid: 26727899
+- id: R00864
+  name: non-enzymatic sulfur reaction
+  equation: C00094[c] + C00087[c] <=> C00320[c] + C00080[c]
+  subsystem: sulfur metabolism
+  source: A501_spontaneous//Completepath
+- id: R03314
+  equation: C01165[c] <=> C03912[c] + C00001[c]
+  name: non-enzymatic reaction from C01165 to C03912
+  subsystem: Arginine and proline metabolism
+  source: A501_spontaneous//Literature/KEGG
+  pmid: 29352105
+#- id: R00915
+#  name: unclear reaction of Quinolinate (non-enzymatic?)
+#  equation: C00099[c] <=> C03722[c]
+#  source: A501_spontaneous//Completepath
+- id: R10711
+  name: nudix hydrolase (no gene)
+  equation: C20784[c] + C00001[c] <=> C20247[c] + C00020[c]
+  subsystem: Vitamins Cofactor Biosynthesis
+  source: A501_spontaneous//Completepath/KO
+- id: THFi
+  name: non-enzymatic isomerizing of 10-Formyl-THF and 5-Fomyl-THF
+  equation: C00234[c] <=> C03479[c]
+  subsystem: Folate biosynthesis
+  source: A501_spontaneous//KEGG
+- id: TP_urea
+  name: non-enzymatic urea transporter
+  equation: C00086[c] <=> C00086[e]
+  subsystem: Arginine Metabolism
+  comment: urea can go out of the cell
+- id: TP_CO2
+  name: Non-enzymatic CO2 transporter
+  equation: C00011[c] <=> C00011[e]
+  comment: based on the experimental measurement, CO2 is one of the potential products during the fermentation.
+  source: Literature
+  pmid: https://doi.org/10.1111/j.1574-6968.1994.tb06784.x
+- id: TP_NH3
+  name: Non-enzymatic NH3 transporter
+  equation: C00014[c] <=> C00014[e]
+- id: TP_H2
+  name: Non-enzymatic H2 transporter
+  equation: C00282[c] <=> C00282[e]
+  comment: based on the experimental measurement
+  source: Pfu_add//Literature
+  pmid: 21965560, 22557999
+- id: TP_H2S
+  name: Non-enzymatic H2S transporter
+  equation: C00283[c] <=> C00283[e]
+  comment: based on the experimental measurement
+  source: Pfu_add//Literature
+  pmid: 21965560, 22557999
+- id: TP_H2O
+  name: Non-enzymatic H2O transporter
+  equation: C00001[c] <=> C00001[e]
+- id: TP_NH4
+  name: Non-enzymatic NH4 transporter
+  equation: C01342[c] <=> C01342[e]
+- id: TP_ace
+  name: Non-enzymatic acetate transporter
+  equation: C00033[c] <=> C00033[e]
+  comment: based on the experimental measurement, acetate is one of the potential products during the fermentation.
+  source: Pfu_add//Literature
+  pmid: https://doi.org/10.1111/j.1574-6968.1994.tb06784.x
+- id: TP_uracil
+  name: Non-enzymatic uracil transporter
+  equation: C00106[c] <=> C00106[e]
+  comment: based on the experimental measurement, when added uracil into the medium Pfu can use it
+  source: Pfu_add//Literature
+  pmid: 21317259
+- id: TP_ETOH
+  name: Non-enzymatic ethanol transporter
+  equation: C00469[c] <=> C00469[e]
+  comment: based on the experimental measurement, ethanol is one of the potential products during the fermentation.
+  source: Pfu_add//Literature
+  pmid: https://doi.org/10.1111/j.1574-6968.1994.tb06784.x
+- id: nadtd
+  name: Thermal degradation of NAD+
+  equation: C00003[c] + C00001[c] => C00153[c] + C00301[c] + C00080[c]
+  subsystem: Nicotinate and nicotinamide metabolism
+  source: A501_spontaneous//Literature
+  pmid: 20803196, 28652302
+  comment: have been proved by Literature
+- id: nadptd
+  name: Thermal degradation of NADP+
+  equation: C00006[c] + (2) C00001[c] => C00153[c] + C00301[c] + C00080[c] + C00009[c]
+  subsystem: Nicotinate and nicotinamide metabolism
+  source: A501_spontaneous//Literature
+  pmid: 20803196, 28652302
+  comment: degradation at 50 oC
+- id: R02317
+  name: (S)-2-amino-6-oxohexanoate hydro-lyase (spontaneous)
+  equation: C00450[c] + C00001[c] <=> C04076[c]
+  subsystem: Lysine degradation
+  source: A501_spontaneous//KEGG
+- id: nh4
+  name: Ionization of NH4+
+  equation: C01342[c] <=> C00014[c] + C00080[c]
+- id: R01652
+  name: Spontaneous 4-methyl-2-oxopentanoate carboxylation
+  equation: C04236[c] => C00233[c] + C00011[c]
+  subsystem: Valine, leucine and isoleucine biosynthesis
+  source: A501_spontaneous//KEGG
+  pmid: 17449626
+  comment: change its direction from bidirectional to monodirectional (CO2 producing only) based on PMID 17449626
+- id: acetoin_prod
+  name: Spontaneous Acetoin production from acetolactate
+  equation: C06010[c] => C00466[c] + C00011[c]
+  equation (compound names): (S)-2-Acetolactate[c] => Acetoin + CO2[c]
+  subsystem: Acetoin production
+  source: manual curation
+  pmid: 26721637
+  comment: production confirmed based on experimental data in PMID 26721637
+- id: NGAM
+  name: nongrowth associated ATP maintenance
+  equation: C00002[c] + C00001[c] => C00008[c] + C00009[c]
+  source: Pfu_add//Literature
+  pmid: 28133437
+  comment: In absence of measurements for the NGAM, it is often assumed to be some fraction of the GAM (for example, 2.5% the GAM reaction in the 2006 M. barkeri model by Feist et al.).
+
+
+# diffusion reactions added for potential off-products
+- id: TP_C02632
+  name: Isobutyrate/2-Methylpropanoate diffusion
+  equation: C02632[c] => C02632[e]
+  pmid: 24423883
+- id: TP_C00954
+  name: Indole-3-acetate diffusion
+  equation: C00954[c] => C00954[e]
+  pmid: 24423883
+- id: TP_C07086
+  name: Phenylacetic acid diffusion
+  equation: C07086[c] => C07086[e]
+  pmid: 24423883
+- id: TP_suc
+  name: succinate diffusion
+  equation: C00042[c] => C00042[e]
+  comment: Added succinate diffusion reaction because WT Pfu model is able to produce succinate via forward TCA cycle.
+- id: TP_acetoin
+  name: acetoin diffusion
+  equation: C00466[c] => C00466[e]
+  pmid: 26721637
+- id: TP_C03044
+  name: 2,3-Butanediol diffusion
+  equation: C03044[c] => C03044[e]
+  pmid: 16463078, 16391048
+- id: TP_iaa
+  name: Non-enzymatic Isoamyl Alcohol diffusion
+  equation: C07328[c] <=> C07328[e]
+  comment: based on the experimental measurement, iaa is one of the potential products of Pfu.
+  source: Experiment
+- id: TP_C01845
+  name: Non-enzymatic 2-Propanol diffusion
+  equation: C01845[c] <=> C01845[e]
+  comment: 2-Propanol is a predicted off product based on the presence of production pathway.

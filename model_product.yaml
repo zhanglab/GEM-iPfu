@@ -1,0 +1,33 @@
+name: iPfu, Genome-scale metabolic model of Pyrococcus furiosus Strain DSM 3638
+biomass: Biomass_Pfu
+default_compartment: c
+compartments:
+- id: c
+  name: Cytosol
+  adjacent_to: e
+- id: e
+  name: Extracellular
+  adjacent_to: c
+compounds:
+- include: compounds.yaml
+- include: media_compounds.yaml
+reactions:
+- include: reactions.yaml
+- include: spontaneous.yaml
+- include: transport.yaml
+- include: biomass.yaml
+- include: sink.yaml
+- include: gapfill.yaml
+- include: engineered_reactions.yaml
+- include: media_conversion_rxns.yaml
+exchange:
+- include: EX_byproduct.yaml  # should keep no matter which medium is used
+- include: EX_YM_adhf.tsv
+  format: tsv
+model:
+#- include: WT_model_def.tsv
+- include: COM1_model_def.tsv
+- include: media_def.tsv
+limits:
+# below are limits for reactions based on the experiments (included the nonfunctional enzymes and limit the direction)
+- include: limits.yaml

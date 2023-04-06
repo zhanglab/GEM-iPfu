@@ -1,0 +1,248 @@
+# Below are the added reactions for Pyrococcus fuuiosus engineered strains
+
+# add reactions for 3-HP production, strategy is based on Mike's group
+- id: R00742
+  name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+  genes: engineered_E1
+  equation: C00002[c] + C00024[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c] + C00083[c]
+  ec: 6.4.1.2
+  comment: E1 enzymes is acetyl/propionyl-CoA carboxylase (PMID 23530213), so another reaction R01859 (EC 6.4.1.3) was added, R01859 is required in pathhway of producing succinate from 3HP.
+- id: R00740
+  name: 3-oxopropanoate:NADP+ oxidoreductase (CoA-malonylating)
+  genes: engineered_E2
+  equation: C00083[c] + C00005[c] + C00080[c] <=> C00222[c] + C00010[c] + C00006[c]
+  ec: 1.2.1.75
+  comment: E2 enzyme was described as malonyl-CoA/succinyl-CoA reductase in the literature PMID 23530213, so another reaction R09280 was added, R09280 is used in pathway of producing 4HB from succinate.
+- id: R01608_kz
+  name: 3-hydroxypropanoate:NADP+ oxidoreductase
+  genes: engineered_E3
+  equation: C00222[c] + C00005[c] + C00080[c] <=> C01013[c] + C00006[c]
+  ec: 1.1.1.59
+  comment: in KEGG, R01608 uses NADH as cofactor, I changed it to NADPH based on Mike's slides.
+- id: 3HPt
+  name: 3-Hydroxypropanoate export
+  equation: C01013[c] => C01013[e]
+
+
+# add reactions for propionyl-CoA production by using 3HP
+- id: R09286
+  name: 3-hydroxypropionyl-CoA synthase
+  genes: engineered_E4
+  equation: C01013[c] + C00010[c] + C00002[c] <=> C05668[c] + C00013[c] + C00020[c]
+  ec: 6.2.1.36
+- id: R03045
+  name: 3-hydroxypropionyl-CoA dehydratase
+  genes: engineered_E5
+  equation: C05668[c] <=> C00894[c] + C00001[c]
+  ec: 4.2.1.116
+- id: R00919
+  name: acrylyl-CoA reductase (NADPH)
+  genes: engineered_E6
+  equation: C00894[c] + C00005[c] + C00080[c] <=> C00100[c] + C00006[c]
+  ec: 1.3.1.84
+  
+  
+# add reactions for propanol production by using propionyl-CoA
+- id: R00920
+  name: Propanoate:CoA ligase (ADP-forming)
+  genes: engineered_ACSII
+  equation: C00008[c] + C00009[c] + C00100[c] => C00002[c] + C00163[c] + C00010[c]
+  ec: 6.2.1.13
+- id: AOR_Propionate
+  name: Propionaldehyde:ferredoxin oxidoreductase
+  genes: PF0346
+  equation: C00163[c] + (2) C00138[c] + (2) C00080[c] <=> C00479[c] + (2) C00139[c] + C00001[c]
+  pmid: 25368184
+  comment: conversion of organic acid to acidaldehyde is catalyzed by the native AOR gene of Pfu, as shown in the reference (PMID 25368184).
+- id: AdhA_Propanol
+  name: NADP-dependent propanol dehydrogenase
+  genes: engineered_AdhA
+  equation: C00479[c] + C00005[c] + C00080[c] <=> C05979[c] + C00006[c]
+  pmid: 25368184
+  comment: shown in the reference, insertion of the AdhA gene from Thermoanaerobacter sp. strain X514 supports the production of propanol (or other alchol, like ethanol, isobutanol, 1-pentanol, isoamylalcohol, 1-hexanol, and phenylethanol) from propionate (or other acids, like acetate, isobutyrate, valerate, isovalerate, caproate, or phenylacetate)
+- id: TP_propanol
+  name: Propanol diffusion
+  equation: C05979[c] => C05979[e]
+  
+# Part of reactions for succinate production by using 3HP has been annotated in Pfu: R02765(E7), R00833(E8), R00405(ACSIII), R00405-G(ACSIII), also, note that Pfu has a sink for succinate (sink_C00042)
+- id: R01859
+  name: propanoyl-CoA:carbon-dioxide ligase (ADP-forming)
+  genes: engineered_E1
+  equation: C00002[c] + C00100[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c] + C00683[c]
+  subsystem: Valine, leucine and isoleucine degradation
+  ec: 6.4.1.3
+  comment: E1 enzymes is acetyl/propionyl-CoA carboxylase (PMID 23530213), its another reaction R00742 (EC 6.4.1.2) is in 3HP producing pathway.
+#- id: TP_suc
+#  name: succinate diffusion
+#  equation: C00042[c] <=> C00042[e]
+  
+# add reactions for 4HB production by using Succinyl-CoA
+- id: R09280
+  name: succinyl-CoA reductase
+  genes: engineered_E2
+  equation: C00091[c] + C00005[c] + C00080[c] <=> C00232[c] + C00006[c] + C00010[c]
+  ec: 1.2.1.76
+  comment: E2 enzyme was described as malonyl-CoA/succinyl-CoA reductase in the reference paper (PMID 23530213), so this reaction is added for E2 enzyme
+- id: R09281
+  name: succinate semialdehyde reductase (NADPH)
+  genes: engineered_E9
+  equation: C00232[c] + C00080[c] + C00005[c] <=> C00989[c] + C00006[c]
+- id: TP_4HB
+  name: 4-Hydroxybutanoate diffusion
+  equation: C00989[c] <=> C00989[e]
+  
+# add reactions for 14BD production by using 4HB
+- id: R09279
+  equation: C00989[c] + C00002[c] + C00010[c] <=> C11062[c] + C00020[c] + C00013[c]
+  genes: engineered_E4
+  comment: Based on comment from James and Mike, enzyme E4 can catalyzes the formation of 3-hydroxypropyl-CoA from 3-HP (R09286,  EC 6.2.1.36) and also work on 4HB to make 4-hydroxybutyryl CoA (this rxn, EC 6.2.1.40).
+  pmid: 18079405, 23258541
+- id: 4HBCoA-R
+  equation: C11062[c] + C00004[c] + C00080[c] => 4HBA[c] + C00003[c] + C00010[c]
+  genes: engineered_AdhE
+  comment: Based on comment from James, Ctherm AdhE should be active on the CoA thioester/aldehyde.  Furthermore, in current engineering design, AdhE can catlyze four reactions (4HBCoA-R, 14BD-Syn, R00228, R00754)
+- id: 14BD-Syn
+  equation: 4HBA[c] + C00004[c] + C00080[c] <=> 14BD[c] + C00003[c]
+  genes: engineered_AdhE
+  comment: Based on comment from James, Ctherm AdhE should be active on the CoA thioester/aldehyde. Furthermore, in current engineering design, AdhE can catlyze four reactions (4HBCoA-R, 14BD-Syn, R00228, R00754)
+- id: TP_14BD
+  name: 1,4-butanediol diffusion
+  equation: 14BD[c] <=> 14BD[e]
+  
+- id: R00228  # Acetyl-CoA to Acetaldehyde
+  genes: engineered_AdhE
+  name: acetaldehyde:NAD+ oxidoreductase (CoA-acetylating)
+  equation: C00024[c] + C00004[c] + C00080[c] => C00084[c] + C00010[c] + C00003[c]
+  ec: 1.2.1.10
+  pmid: 30009131, 25666131, 31586059 
+  comment: In current engineering design, AdhE can catlyze four reactions (4HBCoA-R, 14BD-Syn, R00228, R00754). Set this reactions as mono-directional (AcCoA => Acetaldehyde only) to avoid unreasonable ATP production from a loop formed by R00229/R00229-G and AOR_acetaldehyde and R00228 (PMID 25666131, PMID 31586059 also support R00228 mainly works on forward direction).
+- id: R00754  # Acetaldehyde to ethanol
+  genes: engineered_AdhE
+  name: ethanol:NAD+ oxidoreductase
+  equation: C00084[c] + C00004[c] + C00080[c] => C00469[c] + C00003[c]
+  ec: 1.1.1.1
+  PMID: 30009131
+  comment: In current engineering design, AdhE can catlyze four reactions (4HBCoA-R, 14BD-Syn, R00228, R00754), the reaction was set as monodirectional to avoid backloops from the product.
+#
+# Below are reactions added to test the impact of Rubisco in Pfu
+- id: R01523
+  name: phosphoribulose kinase (RuMP kinase)
+  genes: engineered_PRK
+  equation: C00002[c] + C00199[c] <=> C00008[c] + C01182[c]
+  ec: 2.7.1.19
+#- id: R00024
+#  name: Ribulose 1,5-bisphosphate carboxylase (RubisCO)
+#  genes: engineered_RubisCO
+#  equation: C01182[c] + C00011[c] + C00001[c] <=> (2) C00197[c] + (2) C00080[c]
+#  ec: 4.1.1.39
+#  comment: R00024 has been annotated in Pfu model
+
+
+# engineered reactions for acetone production
+#- id: R00238
+#  name: Acetyl-CoA:acetyl-CoA C-acetyltransferase
+#  genes: engineered_Thl
+#  equation: (2) C00024[c] <=> C00010[c] + C00332[c]
+#  ec: 2.3.1.9
+#  pmid: 32770740
+#  comment: This reaction is already annotated in Pfu model, so do not need to add it in engineered acetone strain
+- id: R01359
+  name: acetoacetyl-CoA:acetate CoA-transferase
+  genes: engineered_Ctf
+  equation: C00332[c] + C00033[c] <=> C00164[c] + C00024[c]
+  ec: 2.8.3.8
+  pmid: 32770740
+  comment: This engineered reaction is based on engineered acetone pathway in C. bescii strain.
+- id: R01366
+  name: Acetoacetate carboxy-lyase (acetone-forming)
+  genes: engineered_Adc
+  equation: C00164[c] <=> C00207[c] + C00011[c]
+  ec: 4.1.1.4
+  pmid: 32770740
+  comment: This engineered reaction is based on engineered acetone pathway in C. bescii strain.
+- id: TP_Acetone
+  name: Acetone diffusion
+  equation: C00207[c] <=> C00207[e]
+
+# below is engineered reactions to produce succinate from PEP via rTCA cycle
+- id: R00342
+  name: (S)-malate:NAD+ oxidoreductase
+  genes: engineered_MDH
+  equation: C00149[c] + C00003[c] <=> C00036[c] + C00004[c] + C00080[c]
+  ec: 1.1.1.37
+  comment: Not sure if Pfu needs R00342 to perform rTCA cycle, since Pfu has malic enzyme which is able to produce malate from pyruvate (R00216).
+- id: R00402
+  name: succinate:NAD+ oxidoreductase
+  equation: C00122[c] + C00004[c] + C00080[c] <=> C00042[c] + C00003[c]
+  genes: engineered_FR
+  comment: May use NADH dependent fumarate reductase from H. thermophilus (Miura et al 2008, J. Bacteriology) based on suggestion from James.
+
+
+## add Rnf_H for testing if they can increase NADPH, therefore increase amount of bioproduct which engineered pathway utilizes NADPH (such as 3HP)
+- id: Rnf_H
+  name: energy-conserving, reduced ferredoxin NAD oxidoreductase
+  genes: engineered_RnfH
+  equation: (2) C00138[c] + C00003[c] + (2) C00080[c] => (2) C00139[c] + C00004[c] + C00080[e]
+  
+  
+
+# reactions for testing redox pools
+- id: EQ1
+  name: denoted NADPH reaction
+  equation: C00006[c] + C00080[c] <=> C00005[c]
+- id: EQ2
+  name: denoted NADH reaction
+  equation: C00003[c] + C00080[c] <=> C00004[c]
+- id: EQ3
+  name: denoted ferredoxin reaction
+  equation: C00139[c] <=> C00138[c]
+- id: EQ4
+  name: denoted ATP reaction
+  equation: C00008[c] + C00009[c] <=> C00002[c] + C00001[c]
+
+
+# add reactions for CODH (CODH is inserted to Pfu OE-AdhF strain in order to increase ethanol production (Gina's work))
+- id: CODH
+  name: carbon monoxide dehydrogenase (CODH)
+  genes: engineered_CODH
+  #equation: C00237[c] + C00001[c] + (2) C00139[c] => C00011[c] + (2) C00138[c] + (2) C00080[c]
+  equation: C00237[c] + C00001[c] + C01330[c] => C00011[c] + C00282[c] + C01330[e]
+  ec: 1.2.7.4
+  pmid: 25368184
+  comment: This equation is based on Brednda ("https://www.brenda-enzymes.org/all_enzymes.php?ecno=1.2.7.4"). CODH complex catalyzes three reactions (CODH, mbh and mrp). "mbh" and "mrp" are already in the native Pfu model, so they are not shown here. JV update - The three enzymes form a single large complex, see [pmid:25461503]; I modified the formula to do the sodium pumping from mbh domain, and to produce hydrogen instead of protons, unclear if proton transport is happening via mrp domain or if ferredoxin is used. Left the old formula commented for reference
+#- id: mbh2
+#  name: carbon monoxide dehydrogenase (CODH)
+#  genes: engineered_CODH
+#  equation: (2) C00138[c] + (3) C00080[c] => C00282[c] + (2) C00139[c] + C00080[e]
+#  pmid: 25368184
+#  comment: CODH complex catalyzes three reactions (CODH, mbh2 and mrp). "mrp" is already in Pfu model with the expected equation, so it is not shown here. mbh2 has different equation compared to native mbh, so add a new reaction here. supplemental Figure S5 of pmid 25368184 suggest that the construct should have the same mbh function as the native mbh of Pfu (Na+ translocating)
+- id: TP_CO
+  name: CO diffusion (Non-enzymatic)
+  equation: C00237[c] <=> C00237[e]
+
+### Reactions below are not used anymore (R05336, 4HBCoAR_1/4HBCoAR_2, Adh_1/Adh_2). They are engineering rxns of producing 14BD from 4HB, this pathway is from E. coli which is NOT thermophilic organism, and also producing acetate, which is not ideal for our engineering purpose, so I comment out this enginnering design.
+#- id: R05336
+#  equation: C00989[c] + C00024[c] <=> C11062[c] + C00033[c]
+#  genes: engineered_4HB-CoAT
+#  comment: 4-hydroxybutyryl-CoA transferase
+#  pmid: 21602812
+#- id: 4HBCoAR_1
+#  equation: C11062[c] + C00004[c] + C00080[c] => 4HBA[c] + C00003[c] + C00010[c]
+#  genes: engineered_4HBCoAR_2
+#  comment: 4-hydroxybutyryl-CoA reductase, NADH-dependent
+#  pmid: 21602812
+#- id: 4HBCoAR_2
+#  equation: C11062[c] + C00005[c] + C00080[c] => 4HBA[c] + C00006[c] + C00010[c]
+#  genes: engineered_4HBCoAR_1
+#  comment: 4-hydroxybutyryl-CoA reductase, NADPH-dependent
+#  pmid: 21602812
+#- id: Adh_1
+#  equation: 4HBA[c] + C00004[c] + C00080[c] => 14BD[c] + C00003[c]
+#  genes: engineered_Adh_1
+#  comment: alcohol dehydrogenase, NADH-dependent
+#  pmid: 21602812
+#- id: Adh_2
+#  equation: 4HBA[c] + C00005[c] + C00080[c] => 14BD[c] + C00006[c]
+#  genes: engineered_Adh_2
+#  comment: alcohol dehydrogenase, NADPH-dependent
+#  pmid: 21602812

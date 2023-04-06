@@ -1,0 +1,94 @@
+compartment: e
+compounds:
+- id: C00014
+  name: Ammonia (NH3)
+  lower: 0
+  upper: 1000
+- id: C00011
+  name: CO2
+  lower: 0
+  upper: 1000
+- id: C00282
+  name: Hydrogen
+  lower: 0
+  upper: 1000
+- id: C00283
+  name: Hydrogen sulfide
+  lower: 0
+  upper: 1000
+- id: C00086
+  name: urea
+  lower: 0
+  upper: 1000
+- id: C00033
+  name: acetate
+  lower: 0
+  upper: 1000
+- id: C00469
+  name: Ethanol
+  lower: 0
+  upper: 1000
+- id: C00466
+  name: Acetoin
+  lower: 0
+  upper: 1000  
+- id: C03044
+  name: 2,3-Butanediol
+  lower: 0
+  uppper: 1000
+
+# added exchange for potential engineered bioproducts
+- id: C01013
+  name: 3-Hydroxypropanoate (3HP)
+  lower: 0
+  upper: 1000
+- id: C05979
+  name: Propanol
+  lower: 0
+  upper: 1000
+- id: C00042
+  name: Succinate
+  lower: 0
+  upper: 1000
+- id: C00989
+  name: 4-Hydroxybutanoate (4HB)
+  lower: 0
+  upper: 1000
+- id: 14BD
+  name: 1,4-Butanediol (14BD)
+  lower: 0
+  upper: 1000
+- id: C00207
+  name: Acetone
+  lower: 0
+  upper: 1000
+
+# potential off-products:
+- id: C02632
+  name: 2-Methylpropanoate
+  lower: 0
+  upper: 1000
+  pmid: 24423883
+- id: C00954
+  name: Indole-3-acetate
+  lower: 0
+  upper: 1000
+  pmid: 24423883
+- id: C07086
+  name: Phenylacetic acid
+  lower: 0
+  upper: 1000
+  pmid: 24423883
+- id: C00041
+  name: L-Alanine (Ala-L)
+  lower: 0
+  upper: 1000
+  pmid: https://doi.org/10.1111/j.1574-6968.1994.tb06784.x
+- id: C07328
+  name: Isoamyl Alcohol (iaa)
+  lower: 0
+  upper: 1000
+- id: C01845
+  name: 2-Propanol
+  lower: 0
+  upper: 1000

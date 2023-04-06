@@ -1,0 +1,282 @@
+- id: xor1
+  name: 3-Mercaptopyruvate ferredoxin oxidoreductase
+  equation: C00957[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+    (2) C00080[c] + thgCoA[c]
+  subsystem: Cysteine Metabolism
+  source: A501_gapfil//Literature
+  pmid: 24163338
+- id: xor2
+  name: Imidazol-4-acetyl-CoA ferredoxin oxidoreductase
+  equation: C03277[c] + C00010[c] + (2) C00139[c] <=> C00011[c] + (2) C00138[c] +
+    (2) C00080[c] + imiCoA[c]
+  subsystem: Histidine Metabolism
+  source: A501_gapfil//Literature
+  pmid: 24163338
+- id: R01161
+  name: L-histidine:2-oxoglutarate aminotransferase
+  equation: C00135[c] + C00026[c] <=> C03277[c] + C00025[c]
+  ec: 2.6.1.38
+  kegg: R01161
+  subsystem: Histidine metabolism
+  source: A501_gapfil//Literature
+  pmid: 24163338
+- id: dggpgp
+  name: digeranyl-sn-glycerol-1-phospho-3'-sn-glycerol phosphatase
+  equation: cpd15843[c] + C00001[c] <=> cpd15842[c] + C00009[c]
+  subsystem: Lipid Cell Wall Metabolism
+  source: A501_gapfil//iMAC868
+- id: polyas
+  name: polyamine biosynthesis
+  equation: C00315[c] <=> C06702[c]
+  subsystem: Polyamine biosynthesis
+  source: A501_gapfil//Literature
+  pmid: 11297011
+#- id: R00230
+#  name: acylphosphatase
+#  equation: C00024[c] + C00009[c] <=> C00010[c] + C00227[c]
+#  subsystem: Central Metabolism
+#  ec: 3.6.1.7
+#  kegg: R00230
+#  source: A501_gapfil//Completepath/iST807/KEGG
+- id: R07280
+  name: 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphohydrolase
+  equation: C04454[c] + C00001[c] <=> C04732[c] + C00009[c]
+  ec: 3.1.3.104
+  kegg: R07280
+  subsystem: Riboflavin metabolism
+  source: A501_gapfil//manual
+  comment: fill gap of biosynthesis of FAD
+#- id: R00671
+#  name: ornithine cyclodeaminase
+#  equation: C00077[c] <=> C00148[c] + C00014[c]
+#  subsystem: arginine and Proline Metabolism
+#  ec: 4.3.1.12
+#  source: A501_gapfil//gapfil/iST807/KEGG
+- id: TP_sulfur
+  name: sulfur transporter (unknown)
+  equation: C00087[c] <=> C00087[e]
+  subsystem: Transport
+  source: A501_gapfil//Literature/completepath
+  pmid: 26234734
+
+## Adding in folate biosynthesis pathways from A501
+- id: THFs_2
+  name: gapfilling reaction of biosynthesis of Terahydrofolate (THF)
+  equation: C00921[c] + C00002[c] + C00025[c] + C00005[c] + C00080[c] => C00101[c] + C00008[c] + C00009[c] + C00006[c]
+  subsystem: Folate biosynthesis
+  source: Literature/KEGG
+  pmid: 22536150, 15554970
+  tag: Gapfilling
+  comment: The reference (pimd:15554970) show the pathway to produce THF in Archaea using NADPH as cofactor. This gapfilling reaction is based on this pathway.
+- id: R01716
+  name: chorismate:L-glutamine aminotransferase
+  equation: C00251[c] + C00064[c] => C11355[c] + C00025[c]
+  comment: two-step reaction (see R00256 + R05552); fill the gap from chorismate (C00251) to produce 4-Aminobenzoate (C00568), which is a precursor for folate biosynthesis.
+  ec: 2.6.1.85
+  subsystem: Folate biosynthesis
+  source: Pfu_add//Completepath
+  tag: Gapfilling
+- id: R05553
+  name: 4-amino-4-deoxychorismate pyruvate-lyase
+  equation: C11355[c] => C00568[c] + C00022[c]
+  comment: fill the gap from chorismate (C00251) to produce 4-Aminobenzoate (C00568), which is a precursor for folate biosynthesis.
+  ec: 4.1.3.38
+  subsystem: Folate biosynthesis
+  source: Pfu_add//Completepath
+  tag: Gapfilling
+
+#- id: R00728
+#  name: L-tyrosine phenol-lyase (deaminating)
+#  equation: C00082[c] + C00001[c] => C00146[c] + C00022[c] + C00014[c]
+#  ec: 4.1.99.2
+#  kegg: R00728
+#  source: A501_gapfil//completepath
+#  subsystem: Folate biosynthesis
+#  comment: to fill the gap to produce Aminobenoate (C00568), which is essential in folate biosynthesis
+#- id: R01296
+#  name: 4-hydroxybenzoate,NADH:oxygen oxidoreductase (3-hydroxylating)
+#  equation: C00156[c] + C00007[c] + C00004[c] + C00080[c] => C00230[c] + C00003[c]
+#    + C00001[c]
+#  comment: NADPH (see R01298), to fill the gap to produce Aminobenoate (C00568), which is essential in folate biosynthesis
+#  ec: 1.14.13.33
+#  kegg: R01296
+#  source: A501_gapfil//completepath
+#  subsystem: Folate biosynthesis
+#- id: R01298
+#  name: 4-hydroxybenzoate,NADPH:oxygen oxidoreductase (3-hydroxylating)
+#  equation: C00156[c] + C00007[c] + C00005[c] + C00080[c] => C00230[c] + C00006[c]
+#    + C00001[c]
+#  comment: NADH (ec 1.14.13.33, see R1296), to fill the gap to produce Aminobenoate (C00568), which is essential in folate biosynthesis
+#  ec: 1.14.13.33
+#  kegg: R01298
+#  source: A501_gapfil//completepath
+#  subsystem: Folate biosynthesis
+#- id: R05280
+#  equation: C00230[c] + C00014[c] => C00568[c] + C00007[c] + (2) C00080[c]
+#  ec: 1.14.12.-
+#  kegg: R05280
+#  source: A501_gapfil//completepath
+#  subsystem: Folate biosynthesis
+#  comment: to fill the gap to produce Aminobenoate (C00568), which is essential in folate biosynthesis, this reaction came from KEGG reaction database which is imbalanced in charge.
+#- id: R01126
+#  name: inosine 5'-monophosphate phosphohydrolase
+#  equation: C00130[c] + C00001[c] => C00294[c] + C00009[c]
+#  ec: 3.1.3.5
+#  source: A501_gapfil//Manual
+#  subsystem: Nucleotide metabolism, Purine metabolism
+#  comment: gapfill for IMP to inosine
+
+### purine metabolism
+- id: R01127
+  name: IMP cyclohydrolase (PurO?)
+  equation: C00130[c] + C00001[c] <=> C04734[c]
+  ec: 3.5.4.10
+  source: Pfu_add//Literature
+  subsystem: Nucleotide metabolism, Purine metabolism
+  tag: Gapfilling
+  pmid: 22168471
+  comment: Gapfill for producing IMP from FAICAR, the enzyme (ec:3.5.4.10) lost in Pfu, but occurred in A501. Pyrococcus furiosus, as well as P. abyssi, P. horikoshii and T. sibiricus, are apparently purine-biosynthesizing organisms with no evidence of any known IMP cyclohydrolase gene. (pmid:22168471). Required for the production of biomass in Pfu
+- id: R00332
+  name: ATP:GMP phosphotransferase
+  equation: C00002[c] + C00144[c] <=> C00008[c] + C00035[c]
+  ec: 2.7.4.8
+  kegg: R00332
+  subsystem: Purine metabolism
+  tag: Gapfilling
+  source: A501_gapfil//Completepath
+  comment: Gapfilling reaction when check GTP(C00044)
+- id: R07168
+  name: 5-methyltetrahydrofolate:NAD+ oxidoreductase
+  equation: C00440[c] + C00003[c] <=> C00143[c] + C00004[c] + C00080[c]
+  ec: 1.5.1.20
+  subsystem: One carbon pool by folate
+  source: Pfu_add//fastgapfill
+  tag: Gapfilling
+  comment: This reaction were needed to convert C00143 to C00440. C00440 is the essential cofactor for the methionine synthesis reaction R00946. This function can use various reducing cofactor, such as NADH (R07168), NADPH (R01224) or Fdred (R01217).
+#- id: R00996
+#  name: L-threonine ammonia-lyase (2-oxobutanoate-forming)
+#  equation: C00188[c] <=> C00109[c] + C00014[c]
+#  ec: 4.3.1.19
+#  kegg: R00996
+#  subsystem: Branch-chain amino acids metabolism, Valine, leucine and isoleucine biosynthesis
+#  comment: One of the solution to fill the gap to produce 2-oxobutanoate (from threonine). Adding this reaction will cause a decline of biomass flux than adding R07399.
+- id: R07399
+  name: (R)-Citramalate synthase
+  equation: C00024[c] + C00022[c] + C00001[c] <=> C02612[c] + C00010[c]
+  ec: 2.3.1.182
+  kegg: R07399
+  subsystem: Branch-chain amino acids metabolism, Valine, leucine and isoleucine biosynthesis
+  comment: fill the gap to produce 2-oxobutanoate (from pyruvate), to complete the biosynthesis of isoleucine. However, till now, no pyrococcus have this gene in the genome.
+  source: Pfu_add//KO
+  tag: Gapfilling
+#- id: R01776
+#  name: Acetyl-CoA:L-homoserine O-acetyltransferase
+#  equation: C00024[c] + C00263[c] <=> C00010[c] + C01077[c]
+#  ec: 2.3.1.31
+#  source: A501_gapfil//Manual
+#  subsystem: Cysteine and methionine Metabolism
+#  comment: gapfill to complete pathway of methionine
+
+
+############### fastgapfill ###########
+- id: R01218
+  name: 5,10-methylenetetrahydrofolate:NAD+ oxidoreductase
+  equation: C00143[c] + C00003[c] <=> C00445[c] + C00004[c]
+  ec: 1.5.1.5
+  subsystem: One carbon pool by folate
+  source: Pfu_add//Completepath
+  tag: gapfilling
+  comment: to fill the gap in one carbon folate pool, for the production of C00445.
+#- id: R01514
+#  name: ATP:(R)-glycerate 3-phosphotransferase
+#  equation: C00002[c] + C00258[c] <=> C00008[c] + C00197[c]
+#  ec: 2.7.1.31
+#  subsystem: Glycine, serine and threonine metabolism
+#  source: Pfu_add//Completepath
+#  tag: Gapfilling
+#  comment: this reaction to fill the gap of producing FADH2, which is required in gdgts3. After adding this reaction, R00848 can carry flux to produce FADH2.
+- id: R09748
+  name: FADH2:NAD+ oxidoreductase
+  equation: C00016[c] + C00004[c] + C00080[c] <=> C01352[c] + C00003[c]
+  ec: 1.5.1.36, 1.5.1.37, 1.5.1.45
+  subsystem: Vitamin and cofactor biosynthesis, Riboflavin metabolism
+  kegg: R09748
+  source: Pfu_add//Completepath
+  tag: Gapfilling
+  comment: to fill the gap of producing FADH2.
+# - id: R00402
+#   name: succinate:NAD+ oxidoreductase
+#   equation: C00042[c] + C00003[c] <=> C00122[c] + C00004[c] + C00080[c]
+#   ec: 1.3.1.6
+#   kegg: R00402
+#   subsystem: Central carbon metabolism, Citrate cycle
+#   source: A501_gapfil//Completepath
+#   tag: Gapfilling
+#   comment: this reaction to fill the gap in TCA cycle, which can replace the sink of succinate.
+#Adding in amino acid transporters
+# - id: TP_arg
+#   name: arginine transporter
+#   equation: C00062[c] <=> C00062[e]
+#   subsystem: Transport
+#   source: A501_gapfil//completepath/TCDB
+# - id: TP_asp
+#   name: aspartate transporter
+#   equation: C00049[c] <=> C00049[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_asn
+#   name: asparagine transport
+#   equation: C00152[c] <=> C00152[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_met
+#   name: methionine transporter
+#   equation: C00073[c] <=> C00073[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_his
+#   name: histidine transporter
+#   equation: C00135[c] <=> C00135[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_lys
+#   name: Lysine transporter
+#   equation: C00047[c] <=> C00047[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_leu
+#   name: Leucine transporter
+#   equation: C00123[c] <=> C00123[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_ile
+#   name: Isoleucine transporter
+#   equation: C00407[c] <=> C00407[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_val
+#   name: Valine transporter
+#   equation: C00183[c] <=> C00183[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+# - id: TP_gln
+#   name: Glutamine transporter
+#   equation: C00064[c] <=> C00064[e]
+#   subsystem: Transport
+#   source: A501_gapfil//Completepath
+- id: TP_Cys
+  name: Cystein transporter
+  equation: C00097[c] <=> C00097[e]
+  subsystem: Transport
+  source: A501_gapfil//Completepath
+# - id: TP_Glu
+#   name: Glutamate Transporter
+#   equation: C00025[c] => C00025[e]
+#   subsystem: Tranpsort
+#   source: A501_gapfil//Completepath
+- id: TP_Pyr
+  name: Pyruvate transporter
+  equation: C00022[c] <=> C00022[e]
+  subsystem: Transport
+  source: Pfu_add//Literature
+  pmid: https://doi.org/10.1007/BF00243457

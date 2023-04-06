@@ -1,0 +1,34 @@
+- reaction: NGAM
+  fixed: 2.344
+  comment: NGAM calibration based on Kengen 1994
+#- reaction: R00965
+#  fixed: 0
+#  pmid: 21317259
+#  comment: pyrF knockout, if present
+
+### below are the limits in physiological condition based on the literature
+- reaction: R01061
+  lower: 0
+  upper: 1000
+  pmid: 12921536, 21409597, 21736643
+  comment: This is the NAD version of GAPDH. GAPDH/PGK play a major
+    role only in gluconeogenesis in Thermococcales. [pmid:21736643] So here limit the direction from G13P2 => GAP.
+- reaction: R01063
+  lower: 0
+  upper: 1000
+  pmid: 12921536, 21409597, 21736643
+  comment: This is the NADP version of GAPDH. GAPDH/PGK play a major
+    role only in gluconeogenesis in Thermococcales. [pmid:21736643] So here limit the direction from G13P2 => GAP.
+- reaction: R00700
+  lower: 0
+  upper: 1000
+  comment: Gina says that SHI and SHII are 'uptake' hydrogenases - they can be deleted without significantly affecting the H2 production (pmid:22557999); MBH is responsible for almost all H2 production (or MBS if sulfur is present) and SHI and SHII can be fixed in the H2 consuming direction
+- reaction: R07181
+  lower: 0
+  upper: 1000
+  comment: Gina says that SHI and SHII are 'uptake' hydrogenases - they can be deleted without significantly affecting the H2 production (pmid:22557999); MBH is responsible for almost all H2 production (or MBS if sulfur is present) and SHI and SHII can be fixed in the H2 consuming direction.
+- reaction: nfn1
+  lower: 0
+  upper: 1000
+  comment: Nfn1 primary function seems to be maintaining a high NADPH/NADP ratio in cells favoring the forward direction [pmid:28705933], although both directions are possible [pmid:28394885]. Negative fluxes of this gene cause looping behavior in the model sh1/sh2/mbh/atps, so constraining to forward direction for now
+

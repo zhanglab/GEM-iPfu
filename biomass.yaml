@@ -1,0 +1,64 @@
+- id: dna_met
+  name: DNA dry weight
+#  equation: (0.6079570462) C00131[c] + (0.6079570462) C00459[c] + (0.4189974237) C00286[c] + (0.4189974237) C00458[c] + (4.1078) C00002[c] + (4.1078) C00001[c] <=> (2.0539) C00013[c] + (4.1078) C00008[c] + (4.1078) C00009[c] + dna[c]
+  equation: (0.60796) C00131[c] + (0.60796) C00459[c] + (0.41900) C00286[c] + (0.41900) C00458[c] + (4.1078) C00002[c] + (4.1078) C00001[c] <=> (2.05391) C00013[c] + (4.1078) C00008[c] + (4.1078) C00009[c] + dna[c]
+# comment: calculated the molecular weight of DNA by using the molecular weight of dNTP.
+#  equation: (0.90542942) C00131[c] + (0.90542942) C00459[c] + (0.624012168) C00286[c] + (0.624012168) C00458[c] + (6.1178) C00002[c] + (6.1178) C00001[c] <=> (3.0589) C00013[c] + (6.1178) C00008[c] + (6.1178) C00009[c] + dna[c]
+#  comment: calculated the molecular weight of DNA by using the molecular weight of dNMP.
+  subsystem: Biomass
+  source: pfu_biomass//Literature/genome
+  pmid: 11210495
+- id: rna_met
+  name: RNA dry weight
+  equation: (0.5152) C00075[c] + (0.4847) C00044[c] + (0.3352) C00063[c] + (4.6519) C00002[c] + (3.9914) C00001[c] <=> (1.9957) C00013[c] + (3.9914) C00008[c] + (3.9914) C00009[c] + rna[c]
+  subsystem: Biomass
+  source: pfu_biomass//Literature/genome
+  pmid: 11210495
+- id: pro_met
+  name: protein dry weight
+ # equation: (0.5036) C00886[c] + (0.4047) C02163[c] + (0.2635) C03402[c] + (0.1676) C02984[c] + (0.1676) C06113[c] + (0.0447) C03125[c] + (0.1319) C06112[c] + (0.3436) C02987[c] + (0.3436) C02282[c] + (0.5470) C02412[c] + (0.1150) C02988[c] + (0.6677) C03127[c] + (0.7682) C02047[c] + (0.6189) C01931[c] + (0.1712) C02430[c] + (0.3342) C03511[c] + (0.3268) C02702[c] + (0.3718) C02553[c] + (0.3352) C02992[c] + (0.0914) C03512[c] + (0.3043) C02839[c] + (0.6018) C02554[c] + (15.2485) C00044[c] + (15.2485) C00001[c] <=> (0.5036) C01635[c] + (0.4047) C01636[c] + (0.4311) C01637[c] + (0.1676) C01638[c] + (0.0447) C01639[c] + (0.4755) C01640[c] + (0.3436) C01641[c] + (0.5470) C01642[c] + (0.1150) C01643[c] + (0.6677) C01644[c] + (0.7682) C01645[c] + (0.6189) C01646[c] + (0.1712) C01647[c] + (0.3342) C01648[c] + (0.3268) C01649[c] + (0.3718) C01650[c] + (0.3352) C01651[c] + (0.0914) C01652[c] + (0.3043) C00787[c] + (0.6018) C01653[c] + (15.2485) C00009[c] + (15.2485) C00035[c] + protein[c]
+  equation: (0.5036) C00886[c] + (0.4047) C02163[c] + (0.2635) C03402[c] + (0.3351) C02984[c] + (0.0447) C03125[c] + (0.1319) C06112[c] + (0.6873) C02987[c] + (0.5470) C02412[c] + (0.1150) C02988[c] + (0.6677) C03127[c] + (0.7682) C02047[c] + (0.6189) C01931[c] + (0.1712) C02430[c] + (0.3342) C03511[c] + (0.3268) C02702[c] + (0.3718) C02553[c] + (0.3352) C02992[c] + (0.0914) C03512[c] + (0.3043) C02839[c] + (0.6018) C02554[c] + (15.2485) C00044[c] + (15.2485) C00001[c] <=> (0.5036) C01635[c] + (0.4047) C01636[c] + (0.2635) C01637[c] + (0.3351) C01638[c] + (0.0447) C01639[c] + (0.1319) C01640[c] + (0.6873) C01641[c] + (0.5470) C01642[c] + (0.1150) C01643[c] + (0.6677) C01644[c] + (0.7682) C01645[c] + (0.6189) C01646[c] + (0.1712) C01647[c] + (0.3342) C01648[c] + (0.3268) C01649[c] + (0.3718) C01650[c] + (0.3352) C01651[c] + (0.0914) C01652[c] + (0.3043) C00787[c] + (0.6018) C01653[c] + (15.2485) C00009[c] + (15.2485) C00035[c] + protein[c]
+  subsystem: Biomass
+  source: pfu_biomass//Literature/genome
+  pmid: 11210495
+- id: lps_core_met
+  name: Core lipids
+  equation: (0.1933) cpd15859[c] + (0.1742) cpd15860[c] + (0.5287) gdgt[c] <=> lipids[c]
+  subsystem: Biomass
+  source: pfu_biomass//Literature
+  pmid: DOI=https://doi.org/10.5650/jos.53.41, 23915818, 16243780
+  comment: "experimental measured core lipids in Pfu were only C20 and C40 (supported by pmid: 23915818), for C20 Pfu only contained archaetidylglycerol (AG) and archaetidylinositol (AI)(supported by pmid: 16243780), the composition of C20 vs. C40 (31.2% vs. 68.8%) was introduced from the literature https://doi.org/10.5650/jos.53.41."
+- id: carb_met
+  name: Carbohydrate
+  equation: (1.56) C00369[c] <=> carbohydrate[c]
+  source: A501_biomass//iAF692
+  subsystem: Biomass
+- id: pla_met
+  name: Polyamine
+#  equation: (0.9460) C00315[c] + (1.4715) C00750[c] + (2.9430) C20560[c] + (0.1051) C00179[c] <=> polyamine[c]
+#  pmid: 11297011
+  subsystem: Biomass
+#  equation: (1.3956) C00315[c] + (0.5799) C00750[c] + (0.6373) C21009[c] + (2.1157) C21010[c] <=> polyamine[c]
+  equation: (0.1790) C00134[c] + (0.1790) C00315[c] + (0.5222) C00750[c] + (0.3730) C21009[c] + (2.9838) C21010[c] + (0.0000) C00179[c] <=> polyamine[c]
+  source: pfu_biomass//Literature
+  pmid: DOI=https://doi.org/10.3118/jjse.7.1.21
+  comment: polyamines should be positively charged under physiological pH, but now except C21010 other compounds are netural charged.
+- id: trace_met
+  name: Trace element
+  equation: (0.0073) C00024[c] + (0.0004) C00010[c] + (0.1595) C00003[c] + (0.0073) C00004[c] + (0.0073) C00006[c] + (0.0290) C00005[c] + (0.0036) C00016[c] + (0.0002) C00091[c] + (0.0073) C00101[c] + (0.0725) C00020[c] + (0.2175) C00029[c] + (0.0162) C00068[c] + (12.2683) C00238[c] + (0.8179) C01342[c] + (0.3272) C00076[c] + (0.4907) C14819[c] + (1.3812) C00698[c] + (1.1510) C00059[c] <=> trace[c]
+  subsystem: Biomass
+  source: A501_biomass//iAF692/GEM-iWP3
+  comment: contain cofactors, cation, anion and other trace elements in cell
+- id: Biomass_Pfu
+  name: Biomass
+  equation: (0.63) protein[c] + (0.24) rna[c] + (0.04) dna[c] + (0.05) lipids[c] + (0.01) carbohydrate[c] + (0.01379) trace[c] + (0.00112) polyamine[c] <=> Biomass[c]
+#  comment: above is based on the archaeal model iAF692
+#  equation: (0.50) protein[c] + (0.205) rna[c] + (0.031) dna[c] + (0.091) lipids[c] + (0.025) carbohydrate[c] + (0.01379) trace[c] + (0.00112) polyamine[c] <=> Biomass[c]
+#  comment: above is based on the overall macromolecular composition of E.coli. The protein composition is around 50% which is measured by the experiments on Pfu (https://doi.org/10.1007/BF00243457).
+  subsystem: Biomass
+  source: pfu_biomass//iAF692
+- id: sink_biomass
+  equation: Biomass[c] =>
+- id: GAM_biomass
+  equation: (0.01338) Biomass[c] + C00002[c] + C00001[c] => C00008[c] + C00009[c]
+  comment: GAM calibrated as 74.73 mmol ATP/gCDW. Calculate the coefficient on Biomass in this equation as 1/74.73

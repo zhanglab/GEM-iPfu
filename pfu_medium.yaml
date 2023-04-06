@@ -1,0 +1,123 @@
+compartment: e
+compounds:
+- id: C00255
+  name: Riboflavin
+  lower: -0.0014151283
+  upper: 1000
+#- id: C00541
+#  name: Cobalamin
+#  lower: -0.0099973837
+#  upper: 1000
+- id: C00097
+  name: Cysteine
+  lower: -4.126835823
+  upper: 1000
+- id: C01330
+  name: Sodium
+  lower: -10350.67726
+  upper: 1000
+- id: C00288
+  name: Bicarbonate
+  lower: -16.38892895
+  upper: 1000
+- id: C00238
+  name: Potassium
+  lower: -4010.404544
+  upper: 1000
+- id: C00009
+  name: Phosphate
+  lower: -1582.730583
+  upper: 1000
+- id: C20679
+  name: Tungstate
+  lower: -388.0674075
+  upper: 1000
+- id: C00698
+  name: Chloride
+  lower: -4522.325332
+  upper: 1000
+- id: C00305
+  name: Magnesium
+  lower: -1275.457725
+  upper: 1000
+- id: C01342
+  name: Ammonium
+  lower: -72.06930646
+  upper: 1000
+- id: C00076
+  name: Calcium
+  lower: -17.46594141
+  upper: 1000
+- id: C14819
+  name: Iron (III)
+  lower: -35.81341212
+  upper: 1000
+- id: C01327
+  name: Hydrochloric acid
+  lower: -27.42664059
+  upper: 1000
+#- id: C12486
+#  name: Boric acid
+#  lower: -0.8086296961
+#  upper: 1000
+- id: C00038
+  name: Zinc (II)
+  lower: -0.7644207984
+  upper: 1000
+- id: C00070
+  name: Copper (II)
+  lower: -0.4720989519
+  upper: 1000
+- id: C19610
+  name: Manganese (II)
+  lower: -0.910116859
+  upper: 1000
+- id: C06232
+  name: Molybdate
+  lower: -0.3087305924
+  upper: 1000
+#- id: C13391
+#  name: Aluminum hydroxide
+#  lower: -0.6409960566
+#  upper: 1000
+- id: C00059
+  name: Sulfate
+  lower: -178.9382994
+  upper: 1000
+- id: C00175
+  name: Cobalt (II)
+  lower: -0.8484182091
+  upper: 1000
+- id: C19609
+  name: Nickel (II)
+  lower: -0.851884539
+  upper: 1000
+- id: C00001
+  name: Water
+  lower: -1772.382364
+  upper: 1000
+- id: C00208
+  name: Maltose
+  lower: -14.60721918
+  upper: 1000
+#Adding in possible products
+- id: C00011
+  name: Carbon dioxide
+  lower: 0
+  upper: 1000
+- id: C00282
+  name: Hydrogen (H2)
+  lower: 0
+  upper: 1000
+- id: C00033
+  name: Acetate
+  lower: 0
+  upper: 1000
+- id: C00041
+  name: L-alanine
+  lower: 0
+  upper: 1000
+- id: C00014
+  name: Ammonia (NH3)
+  lower: 0
+  upper: 1000

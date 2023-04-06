@@ -1,0 +1,741 @@
+- id: atps
+  name: Archaeal-type sodium-drive ATP synthase (A0A1 ATP synthase)
+  genes: PF0176 and PF0177 and PF0178 and PF0179 and PF0180 and PF0181 and PF0182 and PF0183 and PF0184
+  equation: C00008[c] + (4) C01330[e] + C00009[c] <=> C00002[c] + (4) C01330[c] + C00001[c]
+  subsystem: Energy metabolism
+  tc: 3.A.2.3.2
+  source: A501_psammotate//Literature
+  pmid: 24650628, 25593316, 17614964, 22800682
+- id: mbh
+  name: membrane bound hydrogenase
+  genes: PF1423 and PF1424 and PF1425 and PF1426 and PF1427 and PF1428 and PF1429
+    and PF1430 and PF1431 and PF1432 and PF1433 and PF1434 and PF1435 and PF1436
+  equation: (2) C00138[c] + (2) C00080[c] + C01330[c] => C00282[c] + (2) C00139[c]
+    + C01330[e]
+  subsystem: Energy metabolism
+  source: A501_psammotate//Literature
+  #tag: Literature
+  pmid: 26808919, 22713092
+  #change: NoKeggID
+  cofactor: Ni-Fe
+- id: mbs
+  name: membrane bound complex
+  genes: PF1441 and PF1442 and PF1443 and PF1444 and PF1445 and PF1446 and PF1447
+    and PF1448 and PF1449 and PF1450 and PF1451 and PF1452 and PF1453
+  # equation: (2) C00138[c] + C00080[e] + C01330[c] + C00006[c] => (2) C00139[c] + C01330[e]
+  #   + C00005[c]
+  equation: (2) C00138[c] + (2) C00080[c] + (2) C01330[c] + C00087[c] => (2) C00139[c] + (2) C01330[e] + C00283[c]
+  comment: the function of this reaction is still unclear
+  subsystem: Energy metabolism
+  source: A501_psammotate//Literature
+  #tag: Literature
+  pmid: 21965560, 17449625, 26808919, 22713092, 28295726, 33230146
+  #change: NoKeggID
+  cofactor: Ni-Fe-S
+- id: TreABC
+  name: Trehalose ABC transport system
+  genes: PF1739 and PF1740 and PF1741
+  equation: C01083[e] + C00002[c] + C00001[c] => C01083[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//Literature/TCDB
+  pmid: 11115105
+- id: MalABC
+  name: Maltose ABC transport system
+  genes: PF1739 and PF1740 and PF1741
+  equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//Literature/TCDB
+  tc: 3.A.1.1.7
+  pmid: 11115105
+- id: gly-t
+  name: Small neutral amino acid transporter, SnatA (Glycine)
+  genes: PF0745
+  equation: C00037[c] + C00080[c] <=> C00037[e] + C00080[e]
+  subsystem: Transport
+  tc: 2.A.95.1.4
+  source: A501_psammotate//Literature/TCDB
+  pmid: 12761179
+- id: chiABC
+  name: Chitin transporter via ABC subsystem
+  genes: PF0357 and PF0358 and PF0359 and (PF0360 or PF1212) and (PF0361 or PF1213)
+  equation: C00002[c] + C00001[c] + C00461[e] <=> C00008[c] + C00461[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//Literature
+  pmid: 15136574
+- id: mobdabc
+  name: molybdate transport via ABC system
+  genes: PF0080 and PF0081 and PF0082 and PF0116 and PF1519 and PF1933 and PF1970
+  equation: C00002[c] + C00001[c] + C06232[e] => C00008[c] + C06232[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.6.9, 3.A.1.6.5
+  source: A501_psammotate//iMAC868_psammotate/TCDB
+  #tag: psammotate-iMAC868-Tranporter/TCDB
+  #change: NoKeggID_change_H
+# - id: KefB
+#   name: potassium/sodium ion:proton antiporter
+#   genes: PF0275 or PF0268 or PF1603 or PF1164
+#   equation: C00238[e] + C00080[c] <=> C00238[c] + C00080[e]
+#   subsystem: Transport
+#   source: A501_psammotate//TransporterDB
+- id: ser-t
+  name: small neutral amino acid transporter, SnatA (Alanine)
+  genes: PF0745
+  equation: C00065[c] + C00080[c] => C00065[e] + C00080[e]
+  subsystem: Transport
+  tc: 2.A.95.1.4
+  source: A501_psammotate//Literature/TCDB
+  pmid: 12761179
+- id: metdppABC
+  name: Methionine dipeptide transport system
+  genes: PF0191 and PF0192 and PF0193 and PF0194
+  equation: xaa-met[e] + C00002[c] + C00001[c] => xaa-met[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//Metacyc/TransporterDB
+- id: betaineABC
+  name: Glycine betaine transport system
+  genes: (PF0191 and PF0192 and PF0193 and PF0194) or (PF1411 and PF1412)
+  equation: C00719[e] + C00002[c] + C00001[c] => C00719[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//TransporterDB
+- id: fe3abc
+  name: iron (III) transport via ABC system
+  genes: PF0909 and PF0910 and PF0502 and PF0503
+  equation: C00002[c] + C14819[e] + C00001[c] => C00008[c] + C14819[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//iMAC868_psammotate
+  #tag: psammotate-iMAC868-Tranporter
+  #change: NoKeggID_change_H
+- id: so4ABC
+  name: Sulfate tranporter via ABC subsystem
+  genes: PF0080 and PF0081 and PF0082
+  equation: C00002[c] + C00001[c] + C00059[e] => C00008[c] + C00059[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//TransporterDB
+- id: btnt2i
+  name: Biotin uptake
+  genes: PF1677
+  equation: C00120[e] + C00080[e] <=> C00120[c] + C00080[c]
+  subsystem: Transport
+  source: A501_psammotate//iMAC868_psammotate
+  #tag: psammotate-iMAC868-Tranporter
+  #change: NoKeggID
+# - id: MalEFGK2
+#   name: ABC-type maltose transport system
+#   genes: (PF1744 and PF1936 and PF1937 and PF1938 and PF1967 and PF1968 and PF1969 and PF0906) or (PF1739 and PF1740 and PF1741)
+#   equation: C00208[e] + C00002[c] + C00001[c] => C00208[c] + C00008[c] + C00009[c]
+#   subsystem: transport
+#   source: A501_psammotate//TransporterDB/Literature
+#   pmid: 24638992, 2155217, 11115105
+- id: MaltodextrinABC
+  name: Maltodextrin ABC transporter
+  genes: PF1938 and PF1937 and PF1936 and PF1933
+  equation: C01935[e] + C00002[c] + C00001[c] => C01935[c] + C00008[c] + C00009[c]
+  subsystem: transport
+  source: Literature
+  pmid: 15803655
+- id: PullulanAPU
+  name: Pullulan extracellular amylopullulanase (APU)
+  genes: PF1935
+  equation: C00480[e] + C00001[e] => (3) C00208[e]
+  subsystem: Extracellular enzyme
+  source: Literature
+  pmid: 9293009
+  change: Removed in COM1 based on https://doi.org/10.1128/JB.00439-12 (PF1935 merged with PF1934, function unclear)
+- id: StarchAPU
+  name: Starch extracellular amylopullulanase (APU)
+  genes: PF1935
+  equation: C00369[e] + (3) C00001[e] => (4) C00208[e]
+  subsystem: Extracellular enzyme
+  source: Literature
+  pmid: 9293009
+  change: Removed in COM1 based on https://doi.org/10.1128/JB.00439-12 (PF1935 merged with PF1934, function unclear)
+- id: glut4
+  name: Na+/glutamate symport
+  genes: PF1469
+  equation: C00025[e] + C01330[e] => C00025[c] + C01330[c]
+  subsystem: Transport
+  source: A501_psammotate//iMAC868_psammotate
+  #tag: psammotate-iMAC868-Tranporter
+  #change: NoKeggID
+- id: TrkHG
+  name: The K+ Transporter (Trk) Family
+  genes: PF1856 and PF0175
+  equation: C00238[e] + C00080[e] <=> C00238[c] + C00080[c]
+  subsystem: Transport
+  source: A501_psammotate//TransporterDB
+- id: zn2t4
+  name: zinc transport out via antiport
+  genes: PF0558
+  equation: C00038[c] + C00080[e] + C00238[e] => C00038[e] + C00080[c] + C00238[c]
+  subsystem: Transport
+  source: A501_psammotate//iMAC868_psammotate
+  #tag: psammotate-iMAC868-Tranporter
+  #change: NoKeggID
+- id: fedcabc
+  name: iron (III) dicitrate transport via ABC system
+  genes: PF0911 and PF0910 and PF0909
+  equation: C00002[c] + (2) C00158[e] + C14819[e] + C00001[c] => C00008[c] + (2) C00158[c] + C14819[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//iMAC868_psammotate
+  #tag: psammotate-iMAC868-Tranporter
+  #change: NoKeggID
+- id: polya-t
+  name: Polyamine ABC transporter
+  genes: PF1520 and PF1750 and PF0852
+  equation: C06702[e] + C00002[c] + C00001[c] => C06702[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//TransporterDB
+- id: glut2r
+  name: L-glutamate transport via proton symport
+  genes: PF1469 or PF0520
+  equation: C00025[e] + C00080[e] => C00025[c] + C00080[c]
+  subsystem: Transport
+  source: A501_psammotate//iMAC868_psammotate
+  #tag: psammotate-iMAC868-Tranporter
+  #change: NoKeggID
+# - id: NhaC
+#   name: Sodium:proton antiporter
+#   genes: PF2032
+#   equation: C01330[e] + C00080[c] => C01330[c] + C00080[e]
+#   subsystem: Transport
+#   source: A501_psammotate//TransporterDB
+- id: ala-t
+  name: small neutral amino acid transporter, SnatA (Alanine)
+  genes: PF0745
+  equation: C00041[c] + C00080[c] <=> C00041[e] + C00080[e]
+  subsystem: Transport
+  tc: 2.A.95.1.4
+  source: A501_psammotate//Literature/TCDB
+  pmid: 12761179
+- id: thr-t
+  name: small neutral amino acid transporter, SnatA (Alanine)
+  genes: PF0745
+  equation: C00188[c] + C00080[c] <=> C00188[e] + C00080[e]
+  subsystem: Transport
+  tc: 2.A.95.1.4
+  source: A501_psammotate//Literature/TCDB
+  pmid: 12761179
+- id: aspdppABC
+  name: Aspartate dipeptide transport system
+  genes: PF0191 and PF0192 and PF0193 and PF0194
+  equation: xaa-asp[e] + C00002[c] + C00001[c] => xaa-asp[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//Metacyc/TransporterDB
+- id: R10531
+  name: ATP phosphohydrolase (tungstate-importing via ABC system)
+  genes: PF0080 and PF0081 and PF0082 and PF1467 and PF1522
+  equation: C00002[c] + C00001[c] + C20679[e] => C00008[c] + C00009[c] + C20679[c]
+  subsystem: Transport
+  kegg: R10531
+  tc: 3.6.3.55, 3.A.1.6.9, 3.A.1.6.5
+  source: A501_psammotate//iMAC868_psammotate/TCDB
+  #tag: psammotate-iMAC868-KEGG-Add
+  #change: Keep
+- id: prodppABC
+  name: Proline dipeptide transport system
+  genes: PF0191 and PF0192 and PF0193 and PF0194
+  equation: xaa-pro[e] + C00002[c] + C00001[c] => xaa-pro[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  source: A501_psammotate//Metacyc/TransporterDB
+- id: PstABCS
+  name: Phosphate ABC transporter
+  genes: PF1008 and PF1007 and PF1006 and PF1003
+  equation: C00009[e] + C00002[c] + C00001[c] => (2) C00009[c] + C00008[c]
+  subsystem: Transport
+  source: A501_psammotate//TransporterDB
+- id: PiT1
+  name: Inorganic phosphate transporter
+  genes: PF1020 and PF1178
+  equation: C00009[e] + C00080[e] => C00009[c] + C00080[c]
+  subsystem: Transport
+  source: A501_psammotate//TransporterDB
+- id: cholABC
+  name: Cholesterol transport via ABC system
+  genes: PF0005 and PF0006
+  equation: C00187[e] + C00002[c] + C00001[c] => C00187[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.211.14, 3.A.1.211.3
+  source: pfu_add//TransportDB/TCDB
+- id: daunoABC
+  name: Daunorubicin transport via ABC system
+  genes: PF0035 and PF0310 and PF0835 and PF0881 and PF0905 and PF1249 and PF1889 and PF0732 and PF0733 and PF0577 and PF1370 and PF0582 and PF0583
+  equation: C01907[e] + C00002[c] + C00001[c] => C01907[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.211.13, 3.A.1.105.1
+  source: pfu_add//TransportDB/TCDB
+  change: Removed in COM1 based on https://doi.org/10.1128/JB.00439-12 (PF1249 fully deleted)
+- id: oleABC
+  name: Oleandomycin transport via ABC system
+  genes: PF0036
+  equation: C01946[e] + C00002[c] + C00001[c] => C01946[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.105.2
+  source: pfu_add//TransportDB/TCDB
+- id: metABC
+  name: Methylthioadenosine transport via ABC system
+  genes: PF0068
+  equation: C00170[e] + C00002[c] + C00001[c] => C00170[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.33.1
+  source: pfu_add//TransportDB/TCDB
+- id: triTTT
+  name: Tricarboxylate Transporter
+  genes: PF0106
+  equation: C00113[e] + C01330[e] => C00113[c] + C01330[c]
+  subsystem: Transport
+  tc: 2.A.80.2.2
+  source: pfu_add//TransportDB/TCDB
+- id: FeoB
+  name: Ferrous iron Transport
+  genes: PF1495 and PF1177 and PF0857 and PF0114 and PF0998 and PF1763
+  equation: C14818[e] + C00044[c] + C00001[c] => C14818[c] + C00035[c] + C00009[c]
+  subsystem: Transport
+  tc: 9.A.8.1.9
+  source: pfu_add//TransportDB/TCDB
+- id: inoABC
+  name: Inositol phosphate transport via ABC system
+  genes: PF0117 and PF0118 and PF0119
+  equation: C01177[e] + C00002[c] + C00001[c] => C01177[c] + C00008[c] + C00009[c]
+  subsystem: transport
+  tc: 3.A.1.1.38
+  source: pfu_add//TransportDB/TCDB
+- id: mnABC
+  name: Manganese transport via ABC system
+  genes: PF1779 and PF1780 and PF0373 and PF0895
+  equation: C19610[e] + C00002[c] + C00001[c] => C00008[c] + C19610[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.15.1, 3.A.1.15.14, 3.A.1.15.8
+  source: pfu_add//TransportDB/TCDB
+# - id: kVIC
+#   name: Potassium transport via VIC system
+#   genes: PF1759
+#   equation: C00238[e] <=> C00238[c]
+#   subsystem: Transport
+#   tc: 1.A.1.2.12
+#   source: pfu_add//TransportDB/TCDB
+# - id: rnd
+#   name: Secondary transport via RND
+#   genes: PF0173 and PF0174
+#   equation: C00080[e] => C00080[c]
+#   subsystem: Transport
+#   tc: 2.A.6.4.1
+#   source: pfu_add//TransportDB/TCDB
+#   comment: substrate can also be proteins
+- id: rft
+  name: Riboflavin transport
+  genes: PF0163
+  equation: C00255[e] => C00255[c]
+  subsystem: Transport
+  tc: 2.A.27.1.4
+  source: pfu_add//TransportDB/TCDB
+- id: coABC
+  name: Cobalt transport via ABC system
+  genes: PF0528 and PF0529
+  equation: C00175[c] + C00002[c] + C00001[c] => C00175[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.23.8
+  source: pfu_add//TransportDB/TCDB
+  comment: Co2+ can also be Ni2+
+- id: mrp
+  name: Sodium-proton transport via CPA3
+  genes: (PF1147 and PF1148 and PF1149 and PF1150 and PF1151 and PF1152 and PF1153) or PF2032
+  equation:  C01330[e] + (2) C00080[c] <=> C01330[c] + (2) C00080[e]
+  subsystem: Transport
+  tc: 2.A.63.1.4, 2.A.63.2.1
+  source: pfu_add//TransportDB/TCDB
+  comment: Na+ can be K+ or Li+. Revised to used two protons based on pmid:34484150
+# - id: glybABC
+#   name: Glycine betaine transport via ABC system
+#   genes: PF1411 and PF1412
+#   equation: C00719[c] + C00002[c] + C00001[c] => C00719[e] + C00009[c] + C00008[c]
+#   subsystem: Transport
+#   tc: 3.A.1.5.12
+#   source: pfu_add//TransportDB/TCDB
+- id: gluABC
+  name: Glutathione transport via ABC system
+  genes: PF1408 and PF1409 and PF1410
+  equation: C00051[c] + C00002[c] + C00001[c] => C00051[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.27
+  source: pfu_add//TransportDB/TCDB
+- id: thiABC
+  name: Thiamin transport via ABC system
+  genes: PF1518 and PF1751
+  equation: C00378[e] + C00002[c] + C00001[c] => C00378[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.19.1
+  source: pfu_add//TransportDB/TCDB
+- id: tigMOP
+  name: Multidrug efflux transport with Tigecycline
+  genes: PF0708 and PF0823 and PF0824 and PF1850
+  equation: C12012[c] + C01330[e] => C12012[e] + C01330[c]
+  subsystem: Transport
+  tc: 2.A.66.13
+  source: pfu_add//TransportDB/TCDB
+  change: Removed in COM1 based on https://doi.org/10.1128/JB.00439-12 (PF0823 fully deleted)
+- id: moxMOP
+  name: Multidrug efflux transport with Moxifloxacin
+  genes: PF0782 and PF1354
+  equation: C07663[e] + C01330[c] => C07663[c] + C01330[e]
+  subsystem: Transport
+  tc: 2.A.66.1.33
+  source: pfu_add//TransportDB/TCDB
+- id: quinoMFS
+  name: Multidrug efflux via Major Facilitator with Quinolone
+  genes: PF0140 and PF0143
+  equation: C06338[e] + C00080[e] <=> C06338[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.1.46.5
+  source: pfu_add//TransportDB/TCDB
+  comment: H+ can also be Na+
+- id: nss
+  name: Neurotransmitter sodium symporter
+  genes: PF0371 and PF1254
+  equation: C00082[e] + C01330[e] => C00082[c] + C01330[c]
+  subsystem: Transport
+  tc: 2.A.22.5.1, 2.A.22.5.2
+  source: pfu_add//TransportDB/TCDB
+  change: Removed in COM1 based on https://doi.org/10.1128/JB.00439-12 (PF1254 half deleted)
+- id: gtpABC
+  name: GTP transport via ABC system
+  genes: PF1697 and PF1698 and PF1695
+  equation: C00044[e] + C00001[c] => C00035[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.2.10
+  source: pfu_add//TransportDB/TCDB
+  comment: can also be ATP, 2-Deoxyguanosine, ITP, or XTP
+- id: AI-2E
+  name: Autoinducer-2 export
+  genes: PF1106 and PF1585
+  equation: C16421[e] <=> C16421[c]
+  subsystem: Transport
+  tc: 2.A.86.2.2
+  source: pfu_add//TransportDB/TCDB
+- id: chol
+  name: Choline uptake transporter
+  genes: PF1144
+  equation: C00114[e] + C00080[e] => C00114[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.7.18.1
+  source: pfu_add//KEGG
+#- id: MgE
+#  name: Magnesium E Transporter
+#  genes: PF1157
+#  equation: C00305[e] => C00305[c]
+#  subsystem: Transport
+#  tc: 1.A.26.1.2
+#  source: pfu_add//TransportDB/TCDB
+#  comment: merged with mgMIT to form TP_Mg since equation was the same
+- id: cellobioseABC
+  name: Cellobiose transport via ABC system (CbtABCDF)
+  genes: PF1209 and PF1210 and PF1211 and PF1212 and PF1213
+  equation: C00185[e] + C00002[c] + C00001[c] => C00185[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.9
+  source: pfu_add//TransportDB/TCDB/Literature
+  pmid: 11489849
+- id: cellotrioseABC
+  name: Cellotriose transport via ABC system (CbtABCDF)
+  genes: PF1209 and PF1210 and PF1211 and PF1212 and PF1213
+  equation: C06219[e] + C00002[c] + C00001[c] => C06219[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.9
+  source: pfu_add//TransportDB/TCDB/Literature
+  pmid: 11489849
+- id: cellotetraoseABC
+  name: Cellotetraose transport via ABC system (CbtABCDF)
+  genes: PF1209 and PF1210 and PF1211 and PF1212 and PF1213
+  equation: C02013[e] + C00002[c] + C00001[c] => C02013[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.9
+  source: pfu_add//TransportDB/TCDB/Literature
+  pmid: 11489849
+- id: cellopentaoseABC
+  name: Cellopentaose transport via ABC system (CbtABCDF)
+  genes: PF1209 and PF1210 and PF1211 and PF1212 and PF1213
+  equation: C06218[e] + C00002[c] + C00001[c] => C06218[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.9
+  source: pfu_add//TransportDB/TCDB/Literature
+  pmid: 11489849
+- id: laminaribioseABC
+  name: Laminaribiose transport via ABC system (CbtABCDF)
+  genes: PF1209 and PF1210 and PF1211 and PF1212 and PF1213
+  equation: C02048[e] + C00002[c] + C00001[c] => C02048[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.9
+  source: pfu_add//TransportDB/TCDB/Literature
+  pmid: 11489849
+- id: sophoroseABC
+  name: Sophorose transport via ABC system (CbtABCDF)
+  genes: PF1209 and PF1210 and PF1211 and PF1212 and PF1213
+  equation: C08250[e] + C00002[c] + C00001[c] => C08250[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.9
+  source: pfu_add//TransportDB/TCDB/Literature
+  pmid: 11489849
+- id: gentiobioseABC
+  name: Gentiobiose transport via ABC system (CbtABCDF)
+  genes: PF1209 and PF1210 and PF1211 and PF1212 and PF1213
+  equation: C08240[e] + C00002[c] + C00001[c] => C08240[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.9
+  source: pfu_add//TransportDB/TCDB/Literature
+  pmid: 11489849
+- id: artABC
+  name: Arthrofactin transport via ABC system
+  genes: PF1238
+  equation: C15686[e] + C00001[c] + C00002[c] => C15686[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.122.12
+  source: pfu_add//KEGG
+- id: uaABC
+  name: Uric acid transport via ABC system
+  genes: PF1240
+  equation: C00366[e] + C00080[e] => C00366[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.40.3.2
+  source: pfu_add//TransportDB/TCDB
+- id: eth
+  name: Multidrug transport with Ethidium
+  genes: PF1247 and PF1252
+  equation: C11161[c] + C00080[e] => C11161[e] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.6.2.30
+  source: pfu_add//TransportDB/TCDB
+  change: Removed in COM1 based on https://doi.org/10.1128/JB.00439-12 (PF1252 fully deleted)
+# - id: CDF
+#   name: Cation efflux via CDF
+#   genes: PF1373
+#   equation: C14818[c] + C00080[e] + C00238[e] => C14818[e] + C00080[c] + C00238[c]
+#   subsystem: Transport
+#   tc: 2.A.4.7.9
+#   source: pfu_add//TransportDB/TCDB
+#   comment: Iron(II) can also be Zn(II), Co(II), Cd(II) or Ni(II)
+- id: corABC
+  name: Corrinoid protein transport via ABC system
+  genes: PF1774
+  equation: C06021[e] + C00001[c] + C00002[c] => C06021[c] + C00009[c] + C00008[c]
+  subsystem: Transport
+  tc: 3.A.1.14.9
+  source: pfu_add//TransportDB/TCDB
+#- id: clc
+#  name: Chloride carrier channel
+#  genes: PF0321
+#  equation: (2) C00698[c] + C00080[e] <=> (2) C00698[e] + C00080[c]
+#  subsystem: Transport
+#  tc: 2.A.49.3.3
+#  source: pfu_add//TransportDB/TCDB
+#  comment: Removed b/c incorrect gene association
+- id: alaAGCS
+  name: Alanine symporter via AGCS
+  genes: PF0514
+  equation: C00041[e] + C01330[e] => C00041[c] + C01330[c]
+  subsystem: Transport
+  tc: 2.A.25.1.3
+  source: pfu_add//TransportDB/TCDB
+  pmid: 10926494
+# - id: feILT
+#   name: Iron transport via ILT
+#   genes: PF0723
+#   equation: C14818[e] => C14818[c]
+#   subsystem: Transport
+#   tc: 2.A.108.2.10
+#   source: pfu_add//TransportDB/TCDB
+#   comment: Fe2+ can also be Pb2+
+- id: sulTDT
+  name: Sulfite transport via TDT
+  genes: PF1887 and PF1888 and PF2061
+  equation: C00094[c] => C00094[e]
+  subsystem: Transport
+  tc: 2.A.16.3.3
+  source: pfu_add//TransportDB/TCDB
+- id: metDMT
+  name: Methylamine transport via DMT
+  genes: PF0371 and PF0486 and PF1371 and PF1671 and PF2043
+  equation: C00218[e] + C00080[e] => C00218[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.7.18.3
+  source: pfu_add//TransportDB/TCDB
+# - id: znZIP
+#   name: Zinc transport via ZIP
+#   genes: PF0746
+#   equation: C00038[e] => C00038[c]
+#   subsystem: Transport
+#   tc: 2.A.5.5.2
+#   source: pfu_add//TransportDB/TCDB
+#- id: mgMIT
+#  name: Mg transport via MIT
+#  genes: PF2036
+#  equation: C00305[c] <=> C00305[e]
+#  subsystem: Transport
+#  tc: 1.A.35.3.2
+#  source: pfu_add//TransportDB/TCDB
+#  comment: Mg2+ can also be Co2+. JV: Merged with MgE to form TP_Mg, since equation is same
+- id: fruMFS
+  name: Fructose transport via MFS
+  genes: PF1799
+  equation: C00095[e] + C00080[e] <=> C00095[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.1.2.45
+  source: pfu_add//TransportDB/TCDB
+  comment: H+ can also be Na+
+- id: galacDMT
+  name: Galactose transport via DMT
+  genes: PF1775
+  equation: C00124[e] + C00080[e] <=> C00124[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.1.66.1
+  source: pfu_add//TransportDB/TCDB
+  comment: H+ can also be Na+
+- id: caMscS
+  name: Calcium transport via MscS
+  genes: PF0412 and PF0816
+  equation: C00076[c] <=> C00076[e]
+  subsystem: Transport
+  tc: 1.A.23.4.9
+  source: pfu_add//TransportDB/TCDB
+- id: proSSS
+  name: Proline symporter via SSS
+  genes: PF0429
+  equation: C00148[e] + C01330[e] => C00148[c] + C01330[c]
+  subsystem: Transport
+  tc: 2.A.21.2.3
+  source: pfu_add//TransportDB/TCDB
+  change: Removed in COM1 based on https://doi.org/10.1128/JB.00439-12 (PF0429 60% deleted)
+- id: colMFS
+  name: Colistin transport via MFS
+  genes: PF0443 and PF0606 and PF0697 and PF0698 and PF0826 and PF0981 and PF1350
+  equation: C13553[e] + C00080[e] <=> C13553[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.1.2.34
+  source: pfu_add//TransportDB/TCDB
+  comment: H+ can also be Na+
+- id: tetraRND
+  name: Tetracycline transport via RND
+  genes: PF0262
+  equation: C06570[c] + C00080[e] => C06570[e] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.6.2.34
+  source: pfu_add//TransportDB/TCDB
+- id: cuABC
+  name: Copper transport via ABC system
+  genes: PF0278 and PF0279
+  equation: C00070[e] + C00001[c] + C00002[c] => C00070[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.132.2
+  source: pfu_add//TransportDB/TCDB
+- id: cuagPATP
+  name: Copper/Silver P-ATPase transport
+  genes: PF0740
+  equation: C00070[e] + C06710[c] + C00001[c] + C00002[c] => C00070[c] + C06710[e] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.3.5.7
+  source: pfu_add//TransportDB/TCDB
+- id: entABC
+  name: Enterochelin transport via ABC system
+  genes: PF0744
+  equation: C05821[e] + C00001[c] + C00002[c] => C05821[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.106.7
+  source: pfu_add//TransportDB/TCDB
+- id: cirpoMOP
+  name: Ciprofloxacin export via MOP
+  genes: PF0783
+  equation: C05349[c] + C01330[e] => C05349[e] + C01330[c]
+  subsystem: Transport
+  tc: 2.A.66.1.30
+  source: pfu_add//TransportDB/TCDB
+- id: auxAEC
+  name: Auxin efflux carrier
+  genes: PF0449
+  equation: C08468[c] + C00080[e] => C08468[e] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.69.4.4
+  source: pfu_add//TransportDB/TCDB
+- id: ampABC
+  name: Ampicillin and other drug transport via ABC system
+  genes: PF1654 and PF1655
+  equation: C06574[e] + C00001[c] + C00002[c] => C06574[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.106.6
+  source: pfu_add//TransportDB/TCDB
+# - id: gluMFS
+#   name: Glutamate transport via MFS
+#   genes: PF0520
+#   equation: C00025[e] + C00080[e] <=> C00025[c] + C00080[c]
+#   subsystem: Transport
+#   tc: 2.A.1.14.42
+#   source: pfu_add//TransportDB/TCDB
+#   comment: H+ can also be Na+
+- id: niABC
+  name: Nickel uptake via ABC system
+  genes: PF0531
+  equation: C19609[e] + C00001[c] + C00002[c] => C19609[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.23.5
+  source: pfu_add//TransportDB/TCDB
+  comment: Ni2+ can also be Co2+
+- id: hopABC
+  name: ABC-2 transporter with Hopene
+  genes: PF0922
+  equation: C06310[e] + C00002[c] + C00001[c] => C06310[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.105.8
+  source: pfu_add//TransportDB/TCDB
+- id: lacMFS
+  name: Lactose transport via MFS
+  genes: PF0945 and PF0947
+  equation: C00243[e] + C00080[e] <=> C00243[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.1.20.2
+  source: pfu_add//TransportDB/TCDB
+  comment: H+ can also be Na+; lactose can also be glucose
+- id: manABC
+  name: MAnnose transport via ABC system
+  genes: PF1000 and PF1001
+  equation: C00159[e] + C00001[c] + C00002[c] => C00159[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.15
+  source: pfu_add//TransportDB/TCDB
+- id: cycloABC
+  name: Multidrug transport via ABC - cycloheximide
+  genes: PF1011 and PF1012
+  equation: C06685[e] + C00001[c] + C00002[c] => C06685[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.205.4
+  source: pfu_add//TransportDB/TCDB
+  comment: substrate can be multiple other drugs
+- id: betaABC
+  name: Beta-glucoside transport via ABC system
+  genes: PF1210 and PF1211
+  equation: C16989[e] + C00001[c] + C00002[c] => C16989[c] + C00008[c] + C00009[c]
+  subsystem: Transport
+  tc: 3.A.1.5.6
+  source: pfu_add//TransportDB/TCDB
+- id: cytoNCS
+  name: Cytosine transport via NCS1
+  genes: PF1336
+  equation: C00380[e] + C00080[e] => C00380[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.39.2.4
+  source: pfu_add//TransportDB/TCDB
+- id: sucMFS
+  name: Sucrose transport via MFS
+  genes: PF2002
+  equation: C00089[e] + C00080[e] => C00089[c] + C00080[c]
+  subsystem: Transport
+  tc: 2.A.2.4.5
+  source: pfu_add//TransportDB/TCDB
+  comment: H+ can also be Na+
+- id: TP_Mg
+  name: Magnesium transport
+  gene: PF1157 or PF2036
+  equation: C00305[e] <=> C00305[c]
+  comment: PF1157 is the MgtE type, and PF2036 is the CorA type, but the reaction formulation should be the same
+  subsystem: Transport
+- id: TP_Cl
+  name: Chloride transport
+  equation: C00698[e] <=> C00698[c]
+  comment: Gene association for former Chloride transporter clc was incorrect, this reaction was added to allow chloride import for trace metabolites
+  subsystem: Transport
