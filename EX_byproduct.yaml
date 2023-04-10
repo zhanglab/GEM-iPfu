@@ -28,42 +28,12 @@ compounds:
   name: Ethanol
   lower: 0
   upper: 1000
-- id: C00466
-  name: Acetoin
-  lower: 0
-  upper: 1000  
-- id: C03044
-  name: 2,3-Butanediol
-  lower: 0
-  uppper: 1000
 
-# added exchange for potential engineered bioproducts
-- id: C01013
-  name: 3-Hydroxypropanoate (3HP)
-  lower: 0
-  upper: 1000
-- id: C05979
-  name: Propanol
-  lower: 0
-  upper: 1000
+# potential off-products:
 - id: C00042
   name: Succinate
   lower: 0
   upper: 1000
-- id: C00989
-  name: 4-Hydroxybutanoate (4HB)
-  lower: 0
-  upper: 1000
-- id: 14BD
-  name: 1,4-Butanediol (14BD)
-  lower: 0
-  upper: 1000
-- id: C00207
-  name: Acetone
-  lower: 0
-  upper: 1000
-
-# potential off-products:
 - id: C02632
   name: 2-Methylpropanoate
   lower: 0
@@ -92,3 +62,11 @@ compounds:
   name: 2-Propanol
   lower: 0
   upper: 1000
+- id: C00466
+  name: Acetoin
+  lower: 0
+  upper: 1000  
+- id: C03044
+  name: 2,3-Butanediol
+  lower: 0
+  uppper: 1000
