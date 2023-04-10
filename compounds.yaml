@@ -37,7 +37,6 @@
   KEGG: C00001
   mol_weight: 18.0153
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: h2o
 - id: C00002
   name: ATP
@@ -46,7 +45,6 @@
   KEGG: C00002
   mol_weight: 507.181
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: atp
 - id: C00003
   name: NAD
@@ -56,7 +54,6 @@
   KEGG: C00003
   mol_weight: 664.433
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nad
 - id: C00004
   name: NADH
@@ -66,7 +63,6 @@
   KEGG: C00004
   mol_weight: 665.441
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nadh
 - id: C00005
   name: NADPH
@@ -76,7 +72,6 @@
   KEGG: C00005
   mol_weight: 745.4209
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nadph
 - id: C00006
   name: NADP
@@ -86,7 +81,6 @@
   KEGG: C00006
   mol_weight: 744.4129
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nadp
 - id: C00007
   name: O2
@@ -95,7 +89,6 @@
   KEGG: C00007
   mol_weight: 31.9988
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: o2
 - id: C00008
   name: ADP
@@ -104,7 +97,6 @@
   KEGG: C00008
   mol_weight: 427.2011
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: adp
 - id: C00009
   name: Phosphate
@@ -113,7 +105,6 @@
   KEGG: C00009
   mol_weight: 97.9952
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pi
 - id: C00010
   name: Coenzyme A (CoA)
@@ -122,7 +113,6 @@
   KEGG: C00010
   mol_weight: 767.5341
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: coa
 - id: C00011
   name: CO2
@@ -131,7 +121,6 @@
   KEGG: C00011
   mol_weight: 44.0095
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: co2
 - id: C00013
   name: Diphosphate
@@ -140,7 +129,6 @@
   KEGG: C00013
   mol_weight: 177.9751
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ppi
 - id: C00014
   name: Ammonia
@@ -149,7 +137,6 @@
   KEGG: C00014
   mol_weight: 17.0305
   source: KEGG
-  #tag: Add
 - id: C00015
   name: UDP
   formula: C9H14N2O12P2
@@ -157,7 +144,6 @@
   KEGG: C00015
   mol_weight: 404.1612
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: udp
 - id: C00016
   name: Flavin adenine dinucleotide oxidized (FAD)
@@ -166,7 +152,6 @@
   KEGG: C00016
   mol_weight: 785.5497
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fad
 - id: C00018
   name: Pyridoxal 5'-phosphate (PLP)
@@ -175,7 +160,6 @@
   KEGG: C00018
   mol_weight: 247.1419
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pydx5p
 - id: C00019
   name: S-Adenosyl-L-methionine (SAM)
@@ -184,7 +168,6 @@
   KEGG: C00019
   mol_weight: 398.4374
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: amet
 - id: C00020
   name: AMP
@@ -193,7 +176,6 @@
   KEGG: C00020
   mol_weight: 347.2212
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: amp
 - id: C00021
   name: S-Adenosyl-L-homocysteine
@@ -202,7 +184,6 @@
   KEGG: C00021
   mol_weight: 384.4108
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ahcys
 - id: C00022
   name: Pyruvate (Pyr)
@@ -211,7 +192,6 @@
   KEGG: C00022
   mol_weight: 88.0621
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pyr
 - id: C00024
   name: Acetyl-CoA (AcCoA)
@@ -220,7 +200,6 @@
   KEGG: C00024
   mol_weight: 809.5708
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: accoa
 - id: C00025
   name: L-Glutamic acid (Glu-L)
@@ -229,7 +208,6 @@
   KEGG: C00025
   mol_weight: 147.1293
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glu-L
 - id: C00026
   name: 2-Oxoglutarate (Akg)
@@ -238,7 +216,6 @@
   KEGG: C00026
   mol_weight: 146.0981
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: akg
 - id: C00027
   name: Hydrogen peroxide
@@ -247,7 +224,6 @@
   KEGG: C00027
   mol_weight: 34.0147
   source: KEGG
-  #tag: AddFromRxn
 - id: C00029
   name: UDPglucose
   formula: C15H24N2O17P2
@@ -255,7 +231,6 @@
   KEGG: C00029
   mol_weight: 566.3018
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: udpg
 - id: C00031
   name: D-Glucose
@@ -264,7 +239,6 @@
   KEGG: C00031
   mol_weight: 180.1559
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glc-D
 - id: C00033
   name: Acetate
@@ -273,7 +247,6 @@
   KEGG: C00033
   mol_weight: 60.052
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ac
 - id: C00035
   name: GDP
@@ -282,7 +255,6 @@
   KEGG: C00035
   mol_weight: 443.2005
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gdp
 - id: C00036
   name: Oxaloacetate (Oaa)
@@ -291,7 +263,6 @@
   KEGG: C00036
   mol_weight: 132.0716
   source: KEGG
-  #tag: AddFromRxn
 - id: C00037
   name: L-Glycine (Gly-L)
   formula: C2H5NO2
@@ -299,7 +270,6 @@
   KEGG: C00037
   mol_weight: 75.0666
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gly
 - id: C00038
   name: Zinc
@@ -308,7 +278,6 @@
   KEGG: C00038
   mol_weight: 65.409
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: zn2
 - id: C00041
   name: L-Alanine (Ala-L)
@@ -317,7 +286,6 @@
   KEGG: C00041
   mol_weight: 89.0932
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ala-L
 - id: C00042
   name: Succinate
@@ -326,7 +294,6 @@
   KEGG: C00042
   mol_weight: 118.088
   source: KEGG
-  #tag: AddFromRxn
 - id: C00043
   name: UDP-N-acetyl-D-glucosamine
   formula: C17H27N3O17P2
@@ -334,7 +301,6 @@
   KEGG: C00043
   mol_weight: 607.3537
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: uacgam
 - id: C00044
   name: GTP
@@ -343,7 +309,6 @@
   KEGG: C00044
   mol_weight: 523.1804
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gtp
 - id: C00047
   name: L-Lysine (lys-L)
@@ -352,7 +317,6 @@
   KEGG: C00047
   mol_weight: 146.1876
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: lys-L
 - id: C00049
   name: L-Aspartic acid (Asp-L)
@@ -361,7 +325,6 @@
   KEGG: C00049
   mol_weight: 133.1027
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: asp-L
 - id: C00052
   name: UDP galactose
@@ -370,7 +333,6 @@
   KEGG: C00052
   mol_weight: 566.3018
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: udpgal
 - id: C00053
   name: 3'-Phosphoadenylyl sulfate
@@ -379,7 +341,6 @@
   KEGG: C00053
   mol_weight: 507.2643
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: paps
 - id: C00054
   name: Adenosine 3',5'-bisphosphate
@@ -388,7 +349,6 @@
   KEGG: C00054
   mol_weight: 427.2011
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pap
 - id: C00055
   name: CMP
@@ -397,7 +357,6 @@
   KEGG: C00055
   mol_weight: 323.1965
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cmp
 - id: C00058
   name: Formate (For)
@@ -406,7 +365,6 @@
   KEGG: C00058
   mol_weight: 46.0254
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: for
 - id: C00059
   name: Sulfate
@@ -415,7 +373,6 @@
   KEGG: C00059
   mol_weight: 98.0785
   source: KEGG
-  #tag: AddFromRxn
 - id: C00061
   name: FMN
   formula: C17H21N4O9P
@@ -423,7 +380,6 @@
   KEGG: C00061
   mol_weight: 456.3438
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fmn
 - id: C00062
   name: L-Arginine (Arg-L)
@@ -432,7 +388,6 @@
   KEGG: C00062
   mol_weight: 174.201
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: arg-L
 - id: C00063
   name: CTP
@@ -441,7 +396,6 @@
   KEGG: C00063
   mol_weight: 483.1563
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ctp
 - id: C00064
   name: L-Glutamine (Gln-L)
@@ -450,7 +404,6 @@
   KEGG: C00064
   mol_weight: 146.1445
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gln-L
 - id: C00065
   name: L-Serine (Ser-L)
@@ -459,7 +412,6 @@
   KEGG: C00065
   mol_weight: 105.0926
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ser-L
 - id: C00067
   name: Formaldehyde (FA)
@@ -468,7 +420,6 @@
   KEGG: C00067
   mol_weight: 30.026
   source: KEGG
-  #tag: AddFromRxn
 - id: C00068
   name: Thiamine diphosphate
   formula: C12H19N4O7P2S
@@ -476,7 +427,6 @@
   KEGG: C00068
   mol_weight: 425.3144
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: thmpp
 - id: C00073
   name: L-Methionine (Met-L)
@@ -485,7 +435,6 @@
   KEGG: C00073
   mol_weight: 149.2113
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: met-L
 - id: C00074
   name: Phosphoenolpyruvate (PEP)
@@ -494,7 +443,6 @@
   KEGG: C00074
   mol_weight: 168.042
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pep
 - id: C00075
   name: UTP
@@ -503,7 +451,6 @@
   KEGG: C00075
   mol_weight: 484.1411
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: utp
 - id: C00076
   name: Calcium
@@ -512,7 +459,6 @@
   KEGG: C00076
   mol_weight: 40.078
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ca2
 - id: C00077
   name: L-Ornithine (Orn)
@@ -521,7 +467,6 @@
   KEGG: C00077
   mol_weight: 132.161
   source: KEGG
-  #tag: AddFromRxn
 - id: C00078
   name: L-Tryptophan (Trp-L)
   formula: C11H12N2O2
@@ -529,7 +474,6 @@
   KEGG: C00078
   mol_weight: 204.2252
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trp-L
 - id: C00079
   name: L-Phenylalanine (Phe-L)
@@ -538,7 +482,6 @@
   KEGG: C00079
   mol_weight: 165.1891
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: phe-L
 - id: C00080
   name: Proton (H+)
@@ -547,7 +490,6 @@
   KEGG: C00080
   mol_weight: 1.0079
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: h
 - id: C00081
   name: ITP
@@ -556,7 +498,6 @@
   KEGG: C00081
   mol_weight: 508.1658
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: itp
 - id: C00082
   name: L-Tyrosine (Tyr-L)
@@ -565,7 +506,6 @@
   KEGG: C00082
   mol_weight: 181.1885
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: tyr-L
 - id: C00083
   name: Malonyl-CoA
@@ -574,7 +514,6 @@
   KEGG: C00083
   mol_weight: 853.5803
   source: KEGG
-  #tag: AddFromRxn
 - id: C00084
   name: Acetaldehyde
   formula: C2H4O
@@ -582,7 +521,6 @@
   KEGG: C00084
   mol_weight: 44.0526
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: acald
 - id: C00085
   name: D-Fructose 6-phosphate (F6P)
@@ -591,7 +529,6 @@
   KEGG: C00085
   mol_weight: 260.1358
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: f6p
 - id: C00086
   name: Urea
@@ -600,7 +537,6 @@
   KEGG: C00086
   mol_weight: 60.0553
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: urea
 - id: C00087
   name: Sulfur
@@ -609,7 +545,6 @@
   KEGG: C00087
   mol_weight: 32.065
   source: KEGG
-  #tag: AddFromRxn
 - id: C00091
   name: Succinyl-CoA (SucCoA)
   formula: C25H40N7O19P3S
@@ -617,7 +552,6 @@
   KEGG: C00091
   mol_weight: 867.6069
   source: KEGG
-  #tag: AddFromRxn
 - id: C00092
   name: D-Glucose 6-phosphate (G6P)
   formula: C6H13O9P
@@ -625,7 +559,6 @@
   KEGG: C00092
   mol_weight: 260.1358
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: g6p
 - id: C00093
   name: sn-Glycerol 3-phosphate
@@ -634,7 +567,6 @@
   KEGG: C00093
   mol_weight: 172.0737
   source: KEGG
-  #tag: AddFromRxn
 - id: C00094
   name: Sulfite
   formula: H2SO3
@@ -642,7 +574,6 @@
   KEGG: C00094
   mol_weight: 82.0791
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: so3
 - id: C00096
   name: GDP-D-mannose
@@ -651,7 +582,6 @@
   KEGG: C00096
   mol_weight: 605.3411
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gdpmann
 - id: C00097
   name: L-Cysteine (Cys-L)
@@ -660,7 +590,6 @@
   KEGG: C00097
   mol_weight: 121.1582
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cys-L
 - id: C00099
   name: beta-Alanine (Ala-beta)
@@ -669,7 +598,6 @@
   KEGG: C00099
   mol_weight: 89.0932
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ala-B
 - id: C00100
   name: Propanoyl-CoA
@@ -678,7 +606,6 @@
   KEGG: C00100
   mol_weight: 823.5974
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ppcoa
 - id: C00101
   name: 5,6,7,8-Tetrahydrofolate (THF)
@@ -687,7 +614,6 @@
   KEGG: C00101
   mol_weight: 445.4292
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: thf
 - id: C00103
   name: D-Glucose 1-phosphate (G1P)
@@ -696,7 +622,6 @@
   KEGG: C00103
   mol_weight: 260.1358
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: g1p
 - id: C00104
   name: IDP
@@ -705,7 +630,6 @@
   KEGG: C00104
   mol_weight: 428.1859
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: idp
 - id: C00105
   name: UMP
@@ -714,7 +638,6 @@
   KEGG: C00105
   mol_weight: 324.1813
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ump
 - id: C00106
   name: Uracil
@@ -723,7 +646,6 @@
   KEGG: C00106
   mol_weight: 112.0868
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ura
 - id: C00109
   name: 2-Oxobutanoate
@@ -732,7 +654,6 @@
   KEGG: C00109
   mol_weight: 102.0886
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 2obut
 - id: C00110
   name: Dolichyl phosphate
@@ -740,7 +661,6 @@
   charge: 0
   KEGG: C00110
   source: KEGG
-  #tag: AddFromRxn
 - id: C00111
   name: Dihydroxyacetone phosphate (DHAP)
   names: Glycerone phosphate
@@ -749,7 +669,6 @@
   KEGG: C00111
   mol_weight: 170.0578
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dhap
 - id: C00112
   name: CDP
@@ -758,7 +677,6 @@
   KEGG: C00112
   mol_weight: 403.1764
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cdp
 - id: C00114
   name: Choline
@@ -767,7 +685,6 @@
   KEGG: C00114
   mol_weight: 104.1708
   source: KEGG
-  #tag: AddFromRxn
 - id: C00116
   name: Glycerol
   formula: C3H8O3
@@ -775,7 +692,6 @@
   KEGG: C00116
   mol_weight: 92.0938
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glyc
 - id: C00117
   name: alpha-D-Ribose 5-phosphate (R5P)
@@ -784,7 +700,6 @@
   KEGG: C00117
   mol_weight: 230.1098
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-change
   templateID: r5p
 - id: C00118
   name: Glyceraldehyde 3-phosphate (GAP)
@@ -793,7 +708,6 @@
   KEGG: C00118
   mol_weight: 170.0578
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: g3p
 - id: C00119
   name: 5-Phospho-alpha-D-ribose 1-diphosphate (PRPP)
@@ -802,7 +716,6 @@
   KEGG: C00119
   mol_weight: 390.0696
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: prpp
 - id: C00120
   name: Biotin
@@ -811,7 +724,6 @@
   KEGG: C00120
   mol_weight: 244.3106
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: btn
 - id: C00122
   name: Fumarate
@@ -820,7 +732,6 @@
   KEGG: C00122
   mol_weight: 116.0722
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fum
 - id: C00123
   name: L-Leucine (Leu-L)
@@ -829,7 +740,6 @@
   KEGG: C00123
   mol_weight: 131.1729
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: leu-L
 - id: C00129
   name: Isopentenyl diphosphate (IPP)
@@ -838,7 +748,6 @@
   KEGG: C00129
   mol_weight: 246.0921
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ipdp
 - id: C00130
   name: IMP
@@ -847,7 +756,6 @@
   KEGG: C00130
   mol_weight: 348.206
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: imp
 - id: C00131
   name: dATP
@@ -856,7 +764,6 @@
   KEGG: C00131
   mol_weight: 491.1816
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: datp
 - id: C00134
   name: Putrescine
@@ -865,7 +772,6 @@
   KEGG: C00134
   mol_weight: 88.1515
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ptrc
 - id: C00135
   name: L-Histidine (His-L)
@@ -874,7 +780,6 @@
   KEGG: C00135
   mol_weight: 155.1546
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: his-L
 - id: C00137
   name: myo-Inositol
@@ -883,7 +788,6 @@
   KEGG: C00137
   mol_weight: 180.1559
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: inost
 - id: C00138
   name: Reduced ferredoxin (2[4Fe-4S]) (Fdred)
@@ -891,7 +795,6 @@
   charge: 2
   KEGG: C00138
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fdred
 - id: C00139
   name: Oxidized ferredoxin (2[4Fe-4S]) (Fdox)
@@ -899,7 +802,6 @@
   charge: 3
   KEGG: C00139
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fdox
 - id: C00140
   name: N-Acetyl-D-glucosamine (GlcNAc)
@@ -908,7 +810,6 @@
   KEGG: C00140
   mol_weight: 221.2078
   source: KEGG
-  #tag: AddFromRxn
 - id: C00461
   name: Chitin(n=4)
   names: [Chitin, 'beta-1,4-Poly-N-acetyl-D-glucosamine', '[1,4-(N-Acetyl-beta-D-glucosaminyl)]n',
@@ -916,7 +817,6 @@
   formula: H2O(C8H13NO5)4
   mol_weight: 836
   source: KEGG
-  #tag: change_n
 - id: C00141
   name: 2-Oxoisovalerate (OxoIV)
   names: 3-Methyl-2-oxobutanoic acid
@@ -925,7 +825,6 @@
   KEGG: C00141
   mol_weight: 116.1152
   source: KEGG
-  #tag: AddFromRxn
 - id: C00143
   name: 5,10-Methylenetetrahydrofolate (MLTHF)
   formula: C20H23N7O6
@@ -933,7 +832,6 @@
   KEGG: C00143
   mol_weight: 457.4399
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: mlthf
 - id: C00144
   name: GMP
@@ -942,7 +840,6 @@
   KEGG: C00144
   mol_weight: 363.2206
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gmp
 - id: C00146
   name: Phenol
@@ -951,7 +848,6 @@
   KEGG: C00146
   mol_weight: 94.1112
   source: KEGG
-  #tag: AddFromRxn
 - id: C00147
   name: Adenine
   formula: C5H5N5
@@ -959,7 +855,6 @@
   KEGG: C00147
   mol_weight: 135.1267
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ade
 - id: C00148
   name: L-Proline (Pro-L)
@@ -968,7 +863,6 @@
   KEGG: C00148
   mol_weight: 115.1305
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pro-L
 - id: C00149
   name: L-Malate
@@ -977,7 +871,6 @@
   KEGG: C00149
   mol_weight: 134.0874
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: mal-L
 - id: C00152
   name: L-Asparagine (Asn-L)
@@ -986,7 +879,6 @@
   KEGG: C00152
   mol_weight: 132.1179
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: asn-L
 - id: C00155
   name: L-Homocysteine
@@ -995,7 +887,6 @@
   KEGG: C00155
   mol_weight: 135.1848
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: hcys-L
 - id: C00156
   name: 4-Hydroxybenzoate (4HBZ)
@@ -1004,7 +895,6 @@
   KEGG: C00156
   mol_weight: 138.1207
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4hbz
 - id: C00158
   name: Citrate
@@ -1013,7 +903,6 @@
   KEGG: C00158
   mol_weight: 192.1235
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cit
 - id: C00160
   name: Glycolate
@@ -1022,7 +911,6 @@
   KEGG: C00160
   mol_weight: 76.0514
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glyclt
 - id: C00163
   name: Propionate (n-C3:0)
@@ -1031,7 +919,6 @@
   KEGG: C00163
   mol_weight: 74.0785
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ppa
 - id: C00166
   name: Phenylpyruvate
@@ -1040,7 +927,6 @@
   KEGG: C00166
   mol_weight: '164.158'
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-change
   templateID: phpyr
 - id: C00167
   name: UDP-D-glucuronate
@@ -1049,7 +935,6 @@
   KEGG: C00167
   mol_weight: 580.2853
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: udpglcur
 - id: C00168
   name: Hydroxypyruvate
@@ -1058,7 +943,6 @@
   KEGG: C00168
   mol_weight: 104.0615
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: hpyr
 - id: C00169
   name: Carbamoyl phosphate (Cbp)
@@ -1067,7 +951,6 @@
   KEGG: C00169
   mol_weight: 141.0199
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cbp
 - id: C00170
   name: 5-Methylthioadenosine
@@ -1076,7 +959,6 @@
   KEGG: C00170
   mol_weight: 297.3335
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 5mta
 - id: C00178
   name: Thymine
@@ -1085,7 +967,6 @@
   KEGG: C00178
   mol_weight: 126.1133
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: thym
 - id: C00179
   name: Agmatine
@@ -1094,7 +975,6 @@
   KEGG: C00179
   mol_weight: 130.1915
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: agm
 - id: C00183
   name: L-Valine (Val-L)
@@ -1103,7 +983,6 @@
   KEGG: C00183
   mol_weight: 117.1463
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: val-L
 - id: C00184
   name: Dihydroxyacetone
@@ -1112,7 +991,6 @@
   KEGG: C00184
   mol_weight: 90.0779
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dha
 - id: C00188
   name: L-Threonine (Thr-L)
@@ -1121,7 +999,6 @@
   KEGG: C00188
   mol_weight: 119.1192
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: thr-L
 - id: C00189
   name: Ethanolamine
@@ -1130,7 +1007,6 @@
   KEGG: C00189
   mol_weight: 61.0831
   source: KEGG
-  #tag: AddFromRxn
 - id: C00197
   name: 3-Phospho-D-glycerate (3PG)
   formula: C3H7O7P
@@ -1138,7 +1014,6 @@
   KEGG: C00197
   mol_weight: 186.0572
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 3pg
 - id: C00199
   name: D-Ribulose 5-phosphate (Ru5P)
@@ -1147,7 +1022,6 @@
   KEGG: C00199
   mol_weight: 230.1098
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ru5p-D
 - id: C00203
   name: UDP-N-acetyl-D-galactosamine
@@ -1156,7 +1030,6 @@
   KEGG: C00203
   mol_weight: 607.3537
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: udpacgal
 - id: C00206
   name: dADP
@@ -1165,7 +1038,6 @@
   KEGG: C00206
   mol_weight: 411.2017
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dadp
 - id: C00207
   name: Acetone
@@ -1174,7 +1046,6 @@
   KEGG: C00207
   mol_weight: 58.0791
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: acetone
 - id: C00208
   name: Maltose
@@ -1183,7 +1054,6 @@
   KEGG: C00208
   mol_weight: 342.2965
   source: KEGG
-  #tag: AddFromRxn
 - id: C00212
   name: Adenosine
   formula: C10H13N5O4
@@ -1191,7 +1061,6 @@
   KEGG: C00212
   mol_weight: 267.2413
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: adn
 - id: C00213
   name: Sarcosine
@@ -1200,7 +1069,6 @@
   KEGG: C00213
   mol_weight: 89.0932
   source: KEGG
-  #tag: AddFromRxn
 - id: C00214
   name: Thymidine
   formula: C10H14N2O5
@@ -1208,7 +1076,6 @@
   KEGG: C00214
   mol_weight: 242.2286
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: thymd
 - id: C00221
   name: beta-D-Glucose
@@ -1217,7 +1084,6 @@
   KEGG: C00221
   mol_weight: 180.1559
   source: KEGG
-  #tag: AddFromRxn
 - id: C00222
   name: Malonate semialdehyde
   formula: C3H4O3
@@ -1225,7 +1091,6 @@
   KEGG: C00222
   mol_weight: 88.0621
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: msa
 - id: C00224
   name: Adenosine 5'-phosphosulfate
@@ -1234,7 +1099,6 @@
   KEGG: C00224
   mol_weight: 427.2844
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: aps
 - id: C00227
   name: Acetyl phosphate
@@ -1243,7 +1107,6 @@
   KEGG: C00227
   mol_weight: 140.0319
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: actp
 - id: C00232
   name: Succinic semialdehyde
@@ -1252,7 +1115,6 @@
   KEGG: C00232
   mol_weight: 102.0886
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: sucsal
 - id: C00233
   name: 4-Methyl-2-oxopentanoate
@@ -1261,7 +1123,6 @@
   KEGG: C00233
   mol_weight: 130.1418
   source: KEGG
-  #tag: AddFromRxn
 - id: C00234
   name: 10-Formyltetrahydrofolate
   formula: C20H23N7O7
@@ -1269,7 +1130,6 @@
   KEGG: C00234
   mol_weight: 473.4393
   source: KEGG
-  #tag: AddFromRxn
 - id: C00235
   name: Dimethylallyl diphosphate
   formula: C5H12O7P2
@@ -1277,7 +1137,6 @@
   KEGG: C00235
   mol_weight: 246.0921
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dmpp
 - id: C00236
   name: 3-Phospho-D-glyceroyl phosphate (13DPG)
@@ -1286,7 +1145,6 @@
   KEGG: C00236
   mol_weight: 266.0371
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 13dpg
 - id: C00238
   name: potassium
@@ -1295,7 +1153,6 @@
   KEGG: C00238
   mol_weight: 39.0983
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: k
 - id: C00239
   name: dCMP
@@ -1304,7 +1161,6 @@
   KEGG: C00239
   mol_weight: 307.1971
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dcmp
 - id: C00242
   name: Guanine
@@ -1313,7 +1169,6 @@
   KEGG: C00242
   mol_weight: 151.1261
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gua
 - id: C00253
   name: Nicotinate
@@ -1323,7 +1178,6 @@
   KEGG: C00253
   mol_weight: 123.1094
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nac
 - id: C00255
   name: Riboflavin
@@ -1332,7 +1186,6 @@
   KEGG: C00255
   mol_weight: 376.3639
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ribflv
 - id: C00258
   name: (R)-Glycerate (GlycR)
@@ -1341,7 +1194,6 @@
   KEGG: C00258
   mol_weight: 106.0773
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: glyc-R
 - id: C00262
   name: Hypoxanthine
@@ -1350,7 +1202,6 @@
   KEGG: C00262
   mol_weight: 136.1115
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: hxan
 - id: C00263
   name: L-Homoserine
@@ -1359,7 +1210,6 @@
   KEGG: C00263
   mol_weight: 119.1192
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: hom-L
 - id: C00266
   name: Glycolaldehyde
@@ -1368,7 +1218,6 @@
   KEGG: C00266
   mol_weight: 60.052
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gcald
 - id: C00267
   name: alpha-D-Glucose
@@ -1377,7 +1226,6 @@
   KEGG: C00267
   mol_weight: 180.1559
   source: KEGG
-  #tag: AddFromRxn
 - id: C00275
   name: D-Mannose 6-phosphate
   formula: C6H13O9P
@@ -1385,7 +1233,6 @@
   KEGG: C00275
   mol_weight: 260.1358
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: man6p
 - id: C00282
   name: Hydrogen
@@ -1394,7 +1241,6 @@
   KEGG: C00282
   mol_weight: 2.0159
   source: KEGG
-  #tag: AddFromRxn
 - id: C00283
   name: Hydrogen sulfide
   formula: H2S
@@ -1402,7 +1248,6 @@
   KEGG: C00283
   mol_weight: 34.0809
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: h2s
 - id: C00286
   name: dGTP
@@ -1411,7 +1256,6 @@
   KEGG: C00286
   mol_weight: 507.181
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dgtp
 - id: C00288
   name: Bicarbonate
@@ -1420,7 +1264,6 @@
   KEGG: C00288
   mol_weight: 61.0168
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: hco3
 - id: C00294
   name: Inosine
@@ -1429,7 +1272,6 @@
   KEGG: C00294
   mol_weight: 268.2261
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ins
 - id: C00295
   name: Orotate
@@ -1438,7 +1280,6 @@
   KEGG: C00295
   mol_weight: 156.0963
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: orot
 - id: C00299
   name: Uridine
@@ -1447,7 +1288,6 @@
   KEGG: C00299
   mol_weight: 244.2014
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: uri
 - id: C00301
   name: ADP-ribose
@@ -1456,7 +1296,6 @@
   KEGG: C00301
   mol_weight: 559.3157
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: adprib
 - id: C00315
   name: Spermidine
@@ -1465,7 +1304,6 @@
   KEGG: C00315
   mol_weight: 145.2459
   source: KEGG
-  #tag: AddFromRxn
 - id: C00320
   name: Thiosulfate
   formula: HS2O3
@@ -1473,7 +1311,6 @@
   KEGG: C00320
   mol_weight: 113.1361
   source: KEGG
-  #tag: AddFromRxn
 - id: C00322
   name: 2-Oxoadipate
   formula: C6H8O5
@@ -1481,7 +1318,6 @@
   KEGG: C00322
   mol_weight: 160.1247
   source: KEGG
-  #tag: AddFromRxn
 - id: C00327
   name: L-Citrulline (Clt)
   formula: C6H13N3O3
@@ -1489,7 +1325,6 @@
   KEGG: C00327
   mol_weight: 175.1857
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: citr-L
 - id: C00329
   name: D-Glucosamine
@@ -1498,7 +1333,6 @@
   KEGG: C00329
   mol_weight: 179.1711
   source: KEGG
-  #tag: AddFromRxn
 - id: C00330
   name: Deoxyguanosine
   formula: C10H13N5O4
@@ -1506,7 +1340,6 @@
   KEGG: C00330
   mol_weight: 267.2413
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dgsn
 - id: C00331
   name: Indolepyruvate
@@ -1515,7 +1348,6 @@
   KEGG: C00331
   mol_weight: 203.1941
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: indpyr
 - id: C00332
   name: Acetoacetyl-CoA
@@ -1524,7 +1356,6 @@
   KEGG: C00332
   mol_weight: 851.6075
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: aacoa
 - id: C00334
   name: 4-Aminobutanoate
@@ -1533,7 +1364,6 @@
   KEGG: C00334
   mol_weight: 103.1198
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4abut
 - id: C00337
   name: (S)-Dihydroorotate
@@ -1542,7 +1372,6 @@
   KEGG: C00337
   mol_weight: 158.1121
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dhor-S
 - id: C00340
   name: Reduced rubredoxin
@@ -1550,7 +1379,6 @@
   charge: -1
   KEGG: C00340
   source: KEGG
-  #tag: AddFromRxn
 - id: C00341
   name: Geranyl diphosphate
   formula: C10H20O7P2
@@ -1558,7 +1386,6 @@
   KEGG: C00341
   mol_weight: 314.2091
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: grdp
 - id: C00342
   name: Reduced thioredoxin
@@ -1566,7 +1393,6 @@
   charge: 0
   KEGG: C00342
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: trdrd
 - id: C00343
   name: Oxidized thioredoxin
@@ -1574,7 +1400,6 @@
   charge: 0
   KEGG: C00343
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: trdox
 - id: C00352
   name: D-Glucosamine 6-phosphate
@@ -1583,7 +1408,6 @@
   KEGG: C00352
   mol_weight: 259.151
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gam6p
 - id: C00353
   name: Geranylgeranyl diphosphate
@@ -1592,7 +1416,6 @@
   KEGG: C00353
   mol_weight: 450.4432
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ggdp
 - id: C00354
   name: D-Fructose 1,6-bisphosphate (F16P2)
@@ -1601,7 +1424,6 @@
   KEGG: C00354
   mol_weight: 340.1157
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fdp
 - id: C00356
   name: Hydroxymethylglutaryl-CoA (HmgCoA)
@@ -1610,7 +1432,6 @@
   KEGG: C00356
   mol_weight: 911.6594
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: hmgcoa
 - id: C00360
   name: dAMP
@@ -1619,7 +1440,6 @@
   KEGG: C00360
   mol_weight: 331.2218
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: damp
 - id: C00361
   name: dGDP
@@ -1628,7 +1448,6 @@
   KEGG: C00361
   mol_weight: 427.2011
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dgdp
 - id: C00362
   name: dGMP
@@ -1637,7 +1456,6 @@
   KEGG: C00362
   mol_weight: 347.2212
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dgmp
 - id: C00363
   name: dTDP
@@ -1646,7 +1464,6 @@
   KEGG: C00363
   mol_weight: 402.1884
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dtdp
 - id: C00364
   name: dTMP
@@ -1655,7 +1472,6 @@
   KEGG: C00364
   mol_weight: 322.2085
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dtmp
 - id: C00365
   name: dUMP
@@ -1664,7 +1480,6 @@
   KEGG: C00365
   mol_weight: 308.1819
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dump
 - id: C00369
   name: Starch (n=4)
@@ -1672,7 +1487,6 @@
   charge: 0
   KEGG: C00369
   source: KEGG
-  #tag: AddFromRxn
   comment: the real formula is (C12H20O10)n, here is simplified as n=4.
 - id: C00385
   name: Xanthine
@@ -1681,7 +1495,6 @@
   KEGG: C00385
   mol_weight: 152.1109
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: xan
 - id: C00387
   name: Guanosine
@@ -1690,7 +1503,6 @@
   KEGG: C00387
   mol_weight: 283.2407
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gsn
 - id: C00390
   name: Ubiquinol
@@ -1698,14 +1510,12 @@
   charge: 0
   KEGG: C00390
   source: KEGG
-  #tag: AddFromRxn
 - id: C00399
   name: Ubiquinone
   formula: C14H18O4
   charge: 0
   KEGG: C00399
   source: KEGG
-  #tag: AddFromRxn
 - id: C00402
   name: D-Aspartate
   formula: C4H7NO4
@@ -1713,7 +1523,6 @@
   KEGG: C00402
   mol_weight: 133.1027
   source: KEGG
-  #tag: AddFromRxn
 - id: C00407
   name: L-Isoleucine (Ile-L)
   formula: C6H13NO2
@@ -1721,7 +1530,6 @@
   KEGG: C00407
   mol_weight: 131.1729
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ile-L
 - id: C00409
   name: Methanethiol
@@ -1730,7 +1538,6 @@
   KEGG: C00409
   mol_weight: 48.1075
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ch4s
 - id: C00418
   name: (R)-Mevalonate (MEV)
@@ -1739,7 +1546,6 @@
   KEGG: C00418
   mol_weight: 148.1571
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: mev-R
 - id: C00424
   name: L-Lactaldehyde
@@ -1748,7 +1554,6 @@
   KEGG: C00424
   mol_weight: 74.0785
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: lald-L
 - id: C00435
   name: Oxidized rubredoxin
@@ -1756,7 +1561,6 @@
   charge: 0
   KEGG: C00435
   source: KEGG
-  #tag: AddFromRxn
 - id: C00437
   name: N2-Acetyl-L-ornithine
   formula: C7H14N2O3
@@ -1764,7 +1568,6 @@
   KEGG: C00437
   mol_weight: 174.1977
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: acorn
 - id: C00438
   name: N-Carbamoyl-L-aspartate (Cbasp)
@@ -1773,7 +1576,6 @@
   KEGG: C00438
   mol_weight: 176.1274
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cbasp
 - id: C00441
   name: L-Aspartate 4-semialdehyde
@@ -1782,7 +1584,6 @@
   KEGG: C00441
   mol_weight: 117.1033
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: aspsa
 - id: C00445
   name: 5,10-Methenyltetrahydrofolate
@@ -1791,7 +1592,6 @@
   KEGG: C00445
   mol_weight: 456.432
   source: KEGG
-  #tag: AddFromRxn
 - id: C00448
   name: Farnesyl diphosphate
   formula: C15H28O7P2
@@ -1799,7 +1599,6 @@
   KEGG: C00448
   mol_weight: 382.3261
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: frdp
 - id: C00455
   name: NMN
@@ -1808,7 +1607,6 @@
   KEGG: C00455
   mol_weight: 334.2192
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nmn
 - id: C00458
   name: dCTP
@@ -1817,7 +1615,6 @@
   KEGG: C00458
   mol_weight: 467.1569
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dctp
 - id: C00459
   name: dTTP
@@ -1826,7 +1623,6 @@
   KEGG: C00459
   mol_weight: 482.1683
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dttp
 - id: C00460
   name: dUTP
@@ -1835,7 +1631,6 @@
   KEGG: C00460
   mol_weight: 468.1417
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dutp
 - id: C00463
   name: Indole
@@ -1844,7 +1639,6 @@
   KEGG: C00463
   mol_weight: 117.1479
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: indole
 - id: C00466
   name: Acetoin
@@ -1853,7 +1647,6 @@
   KEGG: C00466
   mol_weight: 88.1051
   source: KEGG
-  #tag: pmid_26721637 
   templateID: acetoin
 - id: C00469
   name: Ethanol
@@ -1862,7 +1655,6 @@
   KEGG: C00469
   mol_weight: 46.0684
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: etoh
 - id: C00475
   name: Cytidine
@@ -1871,7 +1663,6 @@
   KEGG: C00475
   mol_weight: 243.2166
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cytd
 - id: C00483
   name: Tyramine
@@ -1880,7 +1671,6 @@
   KEGG: C00483
   mol_weight: 137.179
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: tym
 - id: C00498
   name: ADP-glucose
@@ -1889,7 +1679,6 @@
   KEGG: C00498
   mol_weight: 589.3417
   source: KEGG
-  #tag: AddFromRxn
 - id: C00522
   name: (R)-Pantoate (Pant)
   formula: C6H12O4
@@ -1897,7 +1686,6 @@
   KEGG: C00522
   mol_weight: 148.1571
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pant-R
 - id: C00526
   name: Deoxyuridine
@@ -1906,7 +1694,6 @@
   KEGG: C00526
   mol_weight: 228.202
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: duri
 - id: C00536
   name: Inorganic triphosphate
@@ -1915,7 +1702,6 @@
   KEGG: C00536
   mol_weight: 257.955
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pppi
 - id: C00546
   name: Methylglyoxal
@@ -1924,7 +1710,6 @@
   KEGG: C00546
   mol_weight: 72.0627
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: mthgxl
 - id: C00559
   name: Deoxyadenosine
@@ -1933,7 +1718,6 @@
   KEGG: C00559
   mol_weight: 251.2419
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dad-2
 - id: C00568
   name: 4-Aminobenzoate (4ABZ)
@@ -1943,7 +1727,6 @@
   KEGG: C00568
   mol_weight: 137.136
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4abz
 - id: C00575
   name: 3',5'-Cyclic AMP (cAMP)
@@ -1952,7 +1735,6 @@
   KEGG: C00575
   mol_weight: 329.2059
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: camp
 - id: C00577
   name: D-Glyceraldehyde
@@ -1961,7 +1743,6 @@
   KEGG: C00577
   mol_weight: 90.0779
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glyald
 - id: C00585
   name: Protein tyrosine
@@ -1969,7 +1750,6 @@
   charge: 0
   KEGG: C00585
   source: KEGG
-  #tag: AddFromRxn
 - id: C00617
   name: UDP-D-galacturonate
   formula: C15H22N2O18P2
@@ -1977,7 +1757,6 @@
   KEGG: C00617
   mol_weight: 580.2853
   source: KEGG
-  #tag: AddFromRxn
 - id: C00620
   name: alpha-D-Ribose 1-phosphate (R1P)
   formula: C5H11O8P
@@ -1985,7 +1764,6 @@
   KEGG: C00620
   mol_weight: 230.1098
   source: KEGG
-  #tag: AddFromRxn
 - id: C00623
   name: Glycerol 1-phosphate (Glyc1P)
   formula: C3H9O6P
@@ -1993,7 +1771,6 @@
   KEGG: C00623
   mol_weight: 172.0737
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glyc1p
 - id: C00630
   name: Isobutyryl-CoA (ibcoa)
@@ -2003,7 +1780,6 @@
   KEGG: C00630
   mol_weight: 837.624
   source: KEGG
-  #tag: AddFromRxn
 - id: C00631
   name: 2-Phospho-D-glycerate (2PG)
   formula: C3H7O7P
@@ -2011,7 +1787,6 @@
   KEGG: C00631
   mol_weight: 186.0572
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 2pg
 - id: C00636
   name: D-Mannose 1-phosphate
@@ -2020,7 +1795,6 @@
   KEGG: C00636
   mol_weight: 260.1358
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: man1p
 - id: C00655
   name: Xanthosine 5'-phosphate
@@ -2029,7 +1803,6 @@
   KEGG: C00655
   mol_weight: 364.2054
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: xmp
 - id: C00666
   name: LL-2,6-Diaminoheptanedioate
@@ -2038,7 +1811,6 @@
   KEGG: C00666
   mol_weight: 190.1971
   source: KEGG
-  #tag: AddFromRxn
 - id: C00668
   name: alpha-D-Glucose 6-phosphate (G6P)
   formula: C6H13O9P
@@ -2046,7 +1818,6 @@
   KEGG: C00668
   mol_weight: 260.1358
   source: KEGG
-  #tag: AddFromRxn
 - id: C00670
   name: sn-Glycero-3-phosphocholine
   formula: C8H21NO6P
@@ -2054,7 +1825,6 @@
   KEGG: C00670
   mol_weight: 258.2292
   source: KEGG
-  #tag: AddFromRxn
 - id: C00671
   name: (S)-3-Methyl-2-oxopentanoate (OxoIC)
   formula: C6H10O3
@@ -2062,7 +1832,6 @@
   KEGG: C00671
   mol_weight: 130.1418
   source: KEGG
-  #tag: AddFromRxn
 - id: C00672
   name: 2-Deoxy-D-ribose 1-phosphate
   formula: C5H11O7P
@@ -2070,7 +1839,6 @@
   KEGG: C00672
   mol_weight: 214.1104
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 2dr1p
 - id: C00673
   name: 2-Deoxy-D-ribose 5-phosphate
@@ -2079,7 +1847,6 @@
   KEGG: C00673
   mol_weight: 214.1104
   source: KEGG
-  #tag: AddFromRxn
 - id: C00683
   name: (S)-Methylmalonyl-CoA (SMmCoA)
   formula: C25H40N7O19P3S
@@ -2087,7 +1854,6 @@
   KEGG: C00683
   mol_weight: 867.6069
   source: KEGG
-  #tag: AddFromRxn
 - id: C00698
   name: Chloride
   formula: Cl
@@ -2095,7 +1861,6 @@
   KEGG: C00698
   mol_weight: 35.453
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cl
 - id: C00700
   name: XTP
@@ -2104,7 +1869,6 @@
   KEGG: C00700
   mol_weight: 524.1652
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: xtp
 - id: C00704
   name: O2.-
@@ -2113,7 +1877,6 @@
   KEGG: C00704
   mol_weight: 31.9988
   source: KEGG
-  #tag: AddFromRxn
 - id: C00705
   name: dCDP
   formula: C9H15N3O10P2
@@ -2121,7 +1884,6 @@
   KEGG: C00705
   mol_weight: 387.177
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dcdp
 - id: C00718
   name: Amylose(n=4)
@@ -2129,7 +1891,6 @@
   charge: 0
   KEGG: C00718
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glycogen
   comment: the real formula should be (C6H10O5)n
 - id: C00750
@@ -2139,14 +1900,12 @@
   KEGG: C00750
   mol_weight: 202.3402
   source: KEGG
-  #tag: AddFromRxn
 - id: C00787
   name: tRNA(Tyr)
   formula: R
   charge: 0
   KEGG: C00787
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnatyr
 - id: C00811
   name: 4-Coumarate
@@ -2155,7 +1914,6 @@
   KEGG: C00811
   mol_weight: 164.158
   source: KEGG
-  #tag: AddFromRxn
 - id: C00842
   name: dTDPglucose
   formula: C16H26N2O16P2
@@ -2163,7 +1921,6 @@
   KEGG: C00842
   mol_weight: 564.329
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dtdpglu
 - id: C00857
   name: Deamino-NAD+
@@ -2172,7 +1929,6 @@
   KEGG: C00857
   mol_weight: 665.4178
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dnad
 - id: C00870
   name: 4-Nitrophenol
@@ -2181,7 +1937,6 @@
   KEGG: C00870
   mol_weight: 139.1088
   source: KEGG
-  #tag: AddFromRxn
 - id: C00876
   name: coenzyme ferredoxin 420-2 (oxidized)
   formula: C29H36N5O18P
@@ -2189,7 +1944,6 @@
   KEGG: C00876
   mol_weight: 773.5926
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: f420-2
 - id: C00881
   name: Deoxycytidine
@@ -2198,7 +1952,6 @@
   KEGG: C00881
   mol_weight: 227.2172
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dcyt
 - id: C00882
   name: Dephospho-CoA
@@ -2207,7 +1960,6 @@
   KEGG: C00882
   mol_weight: 687.5542
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dpcoa
 - id: C00886
   name: L-Alanyl-tRNA(Ala)
@@ -2215,7 +1967,6 @@
   charge: 0
   KEGG: C00886
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: alatrna
 - id: C00921
   name: 7,8-Dihydropteroate (DHP)
@@ -2224,7 +1975,6 @@
   KEGG: C00921
   mol_weight: 314.2994
   source: KEGG
-  #tag: AddFromRxn
 - id: C00942
   name: 3',5'-Cyclic GMP (cGMP)
   formula: C10H12N5O7P
@@ -2232,7 +1982,6 @@
   KEGG: C00942
   mol_weight: 345.2053
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 35cgmp
 - id: C00956
   name: L-2-Aminoadipate
@@ -2241,7 +1990,6 @@
   KEGG: C00956
   mol_weight: 161.1558
   source: KEGG
-  #tag: AddFromRxn
 - id: C00966
   name: 2-Dehydropantoate (DHPA)
   formula: C6H10O4
@@ -2249,7 +1997,6 @@
   KEGG: C00966
   mol_weight: 146.1412
   source: KEGG
-  #tag: AddFromRxn
 - id: C00979
   name: O-Acetyl-L-serine
   formula: C5H9NO4
@@ -2257,7 +2004,6 @@
   KEGG: C00979
   mol_weight: 147.1293
   source: KEGG
-  #tag: AddFromRxn
 - id: C00988
   name: 2-Phosphoglycolate
   formula: C2H5O6P
@@ -2265,7 +2011,6 @@
   KEGG: C00988
   mol_weight: 156.0313
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 2pglyc
 - id: C01005
   name: O-Phospho-L-serine (Pser)
@@ -2274,7 +2019,6 @@
   KEGG: C01005
   mol_weight: 185.0725
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pser-L
 - id: C01007
   name: Reduced riboflavin
@@ -2283,7 +2027,6 @@
   KEGG: C01007
   mol_weight: 378.3798
   source: KEGG
-  #tag: AddFromRxn
 - id: C01010
   name: Urea-1-carboxylate
   formula: C2H4N2O3
@@ -2291,7 +2034,6 @@
   KEGG: C01010
   mol_weight: 104.0648
   source: KEGG
-  #tag: AddFromRxn
 - id: C01077
   name: O-Acetyl-L-homoserine
   formula: C6H11NO4
@@ -2299,7 +2041,6 @@
   KEGG: C01077
   mol_weight: 161.1558
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: achms
 - id: C01080
   name: coenzyme ferredoxin 420-2 (reduced)
@@ -2308,7 +2049,6 @@
   KEGG: C01080
   mol_weight: 775.6085
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: f420-2h2
 - id: C01081
   name: Thiamin monophosphate
@@ -2317,7 +2057,6 @@
   KEGG: C01081
   mol_weight: 345.3345
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: thmmp
 - id: C01083
   name: alpha,alpha-Trehalose
@@ -2326,7 +2065,6 @@
   KEGG: C01083
   mol_weight: 342.2965
   source: KEGG
-  #tag: AddFromRxn
 - id: C01087
   name: (R)-2-Hydroxyglutarate
   formula: C5H8O5
@@ -2334,7 +2072,6 @@
   KEGG: C01087
   mol_weight: 148.114
   source: KEGG
-  #tag: AddFromRxn
 - id: C01094
   name: D-Fructose 1-phosphate
   formula: C6H13O9P
@@ -2342,7 +2079,6 @@
   KEGG: C01094
   mol_weight: 260.1358
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: f1p
 - id: C01099
   name: L-Fuculose 1-phosphate
@@ -2351,7 +2087,6 @@
   KEGG: C01099
   mol_weight: 244.1364
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fc1p
 - id: C01100
   name: L-Histidinol phosphate
@@ -2360,7 +2095,6 @@
   KEGG: C01100
   mol_weight: 221.1509
   source: KEGG
-  #tag: AddFromRxn
 - id: C01102
   name: O-Phospho-L-homoserine
   formula: C4H10NO6P
@@ -2368,7 +2102,6 @@
   KEGG: C01102
   mol_weight: 199.0991
   source: KEGG
-  #tag: AddFromRxn
 - id: C01103
   name: Orotidine 5'-phosphate
   formula: C10H13N2O11P
@@ -2376,7 +2109,6 @@
   KEGG: C01103
   mol_weight: 368.1908
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: orot5p
 - id: C01107
   name: (R)-5-Phosphomevalonate (5pMEV)
@@ -2385,7 +2117,6 @@
   KEGG: C01107
   mol_weight: 228.137
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 5pmev
 - id: C01134
   name: Pantetheine 4'-phosphate
@@ -2394,7 +2125,6 @@
   KEGG: C01134
   mol_weight: 358.3483
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pan4p
 - id: C01137
   name: S-Adenosylmethioninamine
@@ -2403,7 +2133,6 @@
   KEGG: C01137
   mol_weight: 355.4358
   source: KEGG
-  #tag: AddFromRxn
 - id: C01151
   name: D-Ribose 1,5-bisphosphate (R15P)
   formula: C5H12O11P2
@@ -2411,7 +2140,6 @@
   KEGG: C01151
   mol_weight: 310.0897
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: r15bp
 - id: C01159
   name: 2,3-Bisphospho-D-glycerate
@@ -2420,14 +2148,12 @@
   KEGG: C01159
   mol_weight: 266.0371
   source: KEGG
-  #tag: AddFromRxn
 - id: C01167
   name: Protein tyrosine phosphate
   formula: C10H11N2O6PR2
   charge: 0
   KEGG: C01167
   source: KEGG
-  #tag: AddFromRxn
 - id: C01168
   name: Pseudouridine 5'-phosphate
   formula: C9H13N2O9P
@@ -2435,7 +2161,6 @@
   KEGG: C01168
   mol_weight: 324.1813
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: psd5p
 - id: C01170
   name: UDP-N-acetyl-D-mannosamine
@@ -2444,7 +2169,6 @@
   KEGG: C01170
   mol_weight: 607.3537
   source: KEGG
-  #tag: AddFromRxn
 - id: C01171
   name: alpha-D-Hexose 1-phosphate
   formula: C6H13O9P
@@ -2452,7 +2176,6 @@
   KEGG: C01171
   mol_weight: 260.1358
   source: KEGG
-  #tag: AddFromRxn
 - id: C01172
   name: beta-D-Glucose 6-phosphate
   formula: C6H13O9P
@@ -2460,7 +2183,6 @@
   KEGG: C01172
   mol_weight: 260.1358
   source: KEGG
-  #tag: AddFromRxn
 - id: C01179
   name: 3-(4-Hydroxyphenyl)pyruvate
   formula: C9H8O4
@@ -2468,7 +2190,6 @@
   KEGG: C01179
   mol_weight: 180.1574
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 34hpp
 - id: C01182
   name: D-Ribulose 1,5-bisphosphate (RuBP)
@@ -2477,7 +2198,6 @@
   KEGG: C01182
   mol_weight: 310.0897
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: rb15bp
 - id: C01185
   name: Nicotinate D-ribonucleotide
@@ -2486,7 +2206,6 @@
   KEGG: C01185
   mol_weight: 336.2119
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nicrnt
 - id: C01197
   name: Caffeate
@@ -2495,7 +2214,6 @@
   KEGG: C01197
   mol_weight: 180.1574
   source: KEGG
-  #tag: AddFromRxn
 - id: C01213
   name: (R)-Methylmalonyl-CoA (RMmCoA)
   formula: C25H40N7O19P3S
@@ -2503,7 +2221,6 @@
   KEGG: C01213
   mol_weight: 867.6069
   source: KEGG
-  #tag: AddFromRxn
 - id: C01233
   name: sn-Glycero-3-phosphoethanolamine
   formula: C5H14NO6P
@@ -2511,7 +2228,6 @@
   KEGG: C01233
   mol_weight: 215.1415
   source: KEGG
-  #tag: AddFromRxn
 - id: C01234
   name: 1-Aminocyclopropane-1-carboxylate
   formula: C4H7NO2
@@ -2519,14 +2235,12 @@
   KEGG: C01234
   mol_weight: 101.1039
   source: KEGG
-  #tag: AddFromRxn
 - id: C01242
   name: S-Aminomethyldihydrolipoylprotein
   formula: C9H19N2OS2R
   charge: 0
   KEGG: C01242
   source: KEGG
-  #tag: AddFromRxn
 - id: C01250
   name: N-Acetyl-L-glutamate 5-semialdehyde
   formula: C7H11NO4
@@ -2534,7 +2248,6 @@
   KEGG: C01250
   mol_weight: 173.1665
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: acg5sa
 - id: C01260
   name: P1,P4-Bis(5'-adenosyl)tetraphosphate
@@ -2543,7 +2256,6 @@
   KEGG: C01260
   mol_weight: 836.387
   source: KEGG
-  #tag: AddFromRxn
 - id: C01267
   name: 3-(Imidazol-4-yl)-2-oxopropyl phosphate
   formula: C6H9N2O5P
@@ -2551,7 +2263,6 @@
   KEGG: C01267
   mol_weight: 220.1198
   source: KEGG
-  #tag: AddFromRxn
 - id: C01279
   name: 4-Amino-5-hydroxymethyl-2-methylpyrimidine
   formula: C6H9N3O
@@ -2559,7 +2270,6 @@
   KEGG: C01279
   mol_weight: 139.1552
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4ahmmp
 - id: C01300
   name: 6-Hydroxymethyl-7,8-dihydropterin (6-HMD)
@@ -2569,7 +2279,6 @@
   KEGG: C01300
   mol_weight: 195.1787
   source: KEGG
-  #tag: AddFromRxn
 - id: C01304
   name: 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
   formula: C9H16N5O8P
@@ -2577,7 +2286,6 @@
   KEGG: C01304
   mol_weight: 353.2258
   source: KEGG
-  #tag: AddFromRxn
 - id: C01330
   name: Sodium
   formula: Na
@@ -2585,7 +2293,6 @@
   KEGG: C01330
   mol_weight: 22.9898
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: na1
 - id: C01342
   name: Ammonium
@@ -2594,7 +2301,6 @@
   KEGG: C01342
   mol_weight: 18.0385
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nh4
 - id: C01344
   name: dIDP
@@ -2603,7 +2309,6 @@
   KEGG: C01344
   mol_weight: 412.1865
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: didp
 - id: C01345
   name: dITP
@@ -2612,7 +2317,6 @@
   KEGG: C01345
   mol_weight: 492.1664
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ditp
 - id: C01346
   name: dUDP
@@ -2621,7 +2325,6 @@
   KEGG: C01346
   mol_weight: 388.1618
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dudp
 - id: C01352
   name: Flavin adenine dinucleotide reduced (FADH2)
@@ -2630,7 +2333,6 @@
   KEGG: C01352
   mol_weight: 787.5656
   source: KEGG
-  #tag: AddFromRxn
 - id: C01384
   name: Maleic acid
   formula: C4H4O4
@@ -2638,7 +2340,6 @@
   KEGG: C01384
   mol_weight: 116.0722
   source: KEGG
-  #tag: AddFromRxn
 - id: C01528
   name: Hydrogen selenide
   formula: H2Se
@@ -2646,7 +2347,6 @@
   KEGG: C01528
   mol_weight: 80.9759
   source: KEGG
-  #tag: AddFromRxn
 - id: C01563
   name: Carbamate
   formula: CH3NO2
@@ -2654,14 +2354,12 @@
   KEGG: C01563
   mol_weight: 61.04
   source: KEGG
-  #tag: AddFromRxn
 - id: C01573
   name: Peptide diphthine
   formula: C14H21N5O4R2
   charge: 0
   KEGG: C01573
   source: KEGG
-  #tag: AddFromRxn
 - id: C01602
   name: Ornithine
   formula: C5H12N2O2
@@ -2669,7 +2367,6 @@
   KEGG: C01602
   mol_weight: 132.161
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: orn
 - id: C01635
   name: tRNA(Ala)
@@ -2677,7 +2374,6 @@
   charge: 0
   KEGG: C01635
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaala
 - id: C01636
   name: tRNA(Arg)
@@ -2685,7 +2381,6 @@
   charge: 0
   KEGG: C01636
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaarg
 - id: C01637
   name: tRNA(Asn)
@@ -2693,7 +2388,6 @@
   charge: 0
   KEGG: C01637
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaasn
 - id: C01638
   name: tRNA(Asp)
@@ -2701,7 +2395,6 @@
   charge: 0
   KEGG: C01638
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaasp
 - id: C01639
   name: tRNA(Cys)
@@ -2709,7 +2402,6 @@
   charge: 0
   KEGG: C01639
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnacys
 - id: C01640
   name: tRNA(Gln)
@@ -2717,7 +2409,6 @@
   charge: 0
   KEGG: C01640
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnagln
 - id: C01641
   name: tRNA(Glu)
@@ -2725,7 +2416,6 @@
   charge: 0
   KEGG: C01641
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaglu
 - id: C01642
   name: tRNA(Gly)
@@ -2733,7 +2423,6 @@
   charge: 0
   KEGG: C01642
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnagly
 - id: C01643
   name: tRNA(His)
@@ -2741,7 +2430,6 @@
   charge: 0
   KEGG: C01643
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnahis
 - id: C01644
   name: tRNA(Ile)
@@ -2749,7 +2437,6 @@
   charge: 0
   KEGG: C01644
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaile
 - id: C01645
   name: tRNA(Leu)
@@ -2757,7 +2444,6 @@
   charge: 0
   KEGG: C01645
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaleu
 - id: C01646
   name: tRNA(Lys)
@@ -2765,7 +2451,6 @@
   charge: 0
   KEGG: C01646
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnalys
 - id: C01647
   name: tRNA(Met)
@@ -2773,7 +2458,6 @@
   charge: 0
   KEGG: C01647
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnamet
 - id: C01648
   name: tRNA(Phe)
@@ -2781,7 +2465,6 @@
   charge: 0
   KEGG: C01648
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaphe
 - id: C01649
   name: tRNA(Pro)
@@ -2789,7 +2472,6 @@
   charge: 0
   KEGG: C01649
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnapro
 - id: C01650
   name: tRNA(Ser)
@@ -2797,7 +2479,6 @@
   charge: 0
   KEGG: C01650
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaser
 - id: C01651
   name: tRNA(Thr)
@@ -2805,7 +2486,6 @@
   charge: 0
   KEGG: C01651
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnathr
 - id: C01652
   name: tRNA(Trp)
@@ -2813,14 +2493,12 @@
   charge: 0
   KEGG: C01652
   source: KEGG
-  #tag: AddFromRxn
 - id: C01653
   name: tRNA(Val)
   formula: R
   charge: 0
   KEGG: C01653
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: trnaval
 - id: C01672
   name: Cadaverine
@@ -2829,7 +2507,6 @@
   KEGG: C01672
   mol_weight: 102.1781
   source: KEGG
-  #tag: AddFromRxn
 - id: C01674
   name: Chitobiose
   formula: C16H28N2O11
@@ -2837,7 +2514,6 @@
   KEGG: C01674
   mol_weight: 424.4003
   source: KEGG
-  #tag: AddFromRxn
 - id: C01762
   name: Xanthosine
   formula: C10H12N4O6
@@ -2845,7 +2521,6 @@
   KEGG: C01762
   mol_weight: 284.2255
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: xtsn
 - id: C01845
   name: 2-Propanol
@@ -2854,7 +2529,6 @@
   KEGG: C01845
   mol_weight: 60.095
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 2ppoh
 - id: C01847
   name: Reduced FMN (FMNH2)
@@ -2863,7 +2537,6 @@
   KEGG: C01847
   mol_weight: 458.3597
   source: KEGG
-  #tag: AddFromRxn
 - id: C01909
   name: Dethiobiotin
   formula: C10H18N2O3
@@ -2871,14 +2544,12 @@
   KEGG: C01909
   mol_weight: 214.2615
   source: KEGG
-  #tag: AddFromRxn
 - id: C01931
   name: L-Lysine-tRNA (Lys)
   formula: C6H12N2OR
   charge: 0
   KEGG: C01931
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: lystrna
 - id: C01977
   name: tRNA guanine
@@ -2886,14 +2557,12 @@
   charge: 0
   KEGG: C01977
   source: KEGG
-  #tag: AddFromRxn
 - id: C02047
   name: L-Leucyl-tRNA(Leu)
   formula: C6H11NOR
   charge: 0
   KEGG: C02047
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: leutrna
 - id: C02051
   name: Lipoylprotein
@@ -2901,7 +2570,6 @@
   charge: 0
   KEGG: C02051
   source: KEGG
-  #tag: AddFromRxn
 - id: C02090
   name: Trypanothione
   formula: C27H49N9O10S2
@@ -2909,14 +2577,12 @@
   KEGG: C02090
   mol_weight: 723.8623
   source: KEGG
-  #tag: AddFromRxn
 - id: C02163
   name: L-Arginyl-tRNA(Arg)
   formula: C6H12N4OR
   charge: 0
   KEGG: C02163
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: argtrna
 - id: C02189
   name: '[Protein]-L-serine'
@@ -2924,7 +2590,6 @@
   charge: 0
   KEGG: C02189
   source: KEGG
-  #tag: AddFromRxn
 - id: C02226
   name: Citraconic acid
   formula: C5H6O4
@@ -2932,7 +2597,6 @@
   KEGG: C02226
   mol_weight: 130.0987
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: citrac
 - id: C02282
   name: Glutaminyl-tRNA
@@ -2940,14 +2604,12 @@
   charge: 0
   KEGG: C02282
   source: KEGG
-  #tag: AddFromRxn
 - id: C02412
   name: Glycyl-tRNA(Gly)
   formula: C2H3NOR
   charge: 0
   KEGG: C02412
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glytrna
 - id: C02430
   name: L-Methionyl-tRNA (Met)
@@ -2955,7 +2617,6 @@
   charge: 0
   KEGG: C02430
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: mettrna
 - id: C02501
   name: 2-Hydroxymuconate
@@ -2964,7 +2625,6 @@
   KEGG: C02501
   mol_weight: 158.1088
   source: KEGG
-  #tag: AddFromRxn
 - id: C02504
   name: 3-Carboxy-3-hydroxy-4-methylpentanoate
   formula: C7H12O5
@@ -2972,7 +2632,6 @@
   KEGG: C02504
   mol_weight: 176.1672
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 3c3hmp
 - id: C02553
   name: L-Seryl-tRNA(Ser)
@@ -2980,7 +2639,6 @@
   charge: 0
   KEGG: C02553
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: sertrna
 - id: C02554
   name: L-Valyl-tRNA(Val)
@@ -2988,7 +2646,6 @@
   charge: 0
   KEGG: C02554
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: valtrna
 - id: C02583
   name: Protein glutamine
@@ -2996,7 +2653,6 @@
   charge: 0
   KEGG: C02583
   source: KEGG
-  #tag: AddFromRxn
 - id: C02612
   name: D-Citramalate
   formula: C5H8O5
@@ -3004,7 +2660,6 @@
   KEGG: C02612
   mol_weight: 148.114
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: r2mmal
 - id: C02630
   name: 2-Hydroxyglutarate
@@ -3013,7 +2668,6 @@
   KEGG: C02630
   mol_weight: 148.114
   source: KEGG
-  #tag: AddFromRxn
 - id: C02631
   name: 2-Isopropylmaleate
   formula: C7H10O4
@@ -3021,7 +2675,6 @@
   KEGG: C02631
   mol_weight: 158.1519
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 2ippm
 - id: C02702
   name: L-Prolyl-tRNA(Pro)
@@ -3029,7 +2682,6 @@
   charge: 0
   KEGG: C02702
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: protrna
 - id: C02839
   name: L-Tyrosyl-tRNA(Tyr)
@@ -3037,7 +2689,6 @@
   charge: 0
   KEGG: C02839
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: tyrtrna
 - id: C02863
   name: 3-O-(alpha-D-Mannosyl)-L-serinyl-[protein]
@@ -3045,14 +2696,12 @@
   charge: 0
   KEGG: C02863
   source: KEGG
-  #tag: AddFromRxn
 - id: C02872
   name: Peptide diphthamide
   formula: C14H23N6O3R2
   charge: 1
   KEGG: C02872
   source: KEGG
-  #tag: AddFromRxn
 - id: C02939
   name: Isovaleryl-CoA (IvCoA)
   names: 3-Methylbutanoyl-CoA
@@ -3061,21 +2710,18 @@
   KEGG: C02939
   mol_weight: 851.6505
   source: KEGG
-  #tag: AddFromRxn
 - id: C02972
   name: Dihydrolipoylprotein
   formula: C8H16NOS2R
   charge: 0
   KEGG: C02972
   source: KEGG
-  #tag: AddFromRxn
 - id: C02984
   name: L-Aspartyl-tRNA(Asp)
   formula: C4H5NO3R
   charge: 0
   KEGG: C02984
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: asptrna
 - id: C02987
   name: L-Glutamyl-tRNA(Glu)
@@ -3083,7 +2729,6 @@
   charge: 0
   KEGG: C02987
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: glutrna
 - id: C02988
   name: L-Histidyl-tRNA(His)
@@ -3091,7 +2736,6 @@
   charge: 0
   KEGG: C02988
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: histrna
 - id: C02992
   name: L-Threonyl-tRNA(Thr)
@@ -3099,7 +2743,6 @@
   charge: 0
   KEGG: C02992
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: thrtrna
 - id: C03044
   name: 2,3-Butanediol
@@ -3114,7 +2757,6 @@
   KEGG: C03082
   mol_weight: 213.0826
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4pasp
 - id: C03090
   name: 5-Phospho-beta-D-ribosylamine (Pram)
@@ -3123,7 +2765,6 @@
   KEGG: C03090
   mol_weight: 229.125
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: pram
 - id: C03125
   name: L-Cysteinyl-tRNA(Cys)
@@ -3131,7 +2772,6 @@
   charge: 0
   KEGG: C03125
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cystrna
 - id: C03127
   name: L-Isoleucyl-tRNA(Ile)
@@ -3139,7 +2779,6 @@
   charge: 0
   KEGG: C03127
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: iletrna
 - id: C03150
   name: N-Ribosylnicotinamide
@@ -3148,7 +2787,6 @@
   KEGG: C03150
   mol_weight: 255.2472
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: rnam
 - id: C03170
   name: Trypanothione disulfide
@@ -3157,7 +2795,6 @@
   KEGG: C03170
   mol_weight: 721.8464
   source: KEGG
-  #tag: AddFromRxn
 - id: C03194
   name: (R)-1-Aminopropan-2-ol
   formula: C3H9NO
@@ -3165,7 +2802,6 @@
   KEGG: C03194
   mol_weight: 75.1097
   source: KEGG
-  #tag: AddFromRxn
 - id: C03232
   name: 3-Phosphohydroxypyruvate (3PHP)
   formula: C3H5O7P
@@ -3173,7 +2809,6 @@
   KEGG: C03232
   mol_weight: 184.0414
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 3php
 - id: C03306
   name: Protein L-isoaspartate
@@ -3181,7 +2816,6 @@
   charge: 0
   KEGG: C03306
   source: KEGG
-  #tag: AddFromRxn
 - id: C03360
   name: 4-Nitrophenyl phosphate
   formula: C6H6NO6P
@@ -3189,7 +2823,6 @@
   KEGG: C03360
   mol_weight: 219.0887
   source: KEGG
-  #tag: AddFromRxn
 - id: C03373
   name: 5-amino-1-(5-phospho-D-ribosyl)imidazole
   formula: C8H14N3O7P
@@ -3197,7 +2830,6 @@
   KEGG: C03373
   mol_weight: 295.1864
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: air
 - id: C03402
   name: L-Asparaginyl-tRNA(Asn)
@@ -3205,7 +2837,6 @@
   charge: 0
   KEGG: C03402
   source: KEGG
-  #tag: AddFromRxn
 - id: C03431
   name: S-Inosyl-L-homocysteine
   formula: C14H19N5O6S
@@ -3213,7 +2844,6 @@
   KEGG: C03431
   mol_weight: 385.3956
   source: KEGG
-  #tag: AddFromRxn
 - id: C03453
   name: gamma-Oxalocrotonate
   formula: C6H6O5
@@ -3221,7 +2851,6 @@
   KEGG: C03453
   mol_weight: 158.1088
   source: KEGG
-  #tag: AddFromRxn
 - id: C03479
   name: Folinic acid
   formula: C20H23N7O7
@@ -3229,7 +2858,6 @@
   KEGG: C03479
   mol_weight: 473.4393
   source: KEGG
-  #tag: AddFromRxn
 - id: C03492
   name: D-4'-Phosphopantothenate
   formula: C9H18NO8P
@@ -3237,7 +2865,6 @@
   KEGG: C03492
   mol_weight: 299.2149
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4ppan
 - id: C03508
   name: L-2-Amino-3-oxobutanoic acid (AOB)
@@ -3246,14 +2873,12 @@
   KEGG: C03508
   mol_weight: 117.1033
   source: KEGG
-  #tag: AddFromRxn
 - id: C03511
   name: L-Phenylalanyl-tRNA(Phe)
   formula: C9H9NOR
   charge: 0
   KEGG: C03511
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: phetrna
 - id: C03512
   name: L-Tryptophanyl-tRNA(Trp)
@@ -3261,7 +2886,6 @@
   charge: 0
   KEGG: C03512
   source: KEGG
-  #tag: AddFromRxn
 - id: C03684
   name: 6-Pyruvoyl-5,6,7,8-tetrahydropterin
   formula: C9H11N5O3
@@ -3269,7 +2893,6 @@
   KEGG: C03684
   mol_weight: 237.2153
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 6pthp
 - id: C03722
   name: Quinolinate (Quln)
@@ -3278,7 +2901,6 @@
   KEGG: C03722
   mol_weight: 167.1189
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: quln
 - id: C03723
   name: Ribonucleoside diphosphate
@@ -3286,7 +2908,6 @@
   charge: 0
   KEGG: C03723
   source: KEGG
-  #tag: AddFromRxn
 - id: C03735
   name: alpha-D-Hexose 6-phosphate
   formula: C6H13O9P
@@ -3294,7 +2915,6 @@
   KEGG: C03735
   mol_weight: 260.1358
   source: KEGG
-  #tag: AddFromRxn
 - id: C03794
   name: N6-(1,2-Dicarboxyethyl)-AMP
   formula: C14H18N5O11P
@@ -3302,7 +2922,6 @@
   KEGG: C03794
   mol_weight: 463.2934
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dcamp
 - id: C03803
   name: Ribosomal-protein L-alanine
@@ -3310,7 +2929,6 @@
   charge: 0
   KEGG: C03803
   source: KEGG
-  #tag: AddFromRxn
 - id: C03838
   name: N1-(5-Phospho-D-ribosyl)glycinamide (GAR)
   formula: C7H15N2O8P
@@ -3318,7 +2936,6 @@
   KEGG: C03838
   mol_weight: 286.1764
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gar
 - id: C03862
   name: Dolichyl phosphate D-mannose
@@ -3326,7 +2943,6 @@
   charge: 0
   KEGG: C03862
   source: KEGG
-  #tag: AddFromRxn
 - id: C04006
   name: 1D-myo-Inositol 3-phosphate (L-myo-Inositol 1-phosphate)
   formula: C6H13O9P
@@ -3334,7 +2950,6 @@
   KEGG: C04006
   mol_weight: 260.1358
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: mi3p-D
 - id: C04051
   name: 5-Amino-4-imidazolecarboxyamide
@@ -3343,7 +2958,6 @@
   KEGG: C04051
   mol_weight: 126.1166
   source: KEGG
-  #tag: AddFromRxn
 - id: C04122
   name: D-1-Aminopropan-2-ol O-phosphate
   formula: C3H10NO4P
@@ -3351,7 +2965,6 @@
   KEGG: C04122
   mol_weight: 155.0896
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: applp
 - id: C04144
   name: Tetrahydropteroyltri-L-glutamate
@@ -3360,7 +2973,6 @@
   KEGG: C04144
   mol_weight: 703.6572
   source: KEGG
-  #tag: AddFromRxn
 - id: C04146
   name: all-trans-Octaprenyl diphosphate
   formula: C40H68O7P2
@@ -3368,7 +2980,6 @@
   KEGG: C04146
   mol_weight: 722.9112
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: octdp
 - id: C04157
   name: tRNA containing N1-methylguanine
@@ -3376,7 +2987,6 @@
   charge: 0
   KEGG: C04157
   source: KEGG
-  #tag: AddFromRxn
 - id: C04188
   name: 5-Methylthio-5-deoxy-D-ribose 1-phosphate
   formula: C6H13O7PS
@@ -3384,7 +2994,6 @@
   KEGG: C04188
   mol_weight: 260.202
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 5mdr1p
 - id: C04232
   name: 2'-Deoxyribonucleoside diphosphate
@@ -3392,14 +3001,12 @@
   charge: 0
   KEGG: C04232
   source: KEGG
-  #tag: AddFromRxn
 - id: C04311
   name: Protein L-isoaspartate methyl ester
   formula: C6H8N2O4R2
   charge: 0
   KEGG: C04311
   source: KEGG
-  #tag: AddFromRxn
 - id: C04327
   name: 4-Methyl-5-(2-phosphoethyl)-thiazole
   formula: C6H10NO4PS
@@ -3407,7 +3014,6 @@
   KEGG: C04327
   mol_weight: 223.1867
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4mpetz
 - id: C04332
   name: 6,7-Dimethyl-8-(D-ribityl)lumazine
@@ -3416,14 +3022,12 @@
   KEGG: C04332
   mol_weight: 326.3052
   source: KEGG
-  #tag: AddFromRxn
 - id: C04341
   name: Ribosomal-protein N-acetyl-L-alanine
   formula: C5H9N2O2R
   charge: 0
   KEGG: C04341
   source: KEGG
-  #tag: AddFromRxn
 - id: C04352
   name: N-((R)-4-Phosphopantothenoyl)-L-cysteine
   formula: C12H23N2O9PS
@@ -3431,7 +3035,6 @@
   KEGG: C04352
   mol_weight: 402.3578
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4ppcys
 - id: C04376
   name: N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide (FGAR)
@@ -3440,7 +3043,6 @@
   KEGG: C04376
   mol_weight: 314.1865
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fgam
 - id: C04421
   name: N-Succinyl-LL-2,6-diaminoheptanedioate
@@ -3449,14 +3051,12 @@
   KEGG: C04421
   mol_weight: 290.2698
   source: KEGG
-  #tag: AddFromRxn
 - id: C04441
   name: 2-(3-Carboxy-3-aminopropyl)-L-histidine
   formula: C11H15N5O4R2
   charge: 0
   KEGG: C04441
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: caphis
 - id: C04489
   name: 5-Methyltetrahydropteroyltri-L-glutamate
@@ -3465,14 +3065,12 @@
   KEGG: C04489
   mol_weight: 717.6838
   source: KEGG
-  #tag: AddFromRxn
 - id: C04500
   name: N-Acetyl-D-glucosaminyldiphosphodolichol
   formula: C28H51NO12P2
   charge: 0
   KEGG: C04500
   source: KEGG
-  #tag: AddFromRxn
 - id: C04501
   name: N-Acetyl-D-glucosamine 1-phosphate
   formula: C8H16NO9P
@@ -3480,7 +3078,6 @@
   KEGG: C04501
   mol_weight: 301.1877
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-change
   templateID: acgam1p
 - id: C04556
   name: 4-Amino-2-methyl-5-phosphomethylpyrimidine
@@ -3489,7 +3086,6 @@
   KEGG: C04556
   mol_weight: 219.1351
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4ampm
 - id: C04582
   name: 5-Methylthio-5-deoxy-D-ribulose 1-phosphate
@@ -3498,7 +3094,6 @@
   KEGG: C04582
   mol_weight: 260.202
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 5mdru1p
 - id: C04590
   name: (S)-3-O-geranylgeranylglyceryl phosphate
@@ -3507,7 +3102,6 @@
   KEGG: C04590
   mol_weight: 444.5418
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gggp
 - id: C04618
   name: (3R)-3-Hydroxybutanoyl-[acyl-carrier protein]
@@ -3515,28 +3109,24 @@
   charge: 0
   KEGG: C04618
   source: KEGG
-  #tag: AddFromRxn
 - id: C04619
   name: (3R)-3-Hydroxydecanoyl-[acyl-carrier protein]
   formula: C10H19O2SR
   charge: 0
   KEGG: C04619
   source: KEGG
-  #tag: AddFromRxn
 - id: C04620
   name: (3R)-3-Hydroxyoctanoyl-[acyl-carrier protein]
   formula: C8H15O2SR
   charge: 0
   KEGG: C04620
   source: KEGG
-  #tag: AddFromRxn
 - id: C04633
   name: (3R)-3-Hydroxypalmitoyl-[acyl-carrier protein]
   formula: C16H31O2SR
   charge: 0
   KEGG: C04633
   source: KEGG
-  #tag: AddFromRxn
 - id: C04638
   name: digeranylgeranylglyceryl phosphate (DGGGP)
   formula: C43H73O6P
@@ -3544,7 +3134,6 @@
   KEGG: C04638
   mol_weight: 717.0099
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dgggp
 - id: C04640
   name: 2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine
@@ -3553,7 +3142,6 @@
   KEGG: C04640
   mol_weight: 313.2017
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fpram
 - id: C04646
   name: 6-Thioinosine-5'-monophosphate
@@ -3562,7 +3150,6 @@
   KEGG: C04646
   mol_weight: 364.2716
   source: KEGG
-  #tag: AddFromRxn
 - id: C04677
   name: 5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide
   formula: C9H15N4O8P
@@ -3570,7 +3157,6 @@
   KEGG: C04677
   mol_weight: 338.2112
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: aicar
 - id: C04688
   name: (3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]
@@ -3578,14 +3164,12 @@
   charge: 0
   KEGG: C04688
   source: KEGG
-  #tag: AddFromRxn
 - id: C04692
   name: 2-[3-Carboxy-3-(methylammonio)propyl]-L-histidine
   formula: C12H17N5O4R2
   charge: 0
   KEGG: C04692
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: cmaphis
 - id: C04732
   name: 5-Amino-6-(1-D-ribitylamino)uracil
@@ -3594,7 +3178,6 @@
   KEGG: C04732
   mol_weight: 276.2465
   source: KEGG
-  #tag: AddFromRxn
 - id: C04734
   name: 5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide
   formula: C10H15N4O9P
@@ -3602,7 +3185,6 @@
   KEGG: C04734
   mol_weight: 366.2213
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fprica
 - id: C04751
   name: 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate
@@ -3611,7 +3193,6 @@
   KEGG: C04751
   mol_weight: 339.1959
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 5aizc
 - id: C04752
   name: 2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate
@@ -3620,7 +3201,6 @@
   KEGG: C04752
   mol_weight: 299.115
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 2mahmp
 - id: C04807
   name: 6-Hydroxymethyl-7,8-dihydropterin diphosphate (6-HMDP)
@@ -3630,7 +3210,6 @@
   KEGG: C04807
   mol_weight: 355.1385
   source: KEGG
-  #tag: AddFromRxn
 - id: C04823
   name: (S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate
   formula: C13H19N4O12P
@@ -3638,7 +3217,6 @@
   KEGG: C04823
   mol_weight: 454.2833
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 25aics
 - id: C04856
   name: (6S)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide
@@ -3647,7 +3225,6 @@
   KEGG: C04856
   mol_weight: 683.4563
   source: KEGG
-  #tag: AddFromRxn
 - id: C04874
   name: 7,8-Dihydroneopterin (H2Neo)
   formula: C9H13N5O4
@@ -3655,7 +3232,6 @@
   KEGG: C04874
   mol_weight: 255.2306
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dhnpt
 - id: C04895
   name: 7,8-Dihydroneopterin 3'-triphosphate (H2NTP)
@@ -3665,7 +3241,6 @@
   KEGG: C04895
   mol_weight: 495.1703
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: ahdt
 - id: C04899
   name: (6S)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide phosphate
@@ -3674,21 +3249,18 @@
   KEGG: C04899
   mol_weight: 763.4362
   source: KEGG
-  #tag: AddFromRxn
 - id: C05196
   name: Dihydroflavodoxin
   formula: HY
   charge: 0
   KEGG: C05196
   source: KEGG
-  #tag: AddFromRxn
 - id: C05197
   name: Protein glycine
   formula: C3H4N2O2R2
   charge: 0
   KEGG: C05197
   source: KEGG
-  #tag: AddFromRxn
 - id: C05198
   name: 5'-Deoxyadenosine
   formula: C10H13N5O3
@@ -3696,21 +3268,18 @@
   KEGG: C05198
   mol_weight: 251.2419
   source: KEGG
-  #tag: AddFromRxn
 - id: C05199
   name: Flavodoxin semiquinone
   formula: Y
   charge: 0
   KEGG: C05199
   source: KEGG
-  #tag: AddFromRxn
 - id: C05312
   name: Protein glycin-2-yl radical
   formula: C3H3N2O2R2
   charge: 0
   KEGG: C05312
   source: KEGG
-  #tag: AddFromRxn
 - id: C05335
   name: L-Selenomethionine
   formula: C5H11NO2Se
@@ -3718,7 +3287,6 @@
   KEGG: C05335
   mol_weight: 196.1063
   source: KEGG
-  #tag: AddFromRxn
 - id: C05338
   name: 4-Hydroxyphenylacetyl-CoA
   formula: C29H42N7O18P3S
@@ -3726,7 +3294,6 @@
   KEGG: C05338
   mol_weight: 901.6662
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: hphaccoa
 - id: C05345
   name: beta-D-Fructose 6-phosphate (bF6P)
@@ -3735,7 +3302,6 @@
   KEGG: C05345
   mol_weight: 260.1358
   source: KEGG
-  #tag: AddFromRxn
 - id: C05378
   name: beta-D-Fructose 1,6-bisphosphate (F16P2)
   formula: C6H14O12P2
@@ -3743,7 +3309,6 @@
   KEGG: C05378
   mol_weight: 340.1157
   source: KEGG
-  #tag: AddFromRxn
 - id: C05519
   name: L-Allo-threonine
   formula: C4H9NO3
@@ -3751,7 +3316,6 @@
   KEGG: C05519
   mol_weight: 119.1192
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: athr-L
 - id: C05627
   name: 4-Hydroxystyrene
@@ -3760,7 +3324,6 @@
   KEGG: C05627
   mol_weight: 120.1485
   source: KEGG
-  #tag: AddFromRxn
 - id: C05688
   name: L-Selenocysteine
   formula: C3H7NO2Se
@@ -3768,7 +3331,6 @@
   KEGG: C05688
   mol_weight: 168.0532
   source: KEGG
-  #tag: AddFromRxn
 - id: C05698
   name: Selenohomocysteine
   formula: C4H9NO2Se
@@ -3776,70 +3338,60 @@
   KEGG: C05698
   mol_weight: 182.0798
   source: KEGG
-  #tag: AddFromRxn
 - id: C05744
   name: Acetoacetyl-[acp]
   formula: C4H5O2SR
   charge: 0
   KEGG: C05744
   source: KEGG
-  #tag: AddFromRxn
 - id: C05746
   name: 3-Oxohexanoyl-[acp]
   formula: C6H9O2SR
   charge: 0
   KEGG: C05746
   source: KEGG
-  #tag: AddFromRxn
 - id: C05747
   name: (R)-3-Hydroxyhexanoyl-[acp]
   formula: C6H11O2SR
   charge: 0
   KEGG: C05747
   source: KEGG
-  #tag: AddFromRxn
 - id: C05750
   name: 3-Oxooctanoyl-[acp]
   formula: C8H13O2SR
   charge: 0
   KEGG: C05750
   source: KEGG
-  #tag: AddFromRxn
 - id: C05753
   name: 3-Oxodecanoyl-[acp]
   formula: C10H17O2SR
   charge: 0
   KEGG: C05753
   source: KEGG
-  #tag: AddFromRxn
 - id: C05756
   name: 3-Oxododecanoyl-[acp]
   formula: C12H21O2SR
   charge: 0
   KEGG: C05756
   source: KEGG
-  #tag: AddFromRxn
 - id: C05757
   name: (R)-3-Hydroxydodecanoyl-[acp]
   formula: C12H23O2SR
   charge: 0
   KEGG: C05757
   source: KEGG
-  #tag: AddFromRxn
 - id: C05759
   name: 3-Oxotetradecanoyl-[acp]
   formula: C14H25O2SR
   charge: 0
   KEGG: C05759
   source: KEGG
-  #tag: AddFromRxn
 - id: C05762
   name: 3-Oxohexadecanoyl-[acp]
   formula: C16H29O2SR
   charge: 0
   KEGG: C05762
   source: KEGG
-  #tag: AddFromRxn
 - id: C05771
   name: 1-Aminopropan-2-ol
   formula: C3H9NO
@@ -3847,7 +3399,6 @@
   KEGG: C05771
   mol_weight: 75.1097
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: appl
 - id: C05774
   name: Cobinamide
@@ -3856,7 +3407,6 @@
   KEGG: C05774
   mol_weight: 990.0874
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cbi
 - id: C05807
   name: 2-Polyprenylphenol
@@ -3864,7 +3414,6 @@
   charge: 0
   KEGG: C05807
   source: KEGG
-  #tag: AddFromRxn
 - id: C05809
   name: 3-Octaprenyl-4-hydroxybenzoate
   formula: C47H70O3
@@ -3872,7 +3421,6 @@
   KEGG: C05809
   mol_weight: 683.0569
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 3ophb
 - id: C05810
   name: 2-Octaprenylphenol
@@ -3881,7 +3429,6 @@
   KEGG: C05810
   mol_weight: 639.0474
   source: KEGG
-  #tag: AddFromRxn
 - id: C05824
   name: S-Sulfo-L-cysteine
   formula: C3H7NO5S2
@@ -3889,7 +3436,6 @@
   KEGG: C05824
   mol_weight: 201.2214
   source: KEGG
-  #tag: AddFromRxn
 - id: C05840
   name: Iminoaspartate
   formula: C4H5NO4
@@ -3897,7 +3443,6 @@
   KEGG: C05840
   mol_weight: 131.0868
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: iasp
 - id: C05841
   name: Nicotinate D-ribonucleoside
@@ -3906,7 +3451,6 @@
   KEGG: C05841
   mol_weight: 256.232
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: nicrns
 - id: C05848
   name: 4-Hydroxy-3-polyprenylbenzoate
@@ -3914,7 +3458,6 @@
   charge: 0
   KEGG: C05848
   source: KEGG
-  #tag: AddFromRxn
 - id: C05921
   name: Biotinyl-5'-AMP
   formula: C20H28N7O9PS
@@ -3922,7 +3465,6 @@
   KEGG: C05921
   mol_weight: 573.5166
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: btamp
 - id: C05924
   name: Molybdopterin
@@ -3931,7 +3473,6 @@
   KEGG: C05924
   mol_weight: 395.3518
   source: KEGG
-  #tag: AddFromRxn
 - id: C06019
   name: D-arabino-Hex-3-ulose 6-phosphate (A3H6P)
   formula: C6H13O9P
@@ -3939,7 +3480,6 @@
   KEGG: C06019
   mol_weight: 260.1358
   source: KEGG
-  #tag: AddFromRxn
 - id: C06030
   name: Methyloxaloacetate
   formula: C5H6O5
@@ -3947,7 +3487,6 @@
   KEGG: C06030
   mol_weight: 146.0981
   source: KEGG
-  #tag: AddFromRxn
 - id: C06054
   name: 2-Oxo-3-hydroxy-4-phosphobutanoate
   formula: C4H7O8P
@@ -3955,7 +3494,6 @@
   KEGG: C06054
   mol_weight: 214.0673
   source: KEGG
-  #tag: AddFromRxn
 - id: C06055
   name: O-Phospho-4-hydroxy-L-threonine
   formula: C4H10NO7P
@@ -3963,14 +3501,12 @@
   KEGG: C06055
   mol_weight: 215.0985
   source: KEGG
-  #tag: AddFromRxn
 - id: C06112
   name: L-glutaminyl-tRNA(gln)
   formula: C5H7NO3R
   charge: 0
   KEGG: C06112
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: glutrna_gln
 - id: C06113
   name: aspartate-tRNA(asn)
@@ -3978,7 +3514,6 @@
   charge: 0
   KEGG: C06113
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: asntrna_asp
 - id: C06156
   name: D-Glucosamine 1-phosphate
@@ -3987,7 +3522,6 @@
   KEGG: C06156
   mol_weight: 259.151
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: gam1p
 - id: C06189
   name: Cyclic 2,3-bisphospho-D-glycerate (cDPG)
@@ -3996,7 +3530,6 @@
   KEGG: C06189
   mol_weight: 248.0219
   source: KEGG
-  #tag: AddFromRxn
 - id: C06224
   name: 3,4-Dihydroxystyrene
   formula: C8H8O2
@@ -4004,7 +3537,6 @@
   KEGG: C06224
   mol_weight: 136.1479
   source: KEGG
-  #tag: AddFromRxn
 - id: C06232
   name: Molybdate
   formula: H2MoO4
@@ -4012,7 +3544,6 @@
   KEGG: C06232
   mol_weight: 161.9535
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: mobd
 - id: C06240
   name: UDP-N-acetyl-D-mannosaminouronate (UDP_ManNAcA)
@@ -4021,7 +3552,6 @@
   KEGG: C06240
   mol_weight: 621.3372
   source: KEGG
-  #tag: AddFromRxn
 - id: C06505
   name: Cob(I)yrinate a,c diamide
   formula: C45H61CoN6O12
@@ -4029,7 +3559,6 @@
   KEGG: C06505
   mol_weight: 936.932
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: co1dam
 - id: C06506
   name: Adenosyl cobyrinate diamide
@@ -4038,7 +3567,6 @@
   KEGG: C06506
   mol_weight: 1187.166
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: adcobdam
 - id: C06507
   name: adenosyl-cobyric acid
@@ -4047,7 +3575,6 @@
   KEGG: C06507
   mol_weight: 1183.227
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: adcobhex
 - id: C06508
   name: Adenosyl cobinamide
@@ -4056,7 +3583,6 @@
   KEGG: C06508
   mol_weight: 1240.3214
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: adocbi
 - id: C06509
   name: Adenosyl cobinamide phosphate
@@ -4065,7 +3591,6 @@
   KEGG: C06509
   mol_weight: 1320.3013
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: adocbip
 - id: C06510
   name: Adenosine-GDP-cobinamide
@@ -4074,7 +3599,6 @@
   KEGG: C06510
   mol_weight: 1665.5066
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: agdpcbi
 - id: C07328
   name: Isoamyl alcohol
@@ -4104,7 +3628,6 @@
   KEGG: C07478
   mol_weight: 172.1354
   source: KEGG
-  #tag: AddFromRxn
 - id: C07479
   name: 2-Oxo-5-methyl-cis-muconate
   formula: C7H8O5
@@ -4112,7 +3635,6 @@
   KEGG: C07479
   mol_weight: 172.1354
   source: KEGG
-  #tag: AddFromRxn
 - id: C11437
   name: 1-deoxy-D-xylulose 5-phosphate
   formula: C5H11O7P
@@ -4120,7 +3642,6 @@
   KEGG: C11437
   mol_weight: 214.1104
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dxyl5p
 - id: C11907
   name: dTDP-4-dehydro-6-deoxy-D-glucose
@@ -4129,7 +3650,6 @@
   KEGG: C11907
   mol_weight: 546.3137
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dtdp4d6dg
 - id: C14818
   name: Ferrous ion (2+)
@@ -4138,7 +3658,6 @@
   KEGG: C14818
   mol_weight: 55.845
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fe2
 - id: C14819
   name: Ferric ion, (Fe3+)
@@ -4147,7 +3666,6 @@
   KEGG: C14819
   mol_weight: 55.845
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: fe3
 - id: C15489
   name: S-2-(indol-3-yl)acetyl-CoA
@@ -4156,7 +3674,6 @@
   KEGG: C15489
   mol_weight: 924.7028
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: indaccoa
 - id: C15532
   name: N-Acetyl-L-citrulline
@@ -4165,7 +3682,6 @@
   KEGG: C15532
   mol_weight: 217.2224
   source: KEGG
-  #tag: AddFromRxn
 - id: C15556
   name: L-3,4-Dihydroxybutan-2-one 4-phosphate
   formula: C4H9O6P
@@ -4173,7 +3689,6 @@
   KEGG: C15556
   mol_weight: 184.0844
   source: KEGG
-  #tag: AddFromRxn
 - id: C15667
   name: 5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole
   formula: C9H14N3O9P
@@ -4181,7 +3696,6 @@
   KEGG: C15667
   mol_weight: 339.1959
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 5c5pdriaz
 - id: C15810
   name: Sulfur-carrier protein
@@ -4189,14 +3703,12 @@
   charge: 0
   KEGG: C15810
   source: KEGG
-  #tag: AddFromRxn
 - id: C15814
   name: Thiocarboxy-[sulfur-carrier protein]
   formula: C4H7N2O2SR
   charge: 0
   KEGG: C15814
   source: KEGG
-  #tag: AddFromRxn
 - id: C15980
   name: (S)-2-Methylbutanoyl-CoA (mbcoa)
   formula: C26H44N7O17P3S
@@ -4204,7 +3716,6 @@
   KEGG: C15980
   mol_weight: 851.6505
   source: KEGG
-  #tag: AddFromRxn
 - id: C15996
   name: 7-Cyano-7-carbaguanine
   formula: C7H5N5O
@@ -4212,7 +3723,6 @@
   KEGG: C15996
   mol_weight: 175.1475
   source: KEGG
-  #tag: AddFromRxn
 - id: C16216
   name: 3-Oxostearoyl-CoA
   formula: C39H68N7O18P3S
@@ -4220,7 +3730,6 @@
   KEGG: C16216
   mol_weight: 1047.9796
   source: KEGG
-  #tag: AddFromRxn
 - id: C16217
   name: 3-Hydroxyoctadecanoyl-CoA
   formula: C39H70N7O18P3S
@@ -4228,35 +3737,30 @@
   KEGG: C16217
   mol_weight: 1049.9955
   source: KEGG
-  #tag: AddFromRxn
 - id: C16219
   name: 3-Oxostearoyl-[acp]
   formula: C18H33O2SR
   charge: 0
   KEGG: C16219
   source: KEGG
-  #tag: AddFromRxn
 - id: C16220
   name: (R)-3-Hydroxyoctadecanoyl-[acp]
   formula: C18H35O2SR
   charge: 0
   KEGG: C16220
   source: KEGG
-  #tag: AddFromRxn
 - id: C16237
   name: Protein N6-(lipoyl)lysine
   formula: C8H14NOS2R
   charge: 0
   KEGG: C16237
   source: KEGG
-  #tag: AddFromRxn
 - id: C16240
   name: Apoprotein
   formula: NH2R
   charge: 0
   KEGG: C16240
   source: KEGG
-  #tag: AddFromRxn
 - id: C16241
   name: (R)-Lipoate
   formula: C8H14O2S2
@@ -4264,7 +3768,6 @@
   KEGG: C16241
   mol_weight: 206.3256
   source: KEGG
-  #tag: AddFromRxn
 - id: C16565
   name: Aminopropylcadaverine
   formula: C8H21N3
@@ -4272,7 +3775,6 @@
   KEGG: C16565
   mol_weight: 159.2724
   source: KEGG
-  #tag: AddFromRxn
 - id: C16593
   name: 7-mercaptoheptanoic acid
   formula: C7H14O2S
@@ -4280,7 +3782,6 @@
   KEGG: C16593
   mol_weight: 162.2499
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 7mhp
 - id: C16594
   name: 7-mercaptoheptanoylthreonine
@@ -4289,7 +3790,6 @@
   KEGG: C16594
   mol_weight: 263.3537
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 7mht
 - id: C16618
   name: 6-Thioxanthine 5'-monophosphate
@@ -4298,7 +3798,6 @@
   KEGG: C16618
   mol_weight: 380.271
   source: KEGG
-  #tag: AddFromRxn
 - id: C17467
   name: 4-Hydroxy-benzyl alcohol
   formula: C7H8O2
@@ -4306,7 +3805,6 @@
   KEGG: C17467
   mol_weight: 124.1372
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: 4hba
 - id: C18059
   name: CDP-2,3-digeranylgeranyl-sn-glycerol
@@ -4315,7 +3813,6 @@
   KEGG: C18059
   mol_weight: 1022.1911
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: cdgggp
 - id: C18237
   name: Molybdoenzyme molybdenum cofactor
@@ -4324,7 +3821,6 @@
   KEGG: C18237
   mol_weight: 521.2747
   source: KEGG
-  #tag: AddFromRxn
 - id: C18239
   name: Cyclic pyranopterin phosphate
   formula: C10H14N5O8P
@@ -4332,7 +3828,6 @@
   KEGG: C18239
   mol_weight: 363.2206
   source: KEGG
-  #tag: AddFromRxn
 - id: C18911
   name: 4-phosphopantoate
   formula: C6H13O7P
@@ -4340,7 +3835,6 @@
   KEGG: C18911
   mol_weight: 228.137
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-keep
   templateID: ppant-R
 - id: C19692
   name: Polysulfide
@@ -4349,7 +3843,6 @@
   KEGG: C19692
   mol_weight: 120.7259
   source: KEGG
-  #tag: AddFromRxn
 - id: C19771
   name: 2'-(5-Triphosphoribosyl)-3'-dephospho-CoA
   formula: C26H46N7O26P5S
@@ -4357,7 +3850,6 @@
   KEGG: C19771
   mol_weight: 1059.6086
   source: KEGG
-  #tag: AddFromRxn
 - id: C19787
   name: 5'-S-Methyl-5'-thioinosine
   formula: C11H14N4O4S
@@ -4365,7 +3857,6 @@
   KEGG: C19787
   mol_weight: 298.3183
   source: KEGG
-  #tag: AddFromRxn
 - id: C19794
   name: CDP-1L-myo-inositol
   formula: C15H25N3O16P2
@@ -4373,7 +3864,6 @@
   KEGG: C19794
   mol_weight: 565.317
   source: KEGG
-  #tag: AddFromRxn
 - id: C19799
   name: Bis(1L-myo-inositol)-3,1'-phosphate 1-phosphate
   formula: C12H24O17P2
@@ -4381,14 +3871,12 @@
   KEGG: C19799
   mol_weight: 502.2563
   source: KEGG
-  #tag: AddFromRxn
 - id: C19803
   name: '[Protein]-L-threonine'
   formula: C5H8N2O3R2
   charge: 0
   KEGG: C19803
   source: KEGG
-  #tag: AddFromRxn
 - id: C19848
   name: Adenylated molybdopterin
   formula: C20H26N10O12P2S2
@@ -4396,7 +3884,6 @@
   KEGG: C19848
   mol_weight: 724.5578
   source: KEGG
-  #tag: AddFromRxn
 - id: C19871
   name: Guanylyl molybdenum cofactor
   formula: C20H24MoN10O15P2S2
@@ -4404,7 +3891,6 @@
   KEGG: C19871
   mol_weight: 866.4801
   source: KEGG
-  #tag: AddFromRxn
 - id: C20239
   name: 6-Carboxy-5,6,7,8-tetrahydropterin
   formula: C7H9N5O3
@@ -4412,7 +3898,6 @@
   KEGG: C20239
   mol_weight: 211.1781
   source: KEGG
-  #tag: AddFromRxn
 - id: C20248
   name: 7-Carboxy-7-carbaguanine
   formula: C7H6N4O3
@@ -4420,7 +3905,6 @@
   KEGG: C20248
   mol_weight: 194.1475
   source: KEGG
-  #tag: AddFromRxn
 - id: C20345
   name: Isopentyl phosphate (IP)
   formula: C5H11O4P
@@ -4428,7 +3912,6 @@
   KEGG: C20345
   mol_weight: 166.1122
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-Add
   templateID: ipp
 - id: C20372
   name: 3-Ketoglutaryl-[acp] methyl ester
@@ -4436,28 +3919,24 @@
   charge: 0
   KEGG: C20372
   source: KEGG
-  #tag: AddFromRxn
 - id: C20373
   name: 3-Hydroxyglutaryl-[acp] methyl ester
   formula: C6H9O4SR
   charge: 0
   KEGG: C20373
   source: KEGG
-  #tag: AddFromRxn
 - id: C20376
   name: 3-Ketopimeloyl-[acp] methyl ester
   formula: C8H11O4SR
   charge: 0
   KEGG: C20376
   source: KEGG
-  #tag: AddFromRxn
 - id: C20377
   name: 3-Hydroxypimeloyl-[acp] methyl ester
   formula: C8H13O4SR
   charge: 0
   KEGG: C20377
   source: KEGG
-  #tag: AddFromRxn
 - id: C20466
   name: 2,3-di-O-geranylgeranyl-sn-glyceroserine
   formula: C46H78NO8P
@@ -4465,7 +3944,6 @@
   KEGG: C20466
   mol_weight: 804.0872
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dgggps
 - id: C20482
   name: (6R)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide
@@ -4474,7 +3952,6 @@
   KEGG: C20482
   mol_weight: 683.4563
   source: KEGG
-  #tag: AddFromRxn
 - id: C20483
   name: (6R)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide phosphate
   formula: C21H32N7O18P3
@@ -4482,7 +3959,6 @@
   KEGG: C20483
   mol_weight: 763.4362
   source: KEGG
-  #tag: AddFromRxn
 - id: C20518
   name: 2,3-Bis-(O-phytanyl)-sn-glycerol 1-phosphate
   formula: C43H89O6P
@@ -4490,7 +3966,6 @@
   KEGG: C20518
   mol_weight: 733.1369
   source: KEGG
-  #tag: AddFromRxn
 - id: C20559
   name: 4-(B-D-ribofuranosyl)aminobenzene 5'-phosphate
   formula: C11H16NO7P
@@ -4498,7 +3973,6 @@
   KEGG: C20559
   mol_weight: 305.221
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: Brfap
 - id: C20562
   name: N-[(7,8-Dihydropterin-6-yl)methyl]-4-(beta-D-ribofuranosyl)aniline 5'-phosphate
@@ -4507,7 +3981,6 @@
   KEGG: C20562
   mol_weight: 482.3844
   source: KEGG
-  #tag: AddFromRxn
 - id: C20567
   name: 7,8-Dihydroneopterin 2',3'-cyclic phosphate
   formula: C9H12N5O6P
@@ -4515,7 +3988,6 @@
   KEGG: C20567
   mol_weight: 317.1952
   source: KEGG
-  #tag: AddFromRxn
 - id: C20628
   name: 2,3-O-phytanyl-sn-glycero-1-phosphoserine
   formula: C46H94NO8P
@@ -4523,7 +3995,6 @@
   KEGG: C20628
   mol_weight: 820.2142
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: dpgps
 - id: C20641
   name: L-Threonylcarbamoyladenylate
@@ -4532,21 +4003,18 @@
   KEGG: C20641
   mol_weight: 492.3346
   source: KEGG
-  #tag: AddFromRxn
 - id: C20648
   name: Adenine in rRNA
   formula: C10H14N5O7P
   charge: 0
   KEGG: C20648
   source: KEGG
-  #tag: AddFromRxn
 - id: C20663
   name: L-Histidine-[translation elongation factor 2]
   formula: C7H8N4O2R2
   charge: 0
   KEGG: C20663
   source: KEGG
-  #tag: AddFromRxn
 - id: C20679
   name: Tungstenate
   formula: WH2O4
@@ -4554,7 +4022,6 @@
   KEGG: C20679
   mol_weight: 249.8535
   source: KEGG
-  #tag: psammotate-iMAC868-KEGG-correct
   templateID: wo4
 - id: C20722
   name: 3-O-(alpha-D-Mannosyl)-L-threonyl-[protein]
@@ -4562,21 +4029,18 @@
   charge: 0
   KEGG: C20722
   source: KEGG
-  #tag: AddFromRxn
 - id: C20796
   name: N6-Dimethyladenine in rRNA
   formula: C12H18N5O7P
   charge: 0
   KEGG: C20796
   source: KEGG
-  #tag: AddFromRxn
 - id: C20858
   name: Protein N5-methyl-L-glutamine
   formula: C7H11N3O3R2
   charge: 0
   KEGG: C20858
   source: KEGG
-  #tag: AddFromRxn
 - id: C21214
   name: Dimethylallyl phosphate
   formula: C5H11O4P
@@ -4584,7 +4048,6 @@
   KEGG: C21214
   mol_weight: 166.1122
   source: KEGG
-  #tag: AddFromRxn
 - id: C21215
   name: Prenylated FMNH2
   formula: C22H31N4O9P
@@ -4592,7 +4055,6 @@
   KEGG: C21215
   mol_weight: 526.4767
   source: KEGG
-  #tag: AddFromRxn
 - id: C21310
   name: (8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
   formula: C10H16N5O14P3
@@ -4600,35 +4062,30 @@
   KEGG: C21310
   mol_weight: 523.1804
   source: KEGG
-  #tag: AddFromRxn
 - id: C21747
   name: N-Acetyl-beta-D-glucosaminyl-(1->4)-D-glucosamine
   formula: C14H26N2O10
   charge: 0
   KEGG: C21747
   source: KEGG
-  #tag: AddFromRxn
 - id: C21748
   name: 5-Fluorouridine diphosphate
   formula: C9H13FN2O12P2
   charge: 0
   KEGG: C21748
   source: KEGG
-  #tag: AddFromRxn
 - id: C21750
   name: 5-Fluorodeoxyuridine diphosphate
   formula: C9H13FN2O11P2
   charge: 0
   KEGG: C21750
   source: KEGG
-  #tag: AddFromRxn
 - id: cpd15811
   name: CDP-2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glycerol
   formula: C52H87N3O14P2
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hcdgggp
 - id: cpd15812
   name: 2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glycerol
@@ -4636,7 +4093,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdgggp
 - id: cpd15813
   name: 2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glyceroserine
@@ -4644,7 +4100,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdgggps
 - id: cpd15814
   name: 2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glycerol-1-phospho-3'-sn-glycerol
@@ -4652,7 +4107,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdggpg
 - id: cpd15815
   name: 2-O-(3'-hydroxy)geranyl-3-O-geranyl-sn-glycerol-1-phospho-3'-sn-glycerol
@@ -4661,7 +4115,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdggpgp
 - id: cpd15816
   name: 2-O-(3'hydroxy)geranyl-3-O-geranyl-sn-glycero-1-phospho-myo-inositol
@@ -4669,7 +4122,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdggpi
 - id: cpd15818
   name: 2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycerol-1-phospho-3'-sn-glycerol
@@ -4677,7 +4129,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdpgpg
 - id: cpd15819
   name: 2-O-(3'-hydroxyl)phytanyl-3-O-phytanyl-sn-glycero-1-phospho-myo-inositol
@@ -4685,7 +4136,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdpgpi
 - id: cpd15820
   name: 2-O-(3'-hydroxy)phytanyl-3-O-phytanyl-sn-glycero-l-phosphoserine
@@ -4693,7 +4143,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hdpgps
 - id: cpd15821
   name: 3-hydroxy-farnesyl diphosphate
@@ -4701,7 +4150,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hfrdp
 - id: cpd15822
   name: 3-hydroxy-geranylgeranyl diphosphate
@@ -4709,7 +4157,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hggdp
 - id: cpd15823
   name: 3-hydroxy-geranyl diphsophate
@@ -4717,7 +4164,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 3hgrdp
 - id: cpd15825
   name: 5-hydroxybenzimidazole
@@ -4725,7 +4171,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 5hbzid
 - id: cpd15826
   name: N1-(5-Phospho-alpha-D-ribosyl)-5-hydroxybenzimidazole
@@ -4733,7 +4178,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: 5pr5hbz
 - id: cpd15834
   name: Adenosylcobalamin-HBI
@@ -4741,7 +4185,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: adocblhbi
 - id: cpd15837
   name: Cob(I)alamin-HBI
@@ -4749,7 +4192,6 @@
   charge: -1
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: cbl1hbi
 - id: cpd15842
   name: 2,3-di-O-geranyl-sn-glycerol-1-phospho-3'-sn-glycerol
@@ -4757,7 +4199,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: dggpg
 - id: cpd15843
   name: 2,3-di-O-geranyl-sn-glycerol-1-phospho-3'-sn-glycerol phosphate
@@ -4765,7 +4206,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: dggpgp
 - id: cpd15844
   name: 2,3-di-O-geranyl-sn-glycero-1-phospho-myo-inositol
@@ -4773,7 +4213,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: dggpi
 - id: cpd15859
   name: Archaetidylglycerol (AG)
@@ -4782,7 +4221,6 @@
   charge: 0
   mol_weight: 807.231
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: dpgpg
 - id: cpd15860
   name: Archaetidylinositol (AI)
@@ -4791,7 +4229,6 @@
   charge: 0
   mol_weight: 895.293
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: dpgpi
 - id: cpd15890
   name: methyl-3-hydroxyl diphosphate
@@ -4799,7 +4236,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: m3hdp
 - id: cpd15903
   name: N1-(alpha-D-ribosyl)-5-hydroxybenzimidazole
@@ -4807,7 +4243,6 @@
   charge: 0
   mol_weight: '-'
   source: SEED
-  #tag: psammotate-iMAC868-BIGG
   templateID: r5hbzi
 - id: fcd
   name: Flavin cytosine dinucleotide oxidized
@@ -4815,7 +4250,6 @@
   charge: 0
   mol_weight: '-'
   source: iMAC868
-  #tag: psammotate-iMAC868-Assume
   templateID: fcd
 - id: fgd
   name: Flavin guanosine dinucleotide oxidized
@@ -4823,7 +4257,6 @@
   charge: 0
   mol_weight: '-'
   source: iMAC868
-  #tag: psammotate-iMAC868-Assume
   templateID: fgd
 - id: gdgt
   name: Glycerol-dialklyl-glycerol-tetraethers
@@ -4832,7 +4265,6 @@
   mol_weight: 1301.315
   source: Literature
   pmid: 29051411
-  #tag: AddFromRxn
 - id: C00121
   name: D-Ribose
   formula: C5H10O5
@@ -5546,13 +4978,11 @@
   charge: 0
   formula: X
   source: KEGG
-  #tag: AddFromRxn
 - id: C21615
   name: Glycolaldehyde triphosphate
   formula: C2H7O11P3
   charge: 0
   source: KEGG
-  #tag: AddFromRxn
 - id: C01324
   name: Bromide
   names: [Bromide, Br-]
