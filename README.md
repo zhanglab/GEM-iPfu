@@ -51,7 +51,7 @@ archaeon, Pyrococcus furiosus. Appl. Environ. Microbiol.
 #### Media definitions
 * EX_Kengen_94.tsv
   > Media matching experiments from Kengen and Stams 1994 (Growth and energy conservation in batch cultures of Pyrococcus furiosus. FEMS Microbiol Lett 117:305–309.)
-* Adams_mediae/*
+* Adams_media/*
   > Media matching various carbon conditions from Adams et al. 2001. (Key Role for Sulfur in Peptide Metabolism and in Regulation of Three Hydrogenases in the Hyperthermophilic Archaeon Pyrococcus furiosus. J Bacteriol 183:716–724.)
   
   > Inlcudes three files:
