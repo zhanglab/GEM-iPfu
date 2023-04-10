@@ -52,6 +52,11 @@ archaeon, Pyrococcus furiosus. Appl. Environ. Microbiol.
 * EX_Kengen_94.tsv
   > Media matching experiments from Kengen and Stams 1994 (Growth and energy conservation in batch cultures of Pyrococcus furiosus. FEMS Microbiol Lett 117:305–309.)
 * Adams_mediae/*
-  > Media matching various carbon conditions from Adams et al. 2001 (Key Role for Sulfur in Peptide Metabolism and in Regulation of Three Hydrogenases in the Hyperthermophilic Archaeon Pyrococcus furiosus. J Bacteriol 183:716–724.)
+  > Media matching various carbon conditions from Adams et al. 2001. (Key Role for Sulfur in Peptide Metabolism and in Regulation of Three Hydrogenases in the Hyperthermophilic Archaeon Pyrococcus furiosus. J Bacteriol 183:716–724.)
+  
+  > Inlcudes three files:
+    * EX_Adams_Peptide-S0.tsv - Peptide medium with sulfur
+    * EX_Adams_Malt-Peptide-S0.tsv - Peptide + maltose medium with sulfur
+    * EX_Adams_Malt-S0.tsv - Maltose medium with sulfur
 * EX_YM_adhf.tsv
   > minimal maltose medium, can be configured to use different concentrations of yeast extract
