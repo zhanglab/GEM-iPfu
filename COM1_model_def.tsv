@@ -6,7 +6,6 @@ FeoB
 LysAT
 MalABC
 MaltodextrinABC
-#NGAM
 PiT1
 PstABCS
 R00004
@@ -540,7 +539,6 @@ ampms2
 app
 applp
 artABC
-asp_ionization
 aspdpd
 aspdppABC
 atgh
@@ -582,7 +580,6 @@ galacDMT
 gdgts3
 gentiobioseABC
 gluABC
-glu_ionization
 glut2r
 glut4
 gly-t
@@ -631,18 +628,10 @@ ros
 rsr
 rz5pp2
 ser-t
-#sink_C00042[c]
 sink_C02086
 sink_C05382[c]
 sink_C19787[c]
 sink_C21615[c]
-#sink_DIP
-#sink_MG
-#sink_ala
-#sink_asp
-#sink_biomass
-#sink_cDPG
-#sink_trehalose
 so4ABC
 sophoroseABC
 sucMFS

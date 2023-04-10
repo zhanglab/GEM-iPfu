@@ -1,86 +1,5 @@
 # below is the sinks should be included in Pfu model
 ################################
-# sinks related to Compatible solutes in Pfu
-- id: sink_cDPG
-  name: cDPG sink
-  equation: C06189[c] =>
-  subsystem: Compatible solute
-  source: A501_sink//Literature
-  comment: cDPG is a Compatible solute compounds which may accumulate in Pfu, add as a sink, but thus far, the experiments in Pfu havent measured cDPG accumulations (pmid:24795373).
-  pmid: 17061210
-- id: sink_trehalose
-  name: Trehalose sink
-  equation: C01083[c] =>
-  subsystem: Compatible solute
-  comment: trehalose is a Compatible solute which may accumulate in Pfu, add as a sink, but thus far, the experiments in Pfu havent measured trehalose accumulations (pmid:24795373).
-  source: A501_sink//Literature
-  pmid: 17061210
-- id: sink_DIP
-  name: L,L-di-myo-inositol 1,3-phosphate (DIP) sink
-  equation: CPD-12857[c] =>
-  subsystem: Compatible solute
-  comment: DIP is a Compatible solute which accumulates in Pfu supported by experiments, shoud add a sink.
-  source: A501_sink//Literature
-  pmid: 24795373
-- id: sink_MG
-  name: Mannosylglycerate (MG) sink
-  equation: C11544[c] =>
-  subsystem: Compatible solute
-  comment: MG is a negatively charged Compatible solute which accumulates in Pfu supported by experiments, should add as a sink.
-  source: pfu_add//Literature
-  pmid: 24795373
-- id: asp_ionization
-  equation: C00049[c] <=> asp[c] + C00080[c]
-- id: sink_asp
-  name: Aspartate sink
-  equation: asp[c] =>
-  subsystem: Compatible solute
-  comment: Aspartate is a negatively charged Compatible solute accumulates in Pfu supported by experiments, should add a ionization and a sink.
-  pmid: 24795373
-- id: glu_ionization
-  equation: C00025[c] <=> glu[c] + C00080[c]
-- id: sink_ala
-  name: Alanine sink
-  equation: C00041[c] =>
-  subsystem: Compatible solute
-  comment: Alanine is Compatible solute accumulates in Pfu supported by experiments, should add a sink.
-  pmid: 24795373
-# comment of compatible solutes: based on experimental measurements (DIP, MG, ionized Asp, and Ala), also add sinks for potential compatible solutes Trehalose and cDPG because Pfu genome included the complete biosynthesis pathways for these two.
-#- id: cDPG_ionization
-#  equation: C06189[c] => cDPG3[c] + (3) C00080[c]
-#- id: sink_cDPG_3
-#  equation: cDPG3[c] =>
-#  comment: simulated
-#  comment: cDPG is a Compatible solute compounds which may accumulate in Pfu. The accumulation of cDPG in methanogens are negatively charged (-3) cDPG. So I added a sink of negatively charged cDPG, but thus far, the experiments in Pfu havent measured cDPG accumulations (pmid:24795373).
-#  pmid: 17061210, 24795373
-
-## sinks related to polyamines in pfu
-# - id: sink_agm
-#   name: Agmatine sink
-#   equation: C00179[c] =>
-#   subsystem: Polyamine biosynthesis
-#   pmid: DOI=https://doi.org/10.3118/jjse.7.1.21
-#   comment: Literature show Pfu would accumulate agmatine as a polyamine under stress of low temperature, low NaCl or low pH.
-# - id: sink_34
-#   name: Spermidine sink
-#   equation: C00315[c] =>
-#   pmid: DOI=https://doi.org/10.3118/jjse.7.1.21
-#   comment: should be positively charged
-# - id: sink_343
-#   name: Spermine sink
-#   equation: C01137[c] =>
-#   pmid: DOI=https://doi.org/10.3118/jjse.7.1.21
-#   comment: should be positively charged
-# - id: sink_3(3)4
-#   name: N4-Aminopropylspermidine sink
-#   equation: C21009[c] =>
-#   pmid: DOI=https://doi.org/10.3118/jjse.7.1.21
-#   comment: should be positively charged
-# - id: sink_3(3)(3)4
-#   name: N4-Bis(aminopropyl)spermidine sink
-#   equation: C21010[c] =>
-#   pmid: DOI=https://doi.org/10.3118/jjse.7.1.21
-#   comment: this compound is with charge 1.
 - id: sink_C19787[c]
   name: 5-S-Methyl-5-thioinosine sink
   equation: C19787[c] =>
@@ -99,12 +18,7 @@
   source: Pfu_add//Manual
   comment: Its the end-product of the reaction R01641 in Pentose phosphate pathway. To make sure the producing of E4P (C00279), this compound should be a sink.
   subsystem: Central carbon metabolism, Pentose phoshate pathway
-## extra sinks needed to produce the biomass
-#- id: sink_C00042[c]
-#  equation: C00042[c] =>
-#  source: Pfu_add//Manual
-#  comment: because of there were no where for the succinate to go in current model.
-#  subsystem: Central carbon metabolism, TCA cycle
+## sinks related to amino acid metabolism
 - id: sink_C02086
   equation: C02086[c] =>
   comment: End product of cysteine metabolic pathway, allowing cysteine to be used as a Nitrogen source
