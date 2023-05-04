@@ -38,7 +38,7 @@ FigS2.ipynb
 	requires "GEM-iPfu/sbmls/b971180d_Adams_MaltPep-S0.sbml"
 	creates "GEM-iPfu/figures/FigS2.tiff"
 	
-Fig3-4-S2.ipynb
+Fig3-4.ipynb
 	requires "GEM-iPfu/sbmls/b971180d_YM_closed.sbml"
 	requires "GEM-iPfu/sbmls/b971180d_YM_open.sbml"
 	requires "GEM-iPfu/sbmls/b971180d_YM_CODH_closed.sbml"
