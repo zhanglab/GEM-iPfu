@@ -1,4 +1,5 @@
 # GEM-iPfu, Genome-scale metabolic model of *Pyrococcus furiosus*
+[![DOI](https://zenodo.org/badge/624461310.svg)](https://zenodo.org/badge/latestdoi/624461310)
 
 Files in this repository represent the genome-scale model of *Pyrococcus furiosus*. The model is first reported in the following publication:
 * Vailionis, J. Zhao, W., Zhang, K., Rodionov, D., Lipscomb, G. L., Tanwee, T. N. N., O&#39;Quinn,
