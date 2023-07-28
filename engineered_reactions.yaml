@@ -52,3 +52,93 @@
   ec: 5.3.1.5
   pmid: 16237010, 12209774
   comment: C00267 (alpha-D-Glucose) change to C00031 (D-Glucose) to keep consistent as other reactions in the GEM
+
+## Propanol pathway
+# add reactions for 3-HP production, strategy is based on Mike's group
+- id: R00742
+  name: acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+  genes: engineered_E1
+  equation: C00002[c] + C00024[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c] + C00083[c]
+  ec: 6.4.1.2
+  comment: E1 enzymes is acetyl/propionyl-CoA carboxylase (PMID 23530213), so another reaction R01859 (EC 6.4.1.3) was added, R01859 is required in pathhway of producing succinate from 3HP.
+- id: R00740
+  name: 3-oxopropanoate:NADP+ oxidoreductase (CoA-malonylating)
+  genes: engineered_E2
+  equation: C00083[c] + C00005[c] + C00080[c] <=> C00222[c] + C00010[c] + C00006[c]
+  ec: 1.2.1.75
+  comment: E2 enzyme was described as malonyl-CoA/succinyl-CoA reductase in the literature PMID 23530213, so another reaction R09280 was added, R09280 is used in pathway of producing 4HB from succinate.
+- id: R01608_kz
+  name: 3-hydroxypropanoate:NADP+ oxidoreductase
+  genes: engineered_E3
+  equation: C00222[c] + C00005[c] + C00080[c] <=> C01013[c] + C00006[c]
+  ec: 1.1.1.59
+  comment: in KEGG, R01608 uses NADH as cofactor, I changed it to NADPH based on Mike's slides.
+- id: 3HPt
+  name: 3-Hydroxypropanoate export
+  equation: C01013[c] => C01013[e]
+# add reactions for propionyl-CoA production by using 3HP
+- id: R09286
+  name: 3-hydroxypropionyl-CoA synthase
+  genes: engineered_E4
+  equation: C01013[c] + C00010[c] + C00002[c] <=> C05668[c] + C00013[c] + C00020[c]
+  ec: 6.2.1.36
+- id: R03045
+  name: 3-hydroxypropionyl-CoA dehydratase
+  genes: engineered_E5
+  equation: C05668[c] <=> C00894[c] + C00001[c]
+  ec: 4.2.1.116
+- id: R00919
+  name: acrylyl-CoA reductase (NADPH)
+  genes: engineered_E6
+  equation: C00894[c] + C00005[c] + C00080[c] <=> C00100[c] + C00006[c]
+  ec: 1.3.1.84
+# add reactions for propanol production by using propionyl-CoA
+- id: R00920
+  name: Propanoate:CoA ligase (ADP-forming)
+  genes: engineered_ACSII
+  equation: C00008[c] + C00009[c] + C00100[c] => C00002[c] + C00163[c] + C00010[c]
+  ec: 6.2.1.13
+- id: AOR_Propionate
+  name: Propionaldehyde:ferredoxin oxidoreductase
+  genes: PF0346
+  equation: C00163[c] + (2) C00138[c] + (2) C00080[c] <=> C00479[c] + (2) C00139[c] + C00001[c]
+  pmid: 25368184
+  comment: conversion of organic acid to acidaldehyde is catalyzed by the native AOR gene of Pfu, as shown in the reference (PMID 25368184).
+- id: AdhA_Propanol
+  name: NADP-dependent propanol dehydrogenase
+  genes: engineered_AdhA
+  equation: C00479[c] + C00005[c] + C00080[c] <=> C05979[c] + C00006[c]
+  pmid: 25368184
+  comment: shown in the reference, insertion of the AdhA gene from Thermoanaerobacter sp. strain X514 supports the production of propanol (or other alchol, like ethanol, isobutanol, 1-pentanol, isoamylalcohol, 1-hexanol, and phenylethanol) from propionate (or other acids, like acetate, isobutyrate, valerate, isovalerate, caproate, or phenylacetate)
+- id: TP_propanol
+  name: Propanol diffusion
+  equation: C05979[c] => C05979[e]
+# Part of reactions for succinate production by using 3HP has been annotated in Pfu: R02765(E7), R00833(E8), R00405(ACSIII), R00405-G(ACSIII), also, note that Pfu has a sink for succinate (sink_C00042)
+- id: R01859
+  name: propanoyl-CoA:carbon-dioxide ligase (ADP-forming)
+  genes: engineered_E1
+  equation: C00002[c] + C00100[c] + C00288[c] + C00080[c] => C00008[c] + C00009[c] + C00683[c]
+  subsystem: Valine, leucine and isoleucine degradation
+  ec: 6.4.1.3
+  comment: E1 enzymes is acetyl/propionyl-CoA carboxylase (PMID 23530213), its another reaction R00742 (EC 6.4.1.2) is in 3HP producing pathway.
+# add reactions for 4HB production by using Succinyl-CoA
+- id: R09280
+  name: succinyl-CoA reductase
+  genes: engineered_E2
+  equation: C00091[c] + C00005[c] + C00080[c] <=> C00232[c] + C00006[c] + C00010[c]
+  ec: 1.2.1.76
+  comment: E2 enzyme was described as malonyl-CoA/succinyl-CoA reductase in the reference paper (PMID 23530213), so this reaction is added for E2 enzyme
+- id: R09281
+  name: succinate semialdehyde reductase (NADPH)
+  genes: engineered_E9
+  equation: C00232[c] + C00080[c] + C00005[c] <=> C00989[c] + C00006[c]
+- id: TP_4HB
+  name: 4-Hydroxybutanoate diffusion
+  equation: C00989[c] <=> C00989[e]
+# add reactions for 14BD production by using 4HB
+- id: R09279
+  equation: C00989[c] + C00002[c] + C00010[c] <=> C11062[c] + C00020[c] + C00013[c]
+  genes: engineered_E4
+  comment: Based on comment from James and Mike, enzyme E4 can catalyzes the formation of 3-hydroxypropyl-CoA from 3-HP (R09286,  EC 6.2.1.36) and also work on 4HB to make 4-hydroxybutyryl CoA (this rxn, EC 6.2.1.40).
+  pmid: 18079405, 23258541
+
