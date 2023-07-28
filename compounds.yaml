@@ -6238,3 +6238,15 @@
   formula: C7H14N2O4S
   charge: 0
   mol_weight: 222.2621
+- id: C00181
+  name: D-Xylose
+  formula: C5H10O5
+  charge: 0
+  mol_weight: 150.1299
+  source: KEGG
+- id: C00310
+  name: D-Xylulose
+  formula: C5H10O5
+  mol_weight: 150.1299
+  charge: 0
+  source: KEGG

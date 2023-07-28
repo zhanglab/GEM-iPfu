@@ -1,4 +1,4 @@
-# Below are the added reactions for Pyrococcus fuuiosus engineered strains
+# Below are the added reactions for Pyrococcus furiosus engineered strains
 
 # add reactions for CODH (CODH is inserted to Pfu OE-AdhF strain in order to increase ethanol production (Gina's work))
 - id: CODH
@@ -12,3 +12,43 @@
 - id: TP_CO
   name: CO diffusion (Non-enzymatic)
   equation: C00237[c] <=> C00237[e]
+
+### Xylan/Xylose utilization design with enzymes from Thermotoga maritima
+### curated by Jason Vailionis, July 2023
+#- id: XynA
+#  name: Xylanase A (XynA)
+#  genes: TM_0061
+#- id: XynB
+#  name: Xylanase B (XynB)
+- id: XylABC
+  equation: C00181[e] + C00002[c] + C00001[c] => C00181[c] + C00008[c] + C00009[c]
+  name: Xylose ABC transporter
+  genes: TM0071
+  tc: 3.A.1.5.13
+- id: R01432
+  equation: C00181[c] <=> C00310[c]
+  name: Xylose isomerase (xylA)
+  genes: TM1667
+  ec: 5.3.1.5
+- id: R01639
+  name: ATP:D-xylulose 5-phosphotransferase (XylB)
+  equation: C00002[c] + C00310[c] <=> C00008[c] + C00231[c]
+  genes: TM0116
+  ec: 2.7.1.17
+- id: R01529
+  name: D-Ribulose-5-phosphate 3-epimerase (rpe)
+  equation: C00199[c] <=> C00231[c]
+  genes: TM1718
+  ec: 5.1.3.1
+- id: R08575
+  name: Transaldolase (TAL); sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+  equation: C05382[c] + C00118[c] <=> C00279[c] + C00085[c]
+  genes: TM0295
+  ec: 2.2.1.2
+- id: R00878_jv
+  name: alpha-D-Glucose aldose-ketose-isomerase
+  equation: C00031[c] <=> C00095[c]
+  genes: TM1667
+  ec: 5.3.1.5
+  pmid: 16237010, 12209774
+  comment: C00267 (alpha-D-Glucose) change to C00031 (D-Glucose) to keep consistent as other reactions in the GEM
