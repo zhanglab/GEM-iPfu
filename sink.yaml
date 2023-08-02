@@ -22,3 +22,9 @@
 - id: sink_C02086
   equation: C02086[c] =>
   comment: End product of cysteine metabolic pathway, allowing cysteine to be used as a Nitrogen source
+- id: sink_DIP
+  equation: CPD-12857[c] =>
+  comment: compatible solutes MG and DIP are produced in response to osmotic and temperature stress [pmid:24795373]. Added sink to free these pathways.
+- id: sink_MG
+  equation: C11544[c] =>
+  comment: compatible solutes MG and DIP are produced in response to osmotic and temperature stress [pmid:24795373]. Added sink to free these pathways.
