@@ -142,3 +142,19 @@
   comment: Based on comment from James and Mike, enzyme E4 can catalyzes the formation of 3-hydroxypropyl-CoA from 3-HP (R09286,  EC 6.2.1.36) and also work on 4HB to make 4-hydroxybutyryl CoA (this rxn, EC 6.2.1.40).
   pmid: 18079405, 23258541
 
+### Formate metabolism pathway from Thermococcus onnurineus
+# Curated by Jason Vailionis on August 1, 2023
+# fhl = mrp-mbh + formate dehydrogenase (fdh)
+# ft = formate transporter
+- id: fhl
+  name: membrane-bound formate hydrogen lyase (FHL)
+  equation: C00058[c] + C01330[c] => C00011[c] + C01330[e] + C00282[c]
+  genes: TON_1563 and TON_1564 and TON_1565 and TON_1566 and TON_1567 and TON_1568 and TON_1569 and TON_1570 and TON_1571 and TON_1572 and TON_1574 and TON_1575 and TON_1576 and TON_1577 and TON_1578 and TON_1579 and TON_1580
+  pmid: 24318960
+- id: ft
+  name: formate transporter
+  equation: C00058[e] + C00080[e] => C00058[c] + C00080[c]
+  genes: TON_1573
+  tcdb: 1.A.16.1.1
+  pmid: 24318960, 21493860
+  comment: JV:The enzyme is described as having pH dependent activity - switches from a passive export channel at high pH to a formate/H+ importer at low (<~6.8) pH [pmid:21493860]. The enzyme seems somewhat complex and isn't fully understood so it's worth looking at the tcdb page. For our purposes we are usually growing lower than 6.8 pH and are interested in its import activity paired with FHL, so using a generic proton symport uptake equation.
