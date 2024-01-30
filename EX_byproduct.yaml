@@ -80,6 +80,10 @@ compounds:
   name: Propanol
   lower: 0
   upper: 1000
+- id: C00163
+  name: Propionate
+  lower: 0
+  upper: 1000
 - id: C00042
   name: Succinate
   lower: 0

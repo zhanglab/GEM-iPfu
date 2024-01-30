@@ -110,6 +110,9 @@
   equation: C00479[c] + C00005[c] + C00080[c] <=> C05979[c] + C00006[c]
   pmid: 25368184
   comment: shown in the reference, insertion of the AdhA gene from Thermoanaerobacter sp. strain X514 supports the production of propanol (or other alchol, like ethanol, isobutanol, 1-pentanol, isoamylalcohol, 1-hexanol, and phenylethanol) from propionate (or other acids, like acetate, isobutyrate, valerate, isovalerate, caproate, or phenylacetate)
+- id: TP_propionate
+  name: Propionate diffusion
+  equation: C00163[c] => C00163[e]
 - id: TP_propanol
   name: Propanol diffusion
   equation: C05979[c] => C05979[e]
