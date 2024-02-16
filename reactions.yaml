@@ -1615,12 +1615,14 @@
   #change: Keep
 - id: R00130
   name: ATP:dephospho-CoA 3-phosphotransferase
-  genes: PF1294
+  genes: PF0254
   equation: C00002[c] + C00882[c] <=> C00008[c] + C00010[c]
   subsystem: Coenzyme A Biosynthesis
   kegg: R00130
   ec: 2.7.1.24
   source: A501_psammotate//iMAC868_psammotate
+  pmid: 31337720
+  comment: PF1294 (homolog to TK1334) and PF0366 (homolog to TK2192) may not catalyze this function according to pmid  31337720
   #tag: psammotate-iMAC868-KEGG-Correct
   #change: Keep
 - id: R09669
