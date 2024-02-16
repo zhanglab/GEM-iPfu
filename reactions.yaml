@@ -1615,14 +1615,14 @@
   #change: Keep
 - id: R00130
   name: ATP:dephospho-CoA 3-phosphotransferase
-  genes: PF0254
+#  genes: PF0254
   equation: C00002[c] + C00882[c] <=> C00008[c] + C00010[c]
   subsystem: Coenzyme A Biosynthesis
   kegg: R00130
   ec: 2.7.1.24
   source: A501_psammotate//iMAC868_psammotate
   pmid: 31337720
-  comment: PF1294 (homolog to TK1334) and PF0366 (homolog to TK2192) may not catalyze this function according to pmid  31337720
+  comment: PF1294 (homolog to TK1334) and PF0366 (homolog to TK2192) may not catalyze this function according to pmid  31337720. It is unknown if there is another gene that could perform this function with ATP.
   #tag: psammotate-iMAC868-KEGG-Correct
   #change: Keep
 - id: R09669
@@ -6039,4 +6039,11 @@
   pmid: 16046084
   comment: Introduced to complete biosynthesis of Methionine from Cysteine. The two reactions previously associated with PF1266 were likely misannotated (R01287 and R00654) and have been replaced with CGS and CBL (R01286) based on literature (pmid:16046084)
   source: Literature
-
+- id: R12608
+  name: GTP:3'-dephospho-CoA 3'-phosphotransferase
+  equation: C00044[c] + C00882[c] <=> C00035[c] + C00010[c]
+  gene: PF0254
+  ec: 2.7.1.237
+  subsystem: Coenzyme A Biosynthesis
+  pmid: 31337720
+  comment: PF0254 is homologous to TK1697, which was shown to perform this function with GTP and (less efficiently) UTP (pmid:31337720)
