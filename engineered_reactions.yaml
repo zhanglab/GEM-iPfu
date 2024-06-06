@@ -161,3 +161,16 @@
   tcdb: 1.A.16.1.1
   pmid: 24318960, 21493860
   comment: JV:The enzyme is described as having pH dependent activity - switches from a passive export channel at high pH to a formate/H+ importer at low (<~6.8) pH [pmid:21493860]. The enzyme seems somewhat complex and isn't fully understood so it's worth looking at the tcdb page. For our purposes we are usually growing lower than 6.8 pH and are interested in its import activity paired with FHL, so using a generic proton symport uptake equation.
+
+### 2,3-butanediol pathway from Thermococcus guaymasensis
+# Curated by Jason Vailionis on May 6, 2024
+# Note: the COM1 model has a reaction R02946_yz which uses NADH
+#       However, Hailey has not observed 2,3-BDO production in COM1 until adding Tg_SADH
+- id: R02946_Tg_sADH
+  equation: C00466[c] + C00005[c] + C00080[c] => C03044[c] + C00006[c]
+  ec: 1.1.1.4
+  genes: Tg_sADH
+  name: Thermococcus guaymasensis secondary alcohol dehydrogenase (sADH)
+  pmid: 21515780
+  subsystem: Butanoate metabolism
+
