@@ -5666,7 +5666,7 @@
   subsystem: Glyoxylate and dicarboxylate metabolism, Methane metabolism
   #pmid: 20844539
   source: Pfu_add//KO
-  comment: Pyrococcus furiosus, cannot utilize formate as a source of H2 (pmid:24318960), so Pfu doesnt have the function of fdh or fhl; PF1521 is the ortholog gene of TON_0281 in fdh/fhl complex in Thermococcus onnurineus.
+  comment: Pyrococcus furiosus, cannot utilize formate as a source of H2 (pmid:24318960), so Pfu doesnt have the function of fdh or fhl; PF1521 is the ortholog gene of TON_0281 in fdh/fhl complex in Thermococcus onnurineus. Mike strongly suspects that Pfu does not have formate dehydrogenase activity of this kind based on previous experiments, reaction is being removed in favor of formaldehyde ferredoxin oxidoreductase catalyzed by AOR/FOR
 - id: R00024
   name: Ribulose 1,5-bisphosphate carboxylase (RubisCO), type III
   genes: PF1156
@@ -6047,3 +6047,10 @@
   subsystem: Coenzyme A Biosynthesis
   pmid: 31337720
   comment: PF0254 is homologous to TK1697, which was shown to perform this function with GTP and (less efficiently) UTP (pmid:31337720)
+- id: AOR_formaldehyde
+  name: Formate ferredoxin oxidoreductase (FOR)
+  gene: PF0346 or PF1203
+  equation: C00058[c] + (2) C00138[c] + (2) C00080[c] <=> C00067[c] + (2) C00139[c] + C00001[c]
+  pmid: 11265456
+  ec: 1.2.7.5
+  comment: AOR(PF0346) or FOR(PF1203) can catalyze the oxidation of formaldehyde to formate, with AOR being more likely to catalyze it at physiological levels (pmid:11265456)

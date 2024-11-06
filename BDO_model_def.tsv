@@ -73,7 +73,7 @@ R00491
 R00509
 R00510
 R00512
-R00519
+#R00519
 R00529
 R00551
 R00566
@@ -671,6 +671,7 @@ GAM_biomass
 nsr
 sink_MG
 sink_DIP
+AOR_formaldehyde
 
 # BDO production
 R02946_Tg_sADH
