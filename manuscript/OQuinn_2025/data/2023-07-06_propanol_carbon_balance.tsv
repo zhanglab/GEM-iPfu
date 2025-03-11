@@ -1,0 +1,14 @@
+name	reaction	MW670_value	MW676_value	unit	notes
+Cellobiose	EX_C00185_LSQBKT_e_RSQBKT_	-6.87	-7	mM	
+Acetate	TP_ace	6.26	7.5	mM	
+Ethanol	TP_ETOH	9.36	8.87	mM	
+CO2	TP_CO2	15.75	16.5	mM	
+1-Propanol	TP_propanol	0.4	0.48	mM	
+Propionate	TP_propionate	0.63	0.91	mM	
+EPS		0.54	0.54	mM	6 carbon, make a glucose sink for it
+protein	pro_met	0.09365	0.09145	mg/L	
+Acetoin	TP_acetoin	0.07	0.07	mM	
+IAA	TP_iaa	0.22	0.22	mM	
+Alanine		2.27	2.31	mM	two transporters: ala-t, alaAGCS. alaAGCS only imports – constrain the difference of ala-t minus alaAGCS
+di-myo-inositol phosphate	sink_DIP	0.02	0.02	mM	
+Mannosylglycerate	sink_MG	0.29	0.31	mM	
