@@ -1,7 +1,7 @@
 trace_minerals	e	-1	1000
 salt	e	-1	1000
 # Change yeast extract to 5 for YM5 media
-yeast_extract	e	-.5	1000
+yeast_extract	e	0	1000
 vitamins	e	-1	1000
 C20679	e	-0.01	1000
 C01330	e	-11.92376992	1000
@@ -10,7 +10,9 @@ C00097	e	-4.126835823	1000
 C00001	e	-1000	1000
 C00080	e	-0.0001584893192	1000
 # Carbon source
-C00208	e	-14.60721918	1000
+#C00208	e	-14.60721918	1000
+C00185	e	-10.225	1000
+
 
 # Uracil 
 #C00106  e       -1000   1000

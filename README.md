@@ -21,6 +21,10 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDeri
   > list of reactions that make up the WT (DSM 3638) model
 * COM1_model_def.tsv
   > list of reactions that make up the COM1 model
+* COM1-xyl_model_def.tsv
+  > list of reactions that make up the COM1 model with engineered xylose consumption pathway from Thermotoga maritima
+* propanol_model_def.tsv
+  > list of reactions that make up the COM1 model with engineered propanol production pathway
 * media_def.tsv
   > includes additional components that are required to use the EX_YM_adhf.tsv media
 

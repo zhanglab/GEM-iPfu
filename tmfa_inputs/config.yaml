@@ -1,0 +1,9 @@
+deltaG: ./tmfa_inputs/dG.tsv
+exclude: ./tmfa_inputs/excluded_rxns.tsv
+transporters: ./tmfa_inputs/transport.tsv
+concentrations: ./tmfa_inputs/concentrations.tsv
+proton-in: C00080[c]
+proton-out: C00080[e]
+water:
+  - C00001[c]
+  - C00001[e]

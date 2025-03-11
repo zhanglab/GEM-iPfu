@@ -3,14 +3,11 @@ Biomass_Pfu
 CysDmso
 CysPdo
 FeoB
-GentiobioseGH
-Lam3GH
 LysAT
 MalABC
 MaltodextrinABC
 PiT1
 PstABCS
-PullulanAPU
 R00004
 R00005
 R00024
@@ -103,7 +100,6 @@ R00722
 R00734
 R00746
 #R00754
-R00760
 R00768
 R00833
 R00847
@@ -131,7 +127,6 @@ R01054
 R01055
 R01056
 R01057
-R01058
 R01061
 R01063
 R01070
@@ -195,7 +190,6 @@ R01652
 R01658
 R01663
 R01665
-R01678_zws
 R01714
 R01715
 R01716
@@ -368,7 +362,6 @@ R05070
 R05071
 R05085
 R05142
-R05196_zws
 R05220
 R05222
 R05225
@@ -502,8 +495,6 @@ R12608
 RXN-11880
 RXN_19380
 SerK
-SophoroseGH
-StarchAPU
 THFi
 THFs_2
 TP_CO2
@@ -579,19 +570,16 @@ cuagPATP
 cycloABC
 cysAT
 cytoNCS
-daunoABC
 dggpgp
 dhord7
 dna_met
 entABC
-eth
 fe3abc
 fedcabc
 fruMFS
 galacDMT
 gdgts3
 gentiobioseABC
-glmA
 gluABC
 glut2r
 glut4
@@ -627,13 +615,11 @@ nfn1
 nh4
 niABC
 nn5hbprt
-nss
 oleABC
 pla_met
 pmvd
 polya-t
 polyas
-proSSS
 pro_met
 prodppABC
 quinoMFS
@@ -655,7 +641,6 @@ tetraRND
 thiABC
 thr-t
 thzpsn
-tigMOP
 trace_met
 triTTT
 uaABC
@@ -687,3 +672,12 @@ nsr
 sink_MG
 sink_DIP
 AOR_formaldehyde
+
+# Engineered xylose pathway
+XylABC
+R01639
+R01432
+R01529
+R08575
+R00878_jv
+R00760

@@ -31,4 +31,6 @@
   lower: 0
   upper: 1000
   comment: Nfn1 primary function seems to be maintaining a high NADPH/NADP ratio in cells favoring the forward direction [pmid:28705933], although both directions are possible [pmid:28394885]. Negative fluxes of this gene cause looping behavior in the model sh1/sh2/mbh/atps, so constraining to forward direction
-
+- reaction: TP_suc
+  upper: 0.5
+  comment: Hailey attmepted to look for succinate in her samples and was not able to detect any (Aug 2023) - I believe in both the Propanol and COM1 samples but not sure. Her lowest standard is 0.5 mM so technically wouldn't be able to detect amounts below this level
