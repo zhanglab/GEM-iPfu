@@ -53,6 +53,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDeri
   > additional compounds that are required to use the EX_YM_adhf.tsv media
 * media_conversion_rxns.yaml
   > additional reactions that are required to use the EX_YM_adhf.tsv media
+* tmfa_inputs/
+  > input files required to perform thermodynamic flux balance analysis with PSAMM, including ΔG° predictions for most reactions
 
 #### Media definitions
 * EX_Kengen_94.tsv
