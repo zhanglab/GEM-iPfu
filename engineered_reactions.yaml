@@ -95,7 +95,7 @@
 # add reactions for propanol production by using propionyl-CoA
 - id: R00920
   name: Propanoate:CoA ligase (ADP-forming)
-  genes: engineered_ACSII
+  genes: PF0532 and PF1837
   equation: C00008[c] + C00009[c] + C00100[c] => C00002[c] + C00163[c] + C00010[c]
   ec: 6.2.1.13
 - id: AOR_Propionate
