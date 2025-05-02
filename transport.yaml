@@ -730,7 +730,7 @@
   comment: H+ can also be Na+
 - id: TP_Mg
   name: Magnesium transport
-  gene: PF1157 or PF2036
+  genes: PF1157 or PF2036
   equation: C00305[e] <=> C00305[c]
   comment: PF1157 is the MgtE type, and PF2036 is the CorA type, but the reaction formulation should be the same
   subsystem: Transport

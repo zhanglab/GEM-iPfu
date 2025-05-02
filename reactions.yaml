@@ -6034,7 +6034,7 @@
   equation: C02291[c] + C00001[c] <=> C00155[c] + C00014[c] + C00022[c]
   ec: 4.4.1.13
   kegg: R01286
-  gene: PF1266
+  genes: PF1266
   subsystem: Cysteine and methionine metabolism
   pmid: 16046084
   comment: Introduced to complete biosynthesis of Methionine from Cysteine. The two reactions previously associated with PF1266 were likely misannotated (R01287 and R00654) and have been replaced with CGS and CBL (R01286) based on literature (pmid:16046084)
@@ -6042,14 +6042,14 @@
 - id: R12608
   name: GTP:3'-dephospho-CoA 3'-phosphotransferase
   equation: C00044[c] + C00882[c] <=> C00035[c] + C00010[c]
-  gene: PF0254
+  genes: PF0254
   ec: 2.7.1.237
   subsystem: Coenzyme A Biosynthesis
   pmid: 31337720
   comment: PF0254 is homologous to TK1697, which was shown to perform this function with GTP and (less efficiently) UTP (pmid:31337720)
 - id: AOR_formaldehyde
   name: Formate ferredoxin oxidoreductase (FOR)
-  gene: PF0346 or PF1203
+  genes: PF0346 or PF1203
   equation: C00058[c] + (2) C00138[c] + (2) C00080[c] <=> C00067[c] + (2) C00139[c] + C00001[c]
   pmid: 11265456
   ec: 1.2.7.5
