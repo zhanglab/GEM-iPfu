@@ -1,0 +1,53 @@
+C00185	e	-14.607	1000	# Cellobiose
+C00041	e	-0.842	1000	# Alanine
+C00062	e	-0.718	1000	# Arginine
+C00152	e	-0.757	1000	# Asparagine
+C00049	e	-0.376	1000	# Aspartic acid
+C00097	e	-6.344	1000	# Cysteine
+C00025	e	-1.359	1000	# Glutamic acid
+C00064	e	-0.342	1000	# Glutamine
+C00037	e	-2.664	1000	# Glycine
+C00135	e	-0.645	1000	# Histidine
+C00407	e	-0.762	1000	# Isoleucine
+C00123	e	-0.762	1000	# Leucine
+C00047	e	-0.684	1000	# Lysine
+C00073	e	-0.503	1000	# Methionine
+C00079	e	-0.454	1000	# Phenylalanine
+C00148	e	-1.086	1000	# Proline
+C00065	e	-0.714	1000	# Serine
+C00188	e	-0.839	1000	# Threonine
+C00078	e	-0.367	1000	# Tryptophan
+C00082	e	-0.066	1000	# Tyrosine
+C00183	e	-0.427	1000	# Valine
+C00153	e	-0.0000819	1000	# Niacin
+C00120	e	-0.0000164	1000	# Biotin
+C00864	e	-0.0000456	1000	# Pantothenate
+C16241	e	-0.0000485	1000	# Lipoic Acid*
+C00504	e	-0.0000091	1000	# Folic Acid
+C00568	e	-0.0000729	1000	# p-Aminobenzoic Acid
+C00378	e	-0.0000377	1000	# Thiamine B1
+C00255	e	-0.0000266	1000	# Riboflavin B2
+C00314	e	-0.0000591	1000	# Pyridoxine B6
+C02823	e	-0.0000074	1000	# Cobalamin B12
+C01330	e	-491.053	1000	# Sodium
+C00305	e	-27.481	1000	# Magnesium
+C00076	e	-0.9523	1000	# Calcium
+C00238	e	-4.427	1000	# Potassium
+C14819	e	-0.0123	1000	# Ferric ion
+C14818	e	-0.000	1000	# Ferrous ion
+C01342	e	-4.674	1000	# Ammonium
+C20679	e	-0.0100	1000	# Tungstenate
+C00009	e	-1000	1000	# Phosphate
+C00059	e	-14.200	1000	# Sulfate
+C00698	e	-521.170	1000	# Chloride
+C12486	e	-0.000809	1000	# Boric acid
+C19610	e	-0.000253	1000	# Manganese (2+)
+C00175	e	-0.000210	1000	# Cobalt ion
+C00038	e	-0.000367	1000	# Zinc ion
+C00070	e	-0.000176	1000	# Copper
+CID104727	e	-0.000170	1000	# Aluminum ion
+C19609	e	-0.000210	1000	# Nickel (2+)
+C06232	e	-0.000255	1000	# Molybdate
+C00087	e	0.0000	1000	# Sulfur
+C00080	e	-1000	1000	# Proton
+C00001	e	-1000	1000	# Water
