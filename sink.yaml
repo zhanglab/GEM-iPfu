@@ -28,3 +28,7 @@
 - id: sink_MG
   equation: C11544[c] =>
   comment: compatible solutes MG and DIP are produced in response to osmotic and temperature stress [pmid:24795373]. Added sink to free these pathways.
+- id: sink_glucose
+  equation: C00031[c] =>
+  comment: Excess glucose is produced during growth on Cellobiose. Added sink to account for this.
+

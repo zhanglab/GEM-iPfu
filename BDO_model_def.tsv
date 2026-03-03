@@ -671,6 +671,7 @@ GAM_biomass
 nsr
 sink_MG
 sink_DIP
+sink_glucose
 AOR_formaldehyde
 
 # BDO production
