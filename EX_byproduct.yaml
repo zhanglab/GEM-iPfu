@@ -70,6 +70,10 @@ compounds:
   name: 2,3-Butanediol
   lower: 0
   uppper: 1000
+- id: C00031
+  name: Glucose
+  lower: 0
+  upper: 1000
 
 # added exchange for potential engineered bioproducts
 - id: C01013
