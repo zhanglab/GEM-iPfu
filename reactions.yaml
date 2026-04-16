@@ -2445,15 +2445,6 @@
   #tag: psammotate-iMAC868-VitaminsCofactor/Literature
   pmid: 9012808
   #change: NoKeggID
-- id: SerK
-  name: Serine kinase (SerK)
-  genes: PF0380
-  equation: C00065[c] + C00009[c] => C01005[c] + C00001[c]
-  subsystem: Glycine and Serine Metabolism
-  source: A501_psammotate//Literature
-  ec: 2.7.1.226
-  #tag: Literature
-  pmid: 27857065
 - id: R04316
   name: Acetyl-CoA:ribosomal-protein-L-alanine N-acetyltransferase
   genes: PF0267
@@ -5677,9 +5668,9 @@
   subsystem: Central carbon metabolism, Pentose bisphosphate pathway
   pmid: 17303759
 - id: R00582
-  name: Phosphoserine phosphatase (SerB)
-  genes: PF1921
-  equation: C01005[c] + C00001[c] => C00065[c] + C00009[c]
+  name: Phosphoserine phosphatase (SerB) / Serine kinase (SerK)
+  genes: PF1921 or PF0380
+  equation: C01005[c] + C00001[c] <=> C00065[c] + C00009[c]
   kegg: R00582
   ec: 3.1.3.3
   source: A501_psammotate//Literature
