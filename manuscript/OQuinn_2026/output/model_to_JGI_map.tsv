@@ -1,0 +1,206 @@
+	model_id	JGI_name	model_name
+0	C00003	NAD	NAD
+2	C00003	NAD+ CollisionEnergy:102040	NAD
+3	C00004	NADH	NADH
+4	C00006	NADP	NADP
+6	C00008	ADP	ADP
+8	C00019	S-adenosylmethionine CollisionEnergy:102040	S-Adenosyl-L-methionine (SAM)
+9	C00020	AMP	AMP
+11	C00020	ADENOSINE-MONOPHOSPHATE	AMP
+12	C00020	adenosine 5'-monophosphate CollisionEnergy:102040	AMP
+13	C00020	5'-adenylic acid	AMP
+14	C00022	pyruvic_acid_unlabeled	Pyruvate (Pyr)
+15	C00022	pyruvic_acid	Pyruvate (Pyr)
+16	C00022	Pyruvate	Pyruvate (Pyr)
+17	C00024	Acetyl-CoA	Acetyl-CoA (AcCoA)
+20	C00024	acetyl CoA	Acetyl-CoA (AcCoA)
+21	C00025	glutamic_acid_unlabeled	L-Glutamic acid (Glu-L)
+22	C00025	glutamic_acid	L-Glutamic acid (Glu-L)
+25	C00029	UDP-Glucose	UDPglucose
+26	C00031	Glucose	D-Glucose
+27	C00031	mannose_unlabeled	D-Glucose
+28	C00037	glycine	L-Glycine (Gly-L)
+29	C00037	glycine_unlabeled	L-Glycine (Gly-L)
+31	C00041	alanine	L-Alanine (Ala-L)
+32	C00041	alanine_unlabeled	L-Alanine (Ala-L)
+34	C00043	URIDINE 5'-DIPHOSPHO-N-ACETYLGALACTOSAMINE	UDP-N-acetyl-D-glucosamine
+35	C00043	UDP-GlcNAc CollisionEnergy:102040	UDP-N-acetyl-D-glucosamine
+36	C00047	lysine	L-Lysine (lys-L)
+37	C00047	lysine_unlabeled	L-Lysine (lys-L)
+40	C00049	aspartic_acid	L-Aspartic acid (Asp-L)
+41	C00049	aspartic_acid_unlabeled	L-Aspartic acid (Asp-L)
+45	C00062	arginine	L-Arginine (Arg-L)
+46	C00062	arginine_unlabeled	L-Arginine (Arg-L)
+49	C00062	Arginine 	L-Arginine (Arg-L)
+50	C00062	Arginine	L-Arginine (Arg-L)
+51	C00064	glutamine	L-Glutamine (Gln-L)
+52	C00064	glutamine_unlabeled	L-Glutamine (Gln-L)
+54	C00065	serine	L-Serine (Ser-L)
+55	C00065	Serine	L-Serine (Ser-L)
+56	C00065	serine_unlabeled	L-Serine (Ser-L)
+60	C00073	methionine_unlabeled	L-Methionine (Met-L)
+61	C00073	methionine	L-Methionine (Met-L)
+63	C00073	METHIONINE	L-Methionine (Met-L)
+64	C00074	Phosphoenolpyruvate	Phosphoenolpyruvate (PEP)
+65	C00077	ornithine	L-Ornithine (Orn)
+67	C00078	tryptophan	L-Tryptophan (Trp-L)
+68	C00078	tryptophan_unlabeled	L-Tryptophan (Trp-L)
+76	C00078	D-Tryptophan CollisionEnergy:205060	L-Tryptophan (Trp-L)
+77	C00078	tryptophan CollisionEnergy:205060	L-Tryptophan (Trp-L)
+78	C00079	phenylalanine_unlabeled	L-Phenylalanine (Phe-L)
+79	C00079	phenylalanine	L-Phenylalanine (Phe-L)
+86	C00079	L-phenylalanine CollisionEnergy:102040	L-Phenylalanine (Phe-L)
+87	C00082	tyrosine_unlabeled	L-Tyrosine (Tyr-L)
+88	C00082	tyrosine	L-Tyrosine (Tyr-L)
+91	C00082	L-tyrosine CollisionEnergy:102040	L-Tyrosine (Tyr-L)
+92	C00082	TYROSINE	L-Tyrosine (Tyr-L)
+93	C00085	Fructose-6-phosphate	D-Fructose 6-phosphate (F6P)
+94	C00085	Neuberg ester CollisionEnergy:102040	D-Fructose 6-phosphate (F6P)
+95	C00089	sucrose	Sucrose
+96	C00089	sucrose_unlabeled	Sucrose
+98	C00093	D-Glycerol 1-phosphate CollisionEnergy:102040	sn-Glycerol 3-phosphate
+99	C00095	fructose_unlabeled	D-Fructose
+100	C00095	D-Arabino-Hex-2-ulo-Pyranose	D-Fructose
+101	C00095	SORBOSE	D-Fructose
+102	C00106	uracil	Uracil
+103	C00106	uracil_unlabeled	Uracil
+104	C00106	URACIL	Uracil
+105	C00108	anthranilate	Anthranilate
+106	C00114	choline	Choline
+107	C00118	Glyceraldehyde-3-phosphate	Glyceraldehyde 3-phosphate (GAP)
+108	C00120	biotin	Biotin
+110	C00120	biotin CollisionEnergy:205060	Biotin
+111	C00122	fumaric_acid	Fumarate
+112	C00122	fumaric_acid_unlabeled	Fumarate
+113	C00122	maleic_acid	Fumarate
+114	C00123	leucine	L-Leucine (Leu-L)
+117	C00123	leucine_unlabeled	L-Leucine (Leu-L)
+122	C00134	putrescine	Putrescine
+123	C00135	histidine	L-Histidine (His-L)
+124	C00135	histidine_unlabeled	L-Histidine (His-L)
+127	C00135	HISTIDINE	L-Histidine (His-L)
+128	C00137	myo-inositol	myo-Inositol
+129	C00140	N-acetyl-glucosamine_unlabeled	N-Acetyl-D-glucosamine (GlcNAc)
+131	C00140	N-acetyl-galactosamine	N-Acetyl-D-glucosamine (GlcNAc)
+132	C00140	N-acetyl-glucosamine	N-Acetyl-D-glucosamine (GlcNAc)
+133	C00140	N-acetyl-mannosamine	N-Acetyl-D-glucosamine (GlcNAc)
+134	C00147	adenine	Adenine
+136	C00147	adenine_unlabeled	Adenine
+139	C00147	adenine CollisionEnergy:102040	Adenine
+140	C00148	proline_unlabeled	L-Proline (Pro-L)
+141	C00148	proline	L-Proline (Pro-L)
+144	C00148	Proline	L-Proline (Pro-L)
+145	C00152	asparagine_unlabeled	L-Asparagine (Asn-L)
+147	C00152	asparagine	L-Asparagine (Asn-L)
+149	C00152	L-asparagine	L-Asparagine (Asn-L)
+150	C00153	nicotinamide	Nicotinamide
+152	C00153	nicotinamide_unlabeled	Nicotinamide
+153	C00156	4-hydroxybenzoic_acid	4-Hydroxybenzoate (4HBZ)
+156	C00170	methylthioadenosine	5-Methylthioadenosine
+157	C00170	Methylthioadenosine CollisionEnergy:205060	5-Methylthioadenosine
+158	C00179	AGMATINE	Agmatine
+159	C00183	valine_unlabeled	L-Valine (Val-L)
+160	C00183	valine	L-Valine (Val-L)
+163	C00188	threonine_unlabeled	L-Threonine (Thr-L)
+164	C00188	allothreonine	L-Threonine (Thr-L)
+165	C00188	threonine	L-Threonine (Thr-L)
+169	C00188	Threonine	L-Threonine (Thr-L)
+170	C00197	3-phosphoglycerate	3-Phospho-D-glycerate (3PG)
+174	C00212	adenosine	Adenosine
+176	C00214	thymidine	Thymidine
+177	C00233	4-methyl-2-oxovaleric_acid	4-Methyl-2-oxopentanoate
+178	C00242	guanine	Guanine
+179	C00242	guanine_unlabeled	Guanine
+182	C00242	guanine CollisionEnergy:102040	Guanine
+183	C00253	nicotinic_acid	Nicotinate
+184	C00255	riboflavin	Riboflavin
+185	C00255	hyflavin	Riboflavin
+187	C00255	83-88-5 CollisionEnergy:205060	Riboflavin
+188	C00255	83-88-5 CollisionEnergy:102040	Riboflavin
+189	C00258	glyceric_acid	(R)-Glycerate (GlycR)
+190	C00262	hypoxanthine	Hypoxanthine
+191	C00262	hypoxanthine_unlabeled	Hypoxanthine
+194	C00262	HYPOXANTHINE	Hypoxanthine
+195	C00263	homoserine	L-Homoserine
+197	C00263	L-homoserine CollisionEnergy:102040	L-Homoserine
+198	C00295	orotic_acid	Orotate
+199	C00311	isocitric_acid	Isocitrate
+200	C00314	pyridoxine	Pyridoxine
+203	C00315	SPERMIDINE	Spermidine
+204	C00327	citrulline	L-Citrulline (Clt)
+206	C00327	L-citrulline	L-Citrulline (Clt)
+207	C00329	galactosamine	D-Glucosamine
+208	C00329	glucosamine	D-Glucosamine
+209	C00329	mannosamine	D-Glucosamine
+210	C00334	4-aminobutanoic_acid	4-Aminobutanoate
+211	C00360	dAMP	dAMP
+213	C00360	dAMP CollisionEnergy:102040	dAMP
+214	C00378	thiamine	Thiamine
+215	C00378	thiamine_unlabeled	Thiamine
+216	C00380	cytosine	Cytosine
+217	C00380	cytosine_unlabeled	Cytosine
+219	C00387	guanosine	Guanosine
+225	C00407	isoleucine_unlabeled	L-Isoleucine (Ile-L)
+226	C00407	isoleucine	L-Isoleucine (Ile-L)
+231	C00418	mevalonic_acid	(R)-Mevalonate (MEV)
+232	C00418	mevalonate	(R)-Mevalonate (MEV)
+233	C00466	Acetoin	Acetoin
+234	C00475	cytidine	Cytidine
+236	C00491	cystine_unlabeled	L-Cystine
+237	C00491	cystine	L-Cystine
+240	C00491	CYSTINE	L-Cystine
+241	C00491	L-cystine CollisionEnergy:102040	L-Cystine
+242	C00577	glyceraldehyde	D-Glyceraldehyde
+245	C00631	2-phosphoglyceric_acid	2-Phospho-D-glycerate (2PG)
+247	C00631	2-Phospho-D-Glyceric Acid CollisionEnergy:102040	2-Phospho-D-glycerate (2PG)
+248	C00719	betaine	Glycine betaine
+249	C00719	Spectral Match to Betaine from NIST14	Glycine betaine
+250	C00750	Spermine CollisionEnergy:205060	Spermine
+251	C00864	pantothenic_acid	Pantothenate
+255	C00864	pantothenic acid CollisionEnergy:102040	Pantothenate
+256	C00954	indole-3-acetate	Indole-3-acetate
+257	C00954	indole-3-acetic_acid	Indole-3-acetate
+258	C00956	alpha-aminoadipic_acid	L-2-Aminoadipate
+262	C01083	trehalose_unlabeled	alpha,alpha-Trehalose
+263	C01083	trehalose	alpha,alpha-Trehalose
+268	C01179	4-Hydroxyphenylpyruvic_acid	3-(4-Hydroxyphenyl)pyruvate
+272	C02013	maltose	Cellotetraose
+273	C02013	lactose	Cellotetraose
+274	C02013	cellobiose	Cellotetraose
+276	C02013	alpha-lactose	Cellotetraose
+277	C02013	Spectral Match to 4-O-.beta.-Galactopyranosyl-D-mannopyranose from NIST14	Cellotetraose
+278	C02013	D-(+)-Cellobiose	Cellotetraose
+279	C02013	Spectral Match to Maltose from NIST14	Cellotetraose
+280	C02013	cellobiose CollisionEnergy:102040	Cellotetraose
+281	C02226	2-methylmaleic_acid	Citraconic acid
+282	C02356	2-AMINOBUTYRIC ACID	(S)-2-Aminobutanoate
+283	C08240	melibiose	Gentiobiose
+288	C00164	Acetoacetate	acetoacetate
+289	C00178	thymine_unlabeled	Thymine
+290	C00178	thymine	Thymine
+291	C00186	lactic_acid	(S)-Lactate
+292	C00186	lactic_acid_unlabeled	(S)-Lactate
+293	C00186	lactate	(S)-Lactate
+299	C00249	suberic_acid	Hexadecanoic acid
+300	C00249	azelaic_acid	Hexadecanoic acid
+303	C00249	azelaic acid	Hexadecanoic acid
+304	C00249	Massbank:LU047652 Undecanedioic acid	Hexadecanoic acid
+307	C00257	gluconic_acid	D-Gluconate
+308	C00294	inosine_unlabeled	Inosine
+309	C00294	inosine	Inosine
+313	C00294	inosine CollisionEnergy:205060	Inosine
+314	C00299	uridine	Uridine
+315	C00299	uridine CollisionEnergy:102040	Uridine
+320	C00392	galactitol	Mannitol
+321	C00392	galactitol_unlabeled	Mannitol
+322	C00392	mannitol	Mannitol
+323	C00392	mannitol_unlabeled	Mannitol
+324	C00392	sorbitol	Mannitol
+325	C00392	D-mannitol CollisionEnergy:102040	Mannitol
+326	C00492	stachyose	Raffinose
+328	C00492	raffinose	Raffinose
+330	C00492	RAFFINOSE	Raffinose
+332	C00624	N-acetyl-glutamic_acid	N-Acetyl-L-glutamate
+353	C00881	deoxycytidine	Deoxycytidine
+355	C00881	2'-deoxycytidine CollisionEnergy:102040	Deoxycytidine
+370	C02962	Glucose-6-phosphate	D-Allose 6-phosphate
