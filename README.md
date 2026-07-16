@@ -4,7 +4,8 @@
 Files in this repository represent the genome-scale model of *Pyrococcus furiosus*. The following are publications associated with the model with simulation code saved in this repository:
 * Vailionis, Jason L., Weishu Zhao, Ke Zhang, Dmitry A. Rodionov, Gina L. Lipscomb, Tania N. N. Tanwee, Hailey C. O’Quinn, et al. 2023. “Optimizing Strategies for Bio-Based Ethanol Production Using Genome-Scale Metabolic Modeling of the Hyperthermophilic Archaeon, Pyrococcus Furiosus.” Applied and Environmental Microbiology 89 (6): e0056323.
 * O’Quinn, Hailey, Jason Vailionis, Tania Tanwee, Katherine Holandez-Lopez, Ryan Bing, Farris Poole, Ying Zhang, Robert Kelly, and Michael Adams. 2025. “Engineering the Hyperthermophilic Archaeon Pyrococcus Furiosus for 1-Propanol Production.” Applied and Environmental Microbiology.
-* O’Quinn, Hailey, Jason Vailionis, Katherine Holandez-Lopez, Meghana Faltane, Tania N. N. Tanwee, Kathryne Ford, Farris L. Poole, Katherine B. Louie, Benjamin P. Bowen, Ying Zhang, Robert M. Kelly, and Michael W. W. Adam. 2026. "Engineering the Hyperthermophilic Archaeon Pyrococcus furiosus for 2,3-Butanediol Production Informed by Metabolic Modeling and Metabolomics". (Journal tbd)
+* O’Quinn, Hailey, Jason Vailionis, Katherine Holandez-Lopez, Meghana Faltane, Tania N. N. Tanwee, Kathryne Ford, Farris L. Poole, Katherine B. Louie, Benjamin P. Bowen, Ying Zhang, Robert M. Kelly, and Michael W. W. Adam. 2026. "Engineering the Hyperthermophilic Archaeon Pyrococcus furiosus for 2,3-Butanediol Production Informed by Metabolic Modeling and Metabolomics". (Submitted to AEM)
+* Vailionis, Jason L., Hailey C. O’Quinn, Katherine S. Holandez-Lopez, Meghana Faltane, Tania N. N. Tanwee, Kathryne C. Ford, Farris L. Poole, Katherine B. Louie, Benjamin P. Bowen, Robert M. Kelly, Michael W. W. Adams, and Ying Zhang. 2026. "Targeted and untargeted metabolomics with absolute quantification of intracellular metabolites in the hyperthermophilic archaeon Pyrococcus furiosus during 2,3-butanediol production". (Submitted to MRA)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
@@ -75,5 +76,5 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDeri
   > Jupyter notebooks with code to perform all modeling analysis and generate figures in Vailionis et al. 2023
 * manuscripts/OQuinn_2025
   > Jupyter notebooks with code to perform all modeling analysis and generate figures in O'Quinn et al. 2025
-* manuscripts/OQuinn_2026
-  > Jupyter notebooks with code to perform all modeling analysis and generate figures in O'Quinn et al. 2026
+* manuscripts/OQuinn_Vailionis_2026
+  > Jupyter notebooks with code to perform all modeling analysis and generate figures in O'Quinn et al. 2026 & Vailionis et al. 2026
