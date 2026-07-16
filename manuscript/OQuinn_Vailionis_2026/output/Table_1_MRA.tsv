@@ -1,0 +1,20 @@
+Metabolite	Chemistry	Ionization mode	Parent-COM	BDO-ALS
+Glucose-6-phosphate	HILIC	negative	42.1–56.5	40.5–55.3
+Fructose-6-phosphate	HILIC	negative	76.9–93.4	61.9–76.7
+Fructose-1,6-bisphosphate	HILIC	negative	<14.7	<14.7
+Glyceraldehyde-3-phosphate	HILIC	negative	<147.0	<147.0
+3-phosphoglycerate	HILIC	negative	74.3–100.6	24.5–40.3
+Phosphoenolpyruvate	HILIC	negative	66.9–88.6	19.1–29.0
+Ribose-5-phosphate	HILIC	negative	<43.5	<43.5
+Ribulose-1,5-bisphosphate	HILIC	positive	<32.2	<32.2
+CoA	HILIC	positive	<13.0	<13.0
+Acetyl-CoA	HILIC	positive	<12.4	<12.4
+Acetolactate	C18	positive	<189.2	<189.2
+Acetoin	C18	positive	<283.7	873.1–1366.0
+AMP	HILIC	positive	221.9–244.2	275.6–291.5
+ADP	HILIC	positive	<23.4	<23.4
+ATP	HILIC	positive	<19.7	<19.7
+NAD	HILIC	positive	66.8–81.6	77.4–90.7
+NADH	HILIC	positive	<150.3	<150.3
+NADP	HILIC	positive	<13.5	71.9–88.0
+NADPH	HILIC	positive	<13.4	<13.4

@@ -1,0 +1,28 @@
+Compound	Group	C18_pos	C18_neg	HILIC_pos	HILIC_neg	primary mix	best chemistry	best mode	peaks in primary mix	conflicting matches	background noise level	detection threshold	detectable in samples	notes
+Acetyl-CoA	CustomStd	2	2	2	3	Mix B	HILIC	POS	good	CoA	1000000	2.5 ug/ml	no	
+Acetolactate	CustomStd	2	0	0	0	Mix A	C18	POS	okay	none	100000	25 ug/ml	no	
+Acetoacetate	CustomStd	2	0	0	0	Mix B	C18	POS	good	none	1000000	25 ug/ml	no	
+Acetoin	CustomStd	2	0	0	0	Mix A	C18	POS	good	none	100000	25 ug/ml	yes	
+Glucose-6-phosphate (13C6)	CustomStd	0	0	2	2	ISTD	HILIC	NEG	good	none	200000	10 ug/ml	yes	matrix effect in media but not cells
+Glucose-6-phosphate	CustomStd	0	0	2	2	Mix A	HILIC	NEG	okay	Fructose-6-phosphate	100000	2.5 ug/ml	yes	Missing chromatograms for standards, can't confidently define detection limit. You can see the glucose-6-phosphate peak right next to it in the RT graph, which is kinda cool
+Fructose-6-phosphate (13C6)	CustomStd	0	0	2	2	ISTD	HILIC	NEG	good	none	100000	10 ug/ml	yes	very little matrix effect, but missing in pfu media
+Fructose-6-phosphate	CustomStd	0	0	2	2	Mix B	HILIC	NEG	okay	Glucose-6-phosphate	100000	2.5 ug/ml	yes	Missing chromatograms for standards, can't confidently define detection limit. You can see the fructose-6-phosphate peak right next to it in the RT graph, which is kinda cool
+Fructose-1_6-bisphosphate_13C6	CustomStd	0	0	2	2	ISTD	HILIC	NEG	good	none	3000000	10 ug/ml	yes	large matrix effect in pfu
+Fructose-1_6-bisphosphate	CustomStd	0	0	2	2	Mix A	HILIC	NEG	eh	none	500000	2.5 ug/ml	no	
+Glyceraldehyde-3-phosphate	CustomStd	0	0	2	3	Mix B	HILIC	NEG	unknown	none	100000	25 ug/ml	no	
+3-phosphoglycerate	CustomStd	0	0	3	3	Mix A	HILIC	NEG	good	none	300000	2.5 ug/ml	yes	
+Phosphoenolpyruvate	CustomStd	0	0	2	3	Mix A	HILIC	NEG	good	none	300000	2.5 ug/ml	yes	
+Pyruvate_13C6	CustomStd	0	0	0	3	ISTD	HILIC	NEG	good	none	500000	10 ug/ml	yes	Minor matrix effect in Pfu. Not detectable in Pfu media samples
+Pyruvate	CustomStd	0	0	0	3	ISTD				SOMETHING	?		yes	Clear detectable peak in samples. Not good peaks in media. There is something in both Mix A and Mix B that is getting picked up, but we don't have the chromatograms for those for HILIC NEG.
+CoA	CustomStd	0	0	2	0	CoenzymeA	HILIC	POS	good	Acetyl-CoA	100000	25 ug/ml	no	Acetyl-CoA gets picked up. Detection limit is based on the Acetyl-CoA concentrations. Could just be the acetyl-CoA degrading into CoA. Regardless, not detectable in sample
+ATP	CustomStd	0	0	2	2	ATP	HILIC	POS	good	ADP	100000	10 ug/ml	no	NEG is similar to POS, picks up less noise. One ISTD sample has really high ATP signal.
+ADP	CustomStd	0	0	3	3	ADP	HILIC	POS	good	AMP ish	1000000	100 ug/ml	no	You can see a good RT peak for AMP but it's well within the noise range. You need a lot of AMP to have a clear peak. Acetyl-CoA gives a peak that's similarish so it gets picked up, but again its within the noise range
+AMP	CustomStd	0	0	3	3	AMP	HILIC	POS	good	ADP ish	1000000	100 ug/ml	yes	
+NADPH	CustomStd	0	0	2	0	NADPH	HILIC	POS	okay	NADP ish	1000000	100 ug/ml	no	
+NADP	CustomStd	0	0	2	2	NADP	HILIC	POS	okay	NADPH	200000	100 ug/ml	no	Decent peak in Pfu, but it could also be CoA
+NADH	CustomStd	0	0	2	0	NADH	HILIC	POS	good	none	1000000	100 ug/ml	no	
+NAD	CustomStd	0	0	2	2	NAD	HILIC	POS	good	NADH	1000000	100 ug/ml	no	Good peaks, but there are equal peaks for glucose, so this may not be the real molecule
+Glucose_13C6	CustomStd	0	0	0	2	ISTD			BAD	Glucose				I believe it's looking at the peak for actual glucose. The retention times are off for all of our samples + ISTD, which is where these should be spiked. Instead this has high peak height in the unlabeled glucose standards. But we also don't have the chromatograms for the standards for HILIC NEG to make sure that those are the correct peak. OK BUT also i just found in the notes, the glucose standards are actually the labelled glucose, so maybe the concentration is just too low in our samples relative to the 100 ug/ml labeled glucose
+Glucose	CustomStd	0	0	0	2	Glucose			BAD					Not detected in the glucose standards. But detected in Pfu
+Ribulose-1-5-bisphosphate	CustomStd	0	0	2	0	Ribulose-1-5-bisphosphate	HILIC	POS	good	ribose-5-phosphate ish	1000000	100 ug/ml	no	
+Ribose-5-phosphate	CustomStd	0	0	2	2	Ribose-5-phosphate	HILIC	NEG	okay	none	1000000	100 ug/ml	no	Theres some signal
