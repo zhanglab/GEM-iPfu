@@ -11,6 +11,9 @@ Differential expression analysis of targeted and untargeted metabolomics data. T
 - `2026-04-05_Pfu_targeted_limma_results.csv`
 - `2026-04-05_Pfu_untargeted_limma_results.csv`
 
+   (written to `output/`):
+- `2026-04-05_pfu_histograms.png` (Figure S6 in O'Quinn et al. 2026)
+
 ### `Fig_8-9.ipynb`
 Generates manuscript Figures 8 and 9. Reads limma results from the DEA notebook, maps detected metabolites to model metabolites, and produces energy balance and metabolome change visualizations.
 
