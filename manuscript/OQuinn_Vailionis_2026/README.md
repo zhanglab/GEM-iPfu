@@ -1,6 +1,6 @@
-# OQuinn 2026 - *P. furiosus* Metabolomics & BDO Analysis
+# OQuinn 2026 & Vailionis 2026 - *P. furiosus* Metabolomics & BDO Analysis
 
-Code and data for O'Quinn et al. 2026, analyzing metabolome changes and energy balance in *P. furiosus* during BDO production.
+Code and data for companion papers O'Quinn et al. 2026 & Vailionis et al. 2026, analyzing metabolome changes and energy balance in *P. furiosus* during BDO production.
 
 ## Notebooks
 
@@ -17,6 +17,7 @@ Generates manuscript Figures 8 and 9. Reads limma results from the DEA notebook,
 **Outputs** (written to `output/`):
 - `Fig_8_energy_balance.png`
 - `Fig_9_metabolome_changes.png`
+- `MRA_Fig_1_volcano.png`
 
 ## Figure 7 — Interactive Network Visualization
 
