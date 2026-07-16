@@ -21,6 +21,8 @@ Generates manuscript Figures 8 and 9. Reads limma results from the DEA notebook,
 - `Fig_8_energy_balance.png`
 - `Fig_9_metabolome_changes.png`
 - `MRA_Fig_1_volcano.png`
+- `Fig_S5_matrix_effect.png`
+- `Table_1_MRA.tsv`
 
 ## Figure 7 — Interactive Network Visualization
 
