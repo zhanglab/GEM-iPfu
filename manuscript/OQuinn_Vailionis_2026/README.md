@@ -40,3 +40,4 @@ Large metabolomics files are tracked with Git LFS. Ensure you have LFS installed
 git lfs install
 git clone https://github.com/zhanglab/GEM-iPfu.git
 ```
+Alternatively, data files can be downloaded from figshare: [https://doi.org/10.6084/m9.figshare.33990874](https://doi.org/10.6084/m9.figshare.33990874)
