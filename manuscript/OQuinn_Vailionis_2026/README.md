@@ -28,7 +28,7 @@ Generates manuscript Figures 8 and 9. Reads limma results from the DEA notebook,
 
 Figure 7 is an interactive network visualization with its own repository and build environment:
 
-**Repository:** [https://github.com/jvjvjvjv/pfu-bdo-networkvis](https://github.com/jvjvjvjv/pfu-bdo-networkvis)
+**Repository:** [https://github.com/zhanglab/pfu-bdo-networkvis.git](https://github.com/zhanglab/pfu-bdo-networkvis.git)
 
 A Docker image is provided to run the live figure locally. The GitHub Pages site at that repository serves a static version matching the manuscript figure.
 
